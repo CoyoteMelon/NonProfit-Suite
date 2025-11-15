@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "IA",
+  "jurisdiction_name": "Iowa",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Iowa Secretary of State", "source_url": "https://sos.iowa.gov/", "last_accessed": "2025-11-12"}, {"source_name": "Iowa Attorney General", "source_url": "https://www.iowaattorneygeneral.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Iowa Secretary of State - Business Services Division",
+  "charitable_registration_agency": "Iowa Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 20.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Iowa Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "IA-001", "requirement_type": "Annual Report", "requirement_name": "Biennial Report", "filing_agency": "Iowa Secretary of State", "frequency": "biennial", "due_date_calculation": "anniversary_month", "due_date_specifics": "Every two years between April 1 and June 1", "fee_amount": 30.00, "legal_citation": "Iowa Code § 504.1622", "notes": "Biennial report fee $30. Due every 2 years."},
+    {"requirement_id": "IA-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Iowa Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Iowa Code § 13C.4", "notes": "Registration is free."},
+    {"requirement_id": "IA-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Iowa Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "Annual report is free."},
+    {"requirement_id": "IA-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Iowa Sales Tax Exemption Certificate", "filing_agency": "Iowa Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form 31-113 - Sales/Use/Excise Tax Exemption Certificate", "legal_citation": "Iowa Code § 423.3", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "IA-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Assessor", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Iowa Code § 427.1", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "IA-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle License", "filing_agency": "Iowa Department of Inspections and Appeals - Racing and Gaming", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Iowa Code § 99B.7", "notes": "Raffles permitted for qualified nonprofits."},
+    {"requirement_id": "IA-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Fundraiser Registration", "filing_agency": "Iowa Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 0.00, "notes": "Registration is free. Bond required."},
+    {"requirement_id": "IA-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"biennial_reporting": "Iowa requires biennial (every 2 years) corporate reports, not annual.", "low_incorporation_fee": "Iowa's $20 incorporation fee is among the lowest nationally.", "free_charity_filings": "All charitable registration and renewals are free."},
+  "helpful_links": [{"title": "Iowa Secretary of State", "url": "https://sos.iowa.gov/", "description": "Incorporation and compliance"}]
+}

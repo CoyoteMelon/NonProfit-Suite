@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "HI",
+  "jurisdiction_name": "Hawaii",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Hawaii Department of Commerce and Consumer Affairs", "source_url": "https://cca.hawaii.gov/", "last_accessed": "2025-11-12"}, {"source_name": "Hawaii Attorney General", "source_url": "https://ag.hawaii.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Hawaii Department of Commerce and Consumer Affairs - Business Registration Division",
+  "charitable_registration_agency": "Hawaii Attorney General - Tax and Charities Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 50.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Hawaii DCCA", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "HI-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "Hawaii DCCA", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "Anniversary quarter of incorporation", "fee_amount": 25.00, "legal_citation": "HRS § 414D-203", "notes": "Annual report fee $25. Due during anniversary quarter."},
+    {"requirement_id": "HI-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Hawaii Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "HRS § 467B-4", "notes": "Initial registration $50."},
+    {"requirement_id": "HI-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Hawaii Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual report $50."},
+    {"requirement_id": "HI-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Hawaii General Excise Tax Exemption", "filing_agency": "Hawaii Department of Taxation", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form G-6 - Exemption Certificate", "legal_citation": "HRS § 237-23", "notes": "Hawaii has General Excise Tax (GET) instead of sales tax. Qualifying nonprofits may be exempt."},
+    {"requirement_id": "HI-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Real Property Tax Office", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "HRS § 246-32", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "HI-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle Permit", "filing_agency": "County Licensing Department", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 25.00, "legal_citation": "HRS § 712-1231", "notes": "Raffles permitted for qualified nonprofits. County approval required."},
+    {"requirement_id": "HI-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Hawaii Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 200.00, "notes": "$200 fee. Bond required."},
+    {"requirement_id": "HI-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"general_excise_tax": "Hawaii has General Excise Tax (GET) instead of traditional sales tax.", "quarterly_anniversary": "Annual reports due during anniversary quarter, not specific date."},
+  "helpful_links": [{"title": "Hawaii DCCA", "url": "https://cca.hawaii.gov/", "description": "Incorporation and compliance"}]
+}

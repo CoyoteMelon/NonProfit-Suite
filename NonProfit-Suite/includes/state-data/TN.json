@@ -1,0 +1,30 @@
+{
+  "jurisdiction_code": "TN",
+  "jurisdiction_name": "Tennessee",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {"source_name": "Tennessee Secretary of State", "source_url": "https://sos.tn.gov/", "last_accessed": "2025-11-12"},
+    {"source_name": "Tennessee Department of Revenue", "source_url": "https://www.tn.gov/revenue", "last_accessed": "2025-11-12"}
+  ],
+  "incorporation_agency": "Tennessee Secretary of State - Division of Business Services",
+  "charitable_registration_agency": "Tennessee Secretary of State - Division of Charitable Solicitations",
+  "exemption_threshold_note": "Organizations with gross contributions under $30,000 annually may be exempt from registration. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 100.00, "certificate_of_formation": "Charter - Nonprofit Corporation", "filing_agency": "Tennessee Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "Tennessee uses 'Charter' terminology. Requires registered agent with Tennessee address."},
+  "requirements": [
+    {"requirement_id": "TN-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "Tennessee Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "First day of anniversary month of incorporation", "fee_amount": 20.00, "legal_citation": "Tenn. Code § 48-58-601", "contact_phone": "615-741-2286", "notes": "Annual report fee $20. Due on first day of anniversary month."},
+    {"requirement_id": "TN-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Tennessee Secretary of State", "frequency": "one-time", "due_date_calculation": "event_triggered", "due_date_specifics": "Before soliciting in Tennessee", "fee_amount": 50.00, "form_number": "Charitable Solicitations Registration", "legal_citation": "Tenn. Code § 48-101-501", "contact_phone": "615-741-2555", "notes": "Initial registration $50. Organizations under $30,000 may be exempt."},
+    {"requirement_id": "TN-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Tennessee Secretary of State", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "legal_citation": "Tenn. Code § 48-101-513", "contact_phone": "615-741-2555", "notes": "Annual report $50. Due within 6 months of fiscal year end."},
+    {"requirement_id": "TN-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Tennessee Sales Tax Exemption Certificate", "filing_agency": "Tennessee Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form RV-F1303301 - Nonprofit Exemption Certificate", "legal_citation": "Tenn. Code § 67-6-322", "contact_phone": "615-253-0600", "notes": "Qualifying 501(c)(3) organizations exempt from sales tax."},
+    {"requirement_id": "TN-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Assessor", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Tenn. Code § 67-5-212", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "TN-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Game of Chance License", "filing_agency": "Local Government (County or Municipality)", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Tenn. Code § 3-17-101", "notes": "Limited games of chance permitted for qualified nonprofits. Local approval required."},
+    {"requirement_id": "TN-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Tennessee Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 400.00, "legal_citation": "Tenn. Code § 48-101-501", "notes": "$400 fee. $20,000 bond required."},
+    {"requirement_id": "TN-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"charter_terminology": "Tennessee uses 'Charter' instead of 'Articles of Incorporation'.", "higher_threshold": "Tennessee's $30,000 exemption threshold is higher than most states.", "annual_fees": "Both corporate and charitable annual fees required."},
+  "helpful_links": [
+    {"title": "Tennessee Secretary of State", "url": "https://sos.tn.gov/", "description": "Incorporation and charitable registration"},
+    {"title": "Tennessee Department of Revenue", "url": "https://www.tn.gov/revenue", "description": "Tax exemptions"}
+  ]
+}

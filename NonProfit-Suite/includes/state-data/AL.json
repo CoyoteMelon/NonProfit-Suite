@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "AL",
+  "jurisdiction_name": "Alabama",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Alabama Secretary of State", "source_url": "https://www.sos.alabama.gov/", "last_accessed": "2025-11-12"}, {"source_name": "Alabama Attorney General", "source_url": "https://www.alabamaag.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Alabama Secretary of State - Corporations Division",
+  "charitable_registration_agency": "Alabama Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 100.00, "certificate_of_formation": "Certificate of Formation - Nonprofit Corporation", "filing_agency": "Alabama Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "AL-001", "requirement_type": "Annual Report", "requirement_name": "Business Privilege Tax Return", "filing_agency": "Alabama Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "March 15th (extended to April 15th)", "fee_amount": 100.00, "legal_citation": "Ala. Code § 40-14A-20", "notes": "Annual fee $100 minimum."},
+    {"requirement_id": "AL-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Alabama Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 25.00, "legal_citation": "Ala. Code § 13A-9-71", "notes": "Initial registration $25."},
+    {"requirement_id": "AL-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Registration Renewal", "filing_agency": "Alabama Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 25.00, "notes": "Annual renewal $25."},
+    {"requirement_id": "AL-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Alabama Sales Tax Exemption Certificate", "filing_agency": "Alabama Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form STE: 1 - Sales Tax Exemption Certificate", "legal_citation": "Ala. Code § 40-23-4", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "AL-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Revenue Commissioner", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "October 1st annually", "fee_amount": 0.00, "legal_citation": "Ala. Code § 40-9-1", "notes": "Annual application by October 1st."},
+    {"requirement_id": "AL-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Bingo License", "filing_agency": "Alabama Attorney General - Bingo Division", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 250.00, "legal_citation": "Ala. Code § 13A-12-76", "notes": "Bingo permitted for qualified nonprofits. Raffles generally prohibited."},
+    {"requirement_id": "AL-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Alabama Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 250.00, "notes": "$250 fee. Bond required."},
+    {"requirement_id": "AL-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"privilege_tax": "Alabama assesses a business privilege tax on nonprofits ($100 minimum annually).", "raffle_prohibited": "Raffles are generally prohibited in Alabama. Only bingo permitted."},
+  "helpful_links": [{"title": "Alabama Secretary of State", "url": "https://www.sos.alabama.gov/", "description": "Incorporation and compliance"}]
+}

@@ -1,0 +1,321 @@
+{
+  "jurisdiction_code": "MA",
+  "jurisdiction_name": "Massachusetts",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "Massachusetts Secretary of the Commonwealth - Corporations Division",
+      "source_url": "https://www.sec.state.ma.us/cor/coridx.htm",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Massachusetts Attorney General - Non-Profit Organizations/Public Charities Division",
+      "source_url": "https://www.mass.gov/topics/non-profits-and-public-charities",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Massachusetts Department of Revenue",
+      "source_url": "https://www.mass.gov/orgs/massachusetts-department-of-revenue",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "Massachusetts Secretary of the Commonwealth - Corporations Division",
+  "charitable_registration_agency": "Massachusetts Attorney General - Non-Profit Organizations/Public Charities Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $5,000 annually may be exempt from registration, but must still file IRS Form 990-N (e-postcard) with AG. Organizations under $50,000 may file simplified registration.",
+  "formation_requirements": {
+    "minimum_directors": 3,
+    "initial_filing_fee": 35.00,
+    "certificate_of_formation": "Articles of Organization - Nonprofit Corporation",
+    "filing_agency": "Massachusetts Secretary of the Commonwealth",
+    "publication_requirement": false,
+    "registered_agent_required": true,
+    "bylaws_filing_required": false,
+    "notes": "Massachusetts requires a resident agent with a Massachusetts address. Filing fee of $35 is affordable. Massachusetts uses 'Articles of Organization' rather than 'Articles of Incorporation.'"
+  },
+  "requirements": [
+    {
+      "requirement_id": "MA-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Annual Report for Nonprofit Corporations",
+      "filing_agency": "Massachusetts Secretary of the Commonwealth - Corporations Division",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due by November 1st of each year for all entities regardless of formation date",
+      "fee_amount": 15.00,
+      "penalty_late_fee": 100.00,
+      "form_number": "Annual Report",
+      "form_url": "https://www.sec.state.ma.us/cor/corar/araidx.htm",
+      "online_filing_available": true,
+      "online_filing_url": "https://www.sec.state.ma.us/cor/",
+      "required_information": [
+        "Resident agent name and address",
+        "Principal office address",
+        "Names and addresses of directors and officers",
+        "Brief description of activities"
+      ],
+      "legal_citation": "M.G.L. c. 180, § 26A",
+      "contact_phone": "617-727-9640",
+      "contact_email": "corpinfo@sec.state.ma.us",
+      "notes": "Filing fee is $15 online. All nonprofits must file by November 1st regardless of fiscal year. Late fee of $100 applies after deadline."
+    },
+    {
+      "requirement_id": "MA-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Public Charity Registration",
+      "filing_agency": "Massachusetts Attorney General - Non-Profit Organizations/Public Charities Division",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting contributions in Massachusetts",
+      "fee_amount": 0.00,
+      "form_number": "Form PC - Registration of Public Charities",
+      "form_url": "https://www.mass.gov/how-to/register-a-public-charity",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Organization",
+        "Copy of Bylaws",
+        "List of officers, directors, and trustees",
+        "Financial statements for most recent fiscal year",
+        "Solicitation plans"
+      ],
+      "legal_citation": "M.G.L. c. 12, § 8F",
+      "contact_phone": "617-727-2200",
+      "notes": "Initial registration is free. Required before soliciting in Massachusetts. Organizations with revenue under $5,000 are exempt but must file 990-N with AG."
+    },
+    {
+      "requirement_id": "MA-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Form PC Filing",
+      "filing_agency": "Massachusetts Attorney General - Non-Profit Organizations/Public Charities Division",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 6 months after fiscal year end (or by extended IRS deadline)",
+      "fee_amount": 0.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Form PC - Annual Report of Public Charities",
+      "form_url": "https://www.mass.gov/how-to/file-annual-report-forms",
+      "online_filing_available": false,
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "Massachusetts Schedule A (if required)",
+        "Audited financial statements (if required)",
+        "Professional fundraiser reports (if applicable)",
+        "Updated list of officers and directors"
+      ],
+      "legal_citation": "M.G.L. c. 12, § 8F",
+      "contact_phone": "617-727-2200",
+      "notes": "Annual filing is free with no late fees. Organizations with revenue under $50,000 may file simplified Form PC-SF. Failure to file may result in enforcement action."
+    },
+    {
+      "requirement_id": "MA-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Massachusetts Sales Tax Exemption Certificate",
+      "filing_agency": "Massachusetts Department of Revenue",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Obtain after receiving IRS 501(c)(3) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form ST-2 - Sales Tax Exempt Purchaser Certificate and Form ST-5 - Exempt Organization Certificate",
+      "form_url": "https://www.mass.gov/sales-and-use-tax",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Massachusetts registration or incorporation documents",
+        "Federal Employer Identification Number (FEIN)",
+        "Description of charitable activities"
+      ],
+      "legal_citation": "M.G.L. c. 64H, § 6(e)",
+      "contact_phone": "617-887-6367",
+      "notes": "Massachusetts provides sales tax exemption for qualifying 501(c)(3) organizations. Use Form ST-2 for exempt purchases. Not all purchases are exempt - review specific exemptions."
+    },
+    {
+      "requirement_id": "MA-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Charitable Property Tax Exemption Application",
+      "filing_agency": "Local Board of Assessors",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File by March 1st for exemption beginning the following January 1st",
+      "fee_amount": 0.00,
+      "form_number": "Form 3ABC - Application for Charitable Exemption",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Deed or proof of ownership",
+        "Description of property use for charitable purposes",
+        "Financial statements",
+        "Certification of exclusive charitable use",
+        "Documentation of public benefit and charity to the poor"
+      ],
+      "legal_citation": "M.G.L. c. 59, § 5, Clause Third",
+      "contact_phone": "Varies by municipality",
+      "notes": "Massachusetts has strict charitable exemption requirements including 'charity to indigent persons.' Property must be used exclusively for charitable purposes. Once granted, exemption continues if use remains qualifying."
+    },
+    {
+      "requirement_id": "MA-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Raffle and Bazaar Permit",
+      "filing_agency": "Local Licensing Authority (City/Town Clerk or License Commission)",
+      "frequency": "per_event",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File application at least 30 days before event",
+      "fee_amount": 0.00,
+      "form_number": "Raffle Permit Application (varies by municipality)",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of incorporation or registration in Massachusetts",
+        "List of officers",
+        "Description of raffle prizes",
+        "Proposed ticket price and quantity",
+        "Statement of proceeds use"
+      ],
+      "legal_citation": "M.G.L. c. 271, § 7A",
+      "contact_phone": "Varies by municipality",
+      "notes": "Massachusetts allows raffles and bazaars for qualified nonprofits. Local licensing authority approval required. Prize limit $25,000 per raffle. Annual limit varies by municipality."
+    },
+    {
+      "requirement_id": "MA-007",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Charitable Gaming License (Bingo)",
+      "filing_agency": "Massachusetts Gaming Commission",
+      "frequency": "annual",
+      "due_date_calculation": "calendar_year",
+      "due_date_specifics": "License valid for calendar year",
+      "fee_amount": 200.00,
+      "form_number": "Charitable Gaming License Application",
+      "form_url": "https://massgaming.com/licensing/",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of 2+ years operation in Massachusetts",
+        "List of officers and gaming managers",
+        "Venue information",
+        "Background checks for operators",
+        "License fee payment ($200)"
+      ],
+      "legal_citation": "M.G.L. c. 10, § 38",
+      "contact_phone": "617-979-8400",
+      "notes": "Required for bingo and other charitable gaming beyond raffles. Organization must be in existence for 2+ years. Quarterly reporting required."
+    },
+    {
+      "requirement_id": "MA-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Solicitor Registration",
+      "filing_agency": "Massachusetts Attorney General - Non-Profit Organizations/Public Charities Division",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 0.00,
+      "form_number": "Form FS - Fundraising Solicitor Registration",
+      "form_url": "https://www.mass.gov/how-to/register-as-a-fundraising-professional",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership structure",
+        "List of officers and management",
+        "$10,000 surety bond",
+        "Sample contracts with charity clients",
+        "Financial statement"
+      ],
+      "legal_citation": "M.G.L. c. 68, § 19",
+      "contact_phone": "617-727-2200",
+      "notes": "Required for paid professional solicitors. Registration is free but bond required. Each contract must be filed. Campaign reports required within 90 days of completion."
+    },
+    {
+      "requirement_id": "MA-009",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Fundraising Counsel Registration",
+      "filing_agency": "Massachusetts Attorney General - Non-Profit Organizations/Public Charities Division",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 0.00,
+      "form_number": "Form FC - Fundraising Counsel Registration",
+      "form_url": "https://www.mass.gov/how-to/register-as-a-fundraising-professional",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership",
+        "List of officers and management",
+        "Sample contracts with charity clients",
+        "Financial statement"
+      ],
+      "legal_citation": "M.G.L. c. 68, § 19",
+      "contact_phone": "617-727-2200",
+      "notes": "Fundraising counsel provides consulting but does not solicit or handle contributions. Registration is free. No bond required. Each contract must be filed."
+    },
+    {
+      "requirement_id": "MA-010",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and included in Form PC if required",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 180 days after fiscal year end (completed before Form PC due)",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements",
+        "Notes to financial statements",
+        "Management letter (if applicable)"
+      ],
+      "legal_citation": "M.G.L. c. 12, § 8F",
+      "notes": "Massachusetts requires audited financial statements for organizations with gross revenue over $500,000. Organizations should also follow any audit requirements in their bylaws or funding agreements."
+    }
+  ],
+  "special_notes": {
+    "november_first_deadline": "All Massachusetts nonprofits must file corporate annual reports by November 1st regardless of fiscal year or formation date. This is different from most states.",
+    "charity_to_poor_requirement": "Massachusetts property tax exemption has strict requirements including demonstrating 'charity to indigent persons.' This is more restrictive than many states.",
+    "low_threshold": "Massachusetts has a very low $5,000 exemption threshold for charitable registration. Most organizations must register.",
+    "free_charity_filing": "Charitable registration and annual reports are free in Massachusetts, which helps offset the low threshold and strict requirements.",
+    "board_requirements": "Massachusetts nonprofit corporations must have at least three directors. Directors need not be Massachusetts residents.",
+    "two_year_gaming": "Massachusetts requires 2 years of operation before charitable gaming (bingo), which is shorter than some states but still a barrier.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions on political campaign intervention and lobbying.",
+    "professional_fundraiser_reports": "Professional solicitors must file campaign reports within 90 days of campaign completion, providing detailed financial information.",
+    "audit_threshold": "Massachusetts audit threshold is $500,000 in gross revenue, which is mid-range compared to other states.",
+    "dissolution_requirements": "Upon dissolution, assets must be distributed to organizations with similar charitable purposes. Attorney General must approve dissolution plans for registered charities.",
+    "unrelated_business_income": "Organizations with unrelated business income over $1,000 must file IRS Form 990-T and Massachusetts Corporate Excise Return if conducting business in Massachusetts.",
+    "articles_of_organization": "Massachusetts uses 'Articles of Organization' terminology rather than 'Articles of Incorporation' used in most states.",
+    "local_raffle_variation": "Raffle regulations vary significantly by municipality. Contact local licensing authority for specific requirements and limits."
+  },
+  "helpful_links": [
+    {
+      "title": "Massachusetts Attorney General - Non-Profits and Public Charities",
+      "url": "https://www.mass.gov/topics/non-profits-and-public-charities",
+      "description": "Charitable registration, annual reports, forms, and compliance guidance"
+    },
+    {
+      "title": "Massachusetts Attorney General - Charity Registration",
+      "url": "https://www.mass.gov/how-to/register-a-public-charity",
+      "description": "Step-by-step guide to registering as a public charity"
+    },
+    {
+      "title": "Massachusetts Secretary of the Commonwealth - Corporations Division",
+      "url": "https://www.sec.state.ma.us/cor/coridx.htm",
+      "description": "Incorporation, annual reports, and business entity searches"
+    },
+    {
+      "title": "Massachusetts Corporations Online System",
+      "url": "https://www.sec.state.ma.us/cor/",
+      "description": "Online filing for annual reports and business searches"
+    },
+    {
+      "title": "Massachusetts Department of Revenue",
+      "url": "https://www.mass.gov/orgs/massachusetts-department-of-revenue",
+      "description": "Sales tax exemption, corporate excise, and tax forms"
+    },
+    {
+      "title": "Massachusetts Gaming Commission",
+      "url": "https://massgaming.com/",
+      "description": "Charitable gaming licenses and regulations"
+    },
+    {
+      "title": "Massachusetts General Laws Chapter 180 - Nonprofit Corporations",
+      "url": "https://malegislature.gov/Laws/GeneralLaws/PartI/TitleXXII/Chapter180",
+      "description": "Full text of Massachusetts nonprofit corporation law"
+    }
+  ]
+}

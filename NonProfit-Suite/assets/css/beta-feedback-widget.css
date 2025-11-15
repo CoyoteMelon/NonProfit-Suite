@@ -1,0 +1,338 @@
+/**
+ * Beta Feedback Widget Styles
+ *
+ * Styles for the quick feedback modal.
+ *
+ * @package    NonprofitSuite
+ * @subpackage Beta/Assets
+ * @since      1.0.0
+ */
+
+/* Modal Overlay */
+.ns-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 999999;
+}
+
+.ns-modal-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+	backdrop-filter: blur(2px);
+}
+
+/* Modal Content */
+.ns-modal-content {
+	position: relative;
+	width: 90%;
+	max-width: 600px;
+	max-height: 90vh;
+	margin: 5vh auto;
+	background: #fff;
+	border-radius: 8px;
+	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+/* Modal Header */
+.ns-modal-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 20px 25px;
+	background: linear-gradient(135deg, #2271b1 0%, #135e96 100%);
+	color: white;
+}
+
+.ns-modal-header h2 {
+	margin: 0;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.ns-modal-close {
+	background: transparent;
+	border: none;
+	color: white;
+	font-size: 32px;
+	line-height: 1;
+	cursor: pointer;
+	padding: 0;
+	width: 32px;
+	height: 32px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 4px;
+	transition: background 0.2s;
+}
+
+.ns-modal-close:hover {
+	background: rgba(255, 255, 255, 0.2);
+}
+
+/* Modal Body */
+.ns-modal-body {
+	padding: 25px;
+	overflow-y: auto;
+	flex: 1;
+}
+
+/* Form Groups */
+.ns-form-group {
+	margin-bottom: 20px;
+}
+
+.ns-form-group label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 8px;
+	color: #1d2939;
+	font-size: 14px;
+}
+
+.ns-form-group input[type="text"],
+.ns-form-group input[type="email"],
+.ns-form-group select,
+.ns-form-group textarea {
+	width: 100%;
+	padding: 10px 12px;
+	border: 1px solid #d0d5dd;
+	border-radius: 6px;
+	font-size: 14px;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+	transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.ns-form-group input[type="text"]:focus,
+.ns-form-group input[type="email"]:focus,
+.ns-form-group select:focus,
+.ns-form-group textarea:focus {
+	outline: none;
+	border-color: #2271b1;
+	box-shadow: 0 0 0 3px rgba(34, 113, 177, 0.1);
+}
+
+.ns-form-group textarea {
+	resize: vertical;
+	min-height: 100px;
+}
+
+.ns-form-group input[type="checkbox"] {
+	margin-right: 8px;
+}
+
+/* Form Actions */
+.ns-form-actions {
+	display: flex;
+	gap: 12px;
+	justify-content: flex-end;
+	margin-top: 25px;
+	padding-top: 20px;
+	border-top: 1px solid #eaecf0;
+}
+
+/* Buttons */
+.ns-btn-primary,
+.ns-btn-secondary {
+	padding: 10px 20px;
+	border: none;
+	border-radius: 6px;
+	font-size: 14px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.2s;
+}
+
+.ns-btn-primary {
+	background: #2271b1;
+	color: white;
+}
+
+.ns-btn-primary:hover {
+	background: #135e96;
+	transform: translateY(-1px);
+	box-shadow: 0 4px 12px rgba(34, 113, 177, 0.3);
+}
+
+.ns-btn-primary:active {
+	transform: translateY(0);
+}
+
+.ns-btn-primary:disabled {
+	background: #9ca3af;
+	cursor: not-allowed;
+	transform: none;
+}
+
+.ns-btn-secondary {
+	background: #f3f4f6;
+	color: #374151;
+	border: 1px solid #d1d5db;
+}
+
+.ns-btn-secondary:hover {
+	background: #e5e7eb;
+	border-color: #9ca3af;
+}
+
+/* Response Messages */
+.ns-success {
+	background: #f0fdf4;
+	border-left: 4px solid #10b981;
+	padding: 12px 16px;
+	border-radius: 4px;
+	color: #065f46;
+}
+
+.ns-error {
+	background: #fef2f2;
+	border-left: 4px solid #ef4444;
+	padding: 12px 16px;
+	border-radius: 4px;
+	color: #991b1b;
+}
+
+/* Screenshot Preview */
+#screenshot_preview {
+	margin-top: 15px;
+	padding: 15px;
+	background: #f9fafb;
+	border-radius: 6px;
+	border: 1px solid #e5e7eb;
+}
+
+#screenshot_preview img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #d1d5db;
+	border-radius: 4px;
+}
+
+/* Admin Bar Button */
+#wp-admin-bar-beta-feedback .ab-icon {
+	font-size: 20px !important;
+	margin-top: 4px !important;
+}
+
+#wp-admin-bar-beta-feedback a {
+	display: flex !important;
+	align-items: center !important;
+	gap: 6px !important;
+}
+
+/* Prevent body scroll when modal open */
+body.ns-modal-open {
+	overflow: hidden;
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+	.ns-modal-content {
+		width: 95%;
+		margin: 2vh auto;
+		max-height: 96vh;
+	}
+
+	.ns-modal-header {
+		padding: 15px 20px;
+	}
+
+	.ns-modal-header h2 {
+		font-size: 18px;
+	}
+
+	.ns-modal-body {
+		padding: 20px;
+	}
+
+	.ns-form-actions {
+		flex-direction: column-reverse;
+	}
+
+	.ns-btn-primary,
+	.ns-btn-secondary {
+		width: 100%;
+	}
+}
+
+/* Animation */
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+@keyframes slideUp {
+	from {
+		transform: translateY(20px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+
+.ns-modal {
+	animation: fadeIn 0.2s ease-out;
+}
+
+.ns-modal-content {
+	animation: slideUp 0.3s ease-out;
+}
+
+/* Loading State */
+.ns-btn-primary.loading {
+	position: relative;
+	color: transparent;
+}
+
+.ns-btn-primary.loading::after {
+	content: '';
+	position: absolute;
+	width: 16px;
+	height: 16px;
+	top: 50%;
+	left: 50%;
+	margin: -8px 0 0 -8px;
+	border: 2px solid rgba(255, 255, 255, 0.3);
+	border-top-color: white;
+	border-radius: 50%;
+	animation: spin 0.6s linear infinite;
+}
+
+@keyframes spin {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* Focus Styles for Accessibility */
+.ns-modal *:focus-visible {
+	outline: 2px solid #2271b1;
+	outline-offset: 2px;
+}
+
+/* Select Styling */
+.ns-form-group select {
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3E%3Cpath stroke='%236b7280' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='M6 8l4 4 4-4'/%3E%3C/svg%3E");
+	background-position: right 8px center;
+	background-repeat: no-repeat;
+	background-size: 20px;
+	padding-right: 36px;
+	appearance: none;
+}

@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "KY",
+  "jurisdiction_name": "Kentucky",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Kentucky Secretary of State", "source_url": "https://www.sos.ky.gov/", "last_accessed": "2025-11-12"}, {"source_name": "Kentucky Attorney General", "source_url": "https://ag.ky.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Kentucky Secretary of State - Business Filings Division",
+  "charitable_registration_agency": "Kentucky Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 40.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Kentucky Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "KY-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "Kentucky Secretary of State", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "June 30th each year", "fee_amount": 15.00, "legal_citation": "KRS 273.167", "notes": "Annual report fee $15. Due June 30th for all nonprofits."},
+    {"requirement_id": "KY-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Kentucky Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "KRS 367.650", "notes": "Initial registration $50."},
+    {"requirement_id": "KY-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Kentucky Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual report $50."},
+    {"requirement_id": "KY-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Kentucky Sales Tax Exemption Certificate", "filing_agency": "Kentucky Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form 51A105 - Sales and Use Tax Exemption Certificate", "legal_citation": "KRS 139.495", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "KY-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Property Valuation Administrator", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "May 15th annually", "fee_amount": 0.00, "legal_citation": "KRS 132.195", "notes": "Annual application by May 15th."},
+    {"requirement_id": "KY-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Charitable Gaming License", "filing_agency": "Kentucky Department of Charitable Gaming", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 25.00, "legal_citation": "KRS 238.530", "notes": "Required for charitable gaming including raffles and bingo."},
+    {"requirement_id": "KY-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Kentucky Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 250.00, "notes": "$250 fee. Bond required."},
+    {"requirement_id": "KY-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"june_30_deadline": "All Kentucky nonprofits must file annual reports by June 30th, regardless of fiscal year.", "charitable_gaming_dept": "Kentucky has a dedicated Department of Charitable Gaming."},
+  "helpful_links": [{"title": "Kentucky Secretary of State", "url": "https://www.sos.ky.gov/", "description": "Incorporation and compliance"}]
+}

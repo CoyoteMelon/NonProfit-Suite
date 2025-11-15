@@ -1,0 +1,324 @@
+{
+  "jurisdiction_code": "VA",
+  "jurisdiction_name": "Virginia",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "Virginia State Corporation Commission - Clerk's Office",
+      "source_url": "https://www.scc.virginia.gov/clk/",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Virginia Department of Agriculture and Consumer Services - Office of Charitable and Regulatory Programs",
+      "source_url": "https://www.vdacs.virginia.gov/office-of-charitable-and-regulatory-programs.shtml",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Virginia Department of Taxation",
+      "source_url": "https://www.tax.virginia.gov/",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "Virginia State Corporation Commission - Clerk's Office",
+  "charitable_registration_agency": "Virginia Department of Agriculture and Consumer Services - Office of Charitable and Regulatory Programs",
+  "exemption_threshold_note": "Organizations with gross contributions under $25,000 annually that receive contributions from fewer than 25 contributors may be exempt from registration. Religious organizations are also exempt.",
+  "formation_requirements": {
+    "minimum_directors": 1,
+    "initial_filing_fee": 75.00,
+    "certificate_of_formation": "Articles of Incorporation - Nonstock Corporation",
+    "filing_agency": "Virginia State Corporation Commission",
+    "publication_requirement": false,
+    "registered_agent_required": true,
+    "bylaws_filing_required": false,
+    "notes": "Virginia requires a registered agent with a Virginia address. Uniquely, Virginia allows single-director nonprofits. Filing can be done online via CLIS system."
+  },
+  "requirements": [
+    {
+      "requirement_id": "VA-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Annual Registration Fee",
+      "filing_agency": "Virginia State Corporation Commission - Clerk's Office",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due by last day of anniversary month of incorporation",
+      "fee_amount": 25.00,
+      "penalty_late_fee": 25.00,
+      "form_number": "SCC819 - Annual Registration Payment Voucher",
+      "form_url": "https://www.scc.virginia.gov/clk/befaq.aspx",
+      "online_filing_available": true,
+      "online_filing_url": "https://cis.scc.virginia.gov/",
+      "required_information": [
+        "Payment of $25 annual registration fee",
+        "Confirmation of registered agent and office"
+      ],
+      "legal_citation": "Va. Code § 13.1-936",
+      "contact_phone": "804-371-9733",
+      "contact_email": "clerksoffice@scc.virginia.gov",
+      "notes": "Virginia requires only a fee payment, not a full report. Late fee of $25 applies. No detailed information update required unless changes need to be filed separately."
+    },
+    {
+      "requirement_id": "VA-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Organization Registration",
+      "filing_agency": "Virginia Department of Agriculture and Consumer Services",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting contributions in Virginia",
+      "fee_amount": 100.00,
+      "form_number": "Form 102 - Registration Statement",
+      "form_url": "https://www.vdacs.virginia.gov/food-charities-forms.shtml",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation",
+        "Copy of Bylaws",
+        "List of officers and directors",
+        "Financial statements for most recent fiscal year",
+        "Registration fee payment ($100)"
+      ],
+      "legal_citation": "Va. Code § 57-49",
+      "contact_phone": "804-786-1343",
+      "contact_email": "ocrp@vdacs.virginia.gov",
+      "notes": "Initial registration fee is $100. Organizations under $25,000 from fewer than 25 contributors may be exempt. Registration required before soliciting."
+    },
+    {
+      "requirement_id": "VA-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Financial Report (Form 103)",
+      "filing_agency": "Virginia Department of Agriculture and Consumer Services",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 6 months after fiscal year end, but no later than May 1st",
+      "fee_amount": 325.00,
+      "penalty_late_fee": 50.00,
+      "form_number": "Form 103 - Annual Financial Report",
+      "form_url": "https://www.vdacs.virginia.gov/food-charities-forms.shtml",
+      "online_filing_available": false,
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "Virginia Schedule of Fundraising Activities",
+        "Professional fundraiser contracts and reports",
+        "Updated list of officers and directors",
+        "Annual fee payment ($325)"
+      ],
+      "legal_citation": "Va. Code § 57-55",
+      "contact_phone": "804-786-1343",
+      "contact_email": "ocrp@vdacs.virginia.gov",
+      "notes": "Annual fee is $325 ($30 base + $0.50 per $1,000 of contributions, max $325). Due earlier of 6 months after fiscal year end or May 1st. Late fee $50."
+    },
+    {
+      "requirement_id": "VA-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Virginia Retail Sales and Use Tax Exemption Certificate",
+      "filing_agency": "Virginia Department of Taxation",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Obtain after receiving IRS 501(c)(3) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form ST-13 - Certificate of Exemption",
+      "form_url": "https://www.tax.virginia.gov/sales-and-use-tax-exempt-organizations",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Virginia incorporation documents or registration",
+        "Federal Employer Identification Number (FEIN)",
+        "Description of charitable activities"
+      ],
+      "legal_citation": "Va. Code § 58.1-609.11",
+      "contact_phone": "804-367-8037",
+      "notes": "Virginia provides sales tax exemption for qualifying 501(c)(3) organizations. Not all purchases are exempt - exemption applies to purchases for charitable purposes. Provide Form ST-13 to vendors."
+    },
+    {
+      "requirement_id": "VA-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Real Property Tax Exemption Application",
+      "filing_agency": "Local Commissioner of Revenue or County Assessor",
+      "frequency": "annual",
+      "due_date_calculation": "fixed_date",
+      "due_date_specifics": "File annually by February 1st or within 60 days of property acquisition",
+      "fee_amount": 0.00,
+      "form_number": "Varies by locality - Application for Exemption",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Deed or proof of ownership",
+        "Description of property use for charitable purposes",
+        "Financial statements",
+        "Certification of exclusive charitable use",
+        "Documentation of public benefit"
+      ],
+      "legal_citation": "Va. Code § 58.1-3650",
+      "contact_phone": "Varies by locality",
+      "notes": "Property must be owned by nonprofit and used exclusively for charitable, educational, or religious purposes. Annual application required by February 1st. Contact local commissioner of revenue for specific forms."
+    },
+    {
+      "requirement_id": "VA-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Charitable Gaming Permit",
+      "filing_agency": "Virginia Department of Agriculture and Consumer Services - Charitable Gaming Division",
+      "frequency": "annual",
+      "due_date_calculation": "calendar_year",
+      "due_date_specifics": "Permit valid for fiscal year; renew annually",
+      "fee_amount": 75.00,
+      "form_number": "Gaming Permit Application",
+      "form_url": "https://www.vdacs.virginia.gov/charitable-gaming-permits.shtml",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of 3+ years continuous operation in Virginia",
+        "List of officers and gaming managers",
+        "Description of gaming activities",
+        "Permit fee payment ($75)",
+        "Completed background checks"
+      ],
+      "legal_citation": "Va. Code § 18.2-340.19",
+      "contact_phone": "804-786-1343",
+      "notes": "Virginia allows raffles, bingo, and instant bingo for qualified nonprofits in existence for 3+ years. Organization must be based in Virginia. Quarterly reporting required."
+    },
+    {
+      "requirement_id": "VA-007",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Raffle License (for single raffles)",
+      "filing_agency": "Virginia Department of Agriculture and Consumer Services",
+      "frequency": "per_event",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File application at least 30 days before raffle",
+      "fee_amount": 25.00,
+      "form_number": "Raffle Application",
+      "form_url": "https://www.vdacs.virginia.gov/charitable-gaming-permits.shtml",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Description of raffle prizes",
+        "Proposed ticket price and quantity",
+        "Application fee payment ($25)"
+      ],
+      "legal_citation": "Va. Code § 18.2-340.27",
+      "contact_phone": "804-786-1343",
+      "notes": "Organizations without a charitable gaming permit can conduct up to 2 raffles per year with individual raffle licenses. Prize limit $40,000 per raffle."
+    },
+    {
+      "requirement_id": "VA-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Solicitor Registration",
+      "filing_agency": "Virginia Department of Agriculture and Consumer Services",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 250.00,
+      "form_number": "Form 201 - Professional Solicitor Registration",
+      "form_url": "https://www.vdacs.virginia.gov/food-charities-forms.shtml",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership structure",
+        "List of officers and management",
+        "$20,000 surety bond",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "Registration fee payment ($250)"
+      ],
+      "legal_citation": "Va. Code § 57-59",
+      "contact_phone": "804-786-1343",
+      "contact_email": "ocrp@vdacs.virginia.gov",
+      "notes": "Required for paid professional solicitors. Each campaign must be registered. Bond must remain in effect. Written disclosure to donors required."
+    },
+    {
+      "requirement_id": "VA-009",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Fundraising Counsel Registration",
+      "filing_agency": "Virginia Department of Agriculture and Consumer Services",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 250.00,
+      "form_number": "Form 202 - Fundraising Counsel Registration",
+      "form_url": "https://www.vdacs.virginia.gov/food-charities-forms.shtml",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership",
+        "List of officers and management",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "Registration fee payment ($250)"
+      ],
+      "legal_citation": "Va. Code § 57-60",
+      "contact_phone": "804-786-1343",
+      "contact_email": "ocrp@vdacs.virginia.gov",
+      "notes": "Fundraising counsel provides consulting but does not solicit or handle contributions. No bond required. Each contract must be filed."
+    },
+    {
+      "requirement_id": "VA-010",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and may be required for Form 103",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 180 days after fiscal year end (completed before Form 103 due)",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements",
+        "Notes to financial statements",
+        "Management letter (if applicable)"
+      ],
+      "legal_citation": "Va. Code § 57-55",
+      "notes": "Virginia does not legally mandate audits based solely on revenue, but professional fundraiser use may trigger audit requirements. Many funders and best practices require audits for organizations over $500,000."
+    }
+  ],
+  "special_notes": {
+    "dual_deadline": "Virginia's annual charitable report (Form 103) is due the earlier of 6 months after fiscal year end OR May 1st. Organizations must track both dates.",
+    "high_annual_fee": "Virginia's annual charitable registration fee of up to $325 is among the highest nationally. Fee is calculated based on contributions ($30 + $0.50 per $1,000).",
+    "single_director_allowed": "Virginia allows nonprofit corporations to have just one director, providing flexibility for small organizations. This is unusual among states.",
+    "three_year_gaming": "Virginia requires 3 years of continuous operation before charitable gaming, shorter than some states but still a barrier for new organizations.",
+    "board_requirements": "Virginia nonprofits may have one or more directors. If only one director, that person has full authority. Best practice is to have at least three.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions on political campaign intervention and lobbying.",
+    "professional_fundraiser_contracts": "All contracts with professional solicitors or fundraising counsel must be filed with VDACS before solicitation begins.",
+    "charitable_gaming_types": "Virginia permits raffles, bingo, instant bingo, pull tabs, and network bingo for qualified nonprofits. Each has specific rules and reporting requirements.",
+    "property_tax_annual": "Property tax exemption must be claimed annually by February 1st. Missing deadline means no exemption for that tax year.",
+    "dissolution_requirements": "Upon dissolution, assets must be distributed to organizations with similar charitable purposes. VDACS should be notified.",
+    "unrelated_business_income": "Organizations with unrelated business income over $1,000 must file IRS Form 990-T and Virginia Corporate Income Tax Return if conducting business in Virginia.",
+    "may_first_deadline": "The May 1st absolute deadline for Form 103 is unique. Organizations with late fiscal year ends must file before completing their full fiscal year.",
+    "registration_threshold": "Virginia's registration threshold of $25,000 from fewer than 25 contributors is one of the more restrictive - most states use $25,000 alone."
+  },
+  "helpful_links": [
+    {
+      "title": "Virginia Department of Agriculture - Charitable and Regulatory Programs",
+      "url": "https://www.vdacs.virginia.gov/office-of-charitable-and-regulatory-programs.shtml",
+      "description": "Charitable registration, annual reports, forms, and compliance guidance"
+    },
+    {
+      "title": "Virginia VDACS - Charities Forms",
+      "url": "https://www.vdacs.virginia.gov/food-charities-forms.shtml",
+      "description": "Download registration and renewal forms for charitable organizations"
+    },
+    {
+      "title": "Virginia State Corporation Commission - Clerk's Office",
+      "url": "https://www.scc.virginia.gov/clk/",
+      "description": "Incorporation, annual fees, and business entity information"
+    },
+    {
+      "title": "Virginia Clerk's Information System (CLIS)",
+      "url": "https://cis.scc.virginia.gov/",
+      "description": "Online filing for incorporation, annual fees, and business entity searches"
+    },
+    {
+      "title": "Virginia Department of Taxation",
+      "url": "https://www.tax.virginia.gov/",
+      "description": "Sales tax exemption, property tax, and tax forms"
+    },
+    {
+      "title": "Virginia VDACS - Charitable Gaming",
+      "url": "https://www.vdacs.virginia.gov/charitable-gaming-permits.shtml",
+      "description": "Gaming permits, raffle licenses, and charitable gaming compliance"
+    },
+    {
+      "title": "Virginia Code Title 57 - Religious and Charitable Matters",
+      "url": "https://law.lis.virginia.gov/vacode/title57/",
+      "description": "Full text of Virginia's charitable solicitation law"
+    }
+  ]
+}

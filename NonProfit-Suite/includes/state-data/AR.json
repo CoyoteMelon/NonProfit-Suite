@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "AR",
+  "jurisdiction_name": "Arkansas",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Arkansas Secretary of State", "source_url": "https://www.sos.arkansas.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Arkansas Secretary of State - Business & Commercial Services",
+  "charitable_registration_agency": "Arkansas Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 50.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Arkansas Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "AR-001", "requirement_type": "Annual Report", "requirement_name": "Annual Franchise Tax Report", "filing_agency": "Arkansas Secretary of State", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "May 1st each year", "fee_amount": 150.00, "legal_citation": "Ark. Code § 4-28-205", "notes": "Annual franchise tax $150 minimum."},
+    {"requirement_id": "AR-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Arkansas Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "Ark. Code § 4-28-402", "notes": "Initial registration $50."},
+    {"requirement_id": "AR-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Arkansas Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual report $50."},
+    {"requirement_id": "AR-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Arkansas Sales Tax Exemption Certificate", "filing_agency": "Arkansas Department of Finance and Administration", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form ST 391 - Exemption Certificate", "legal_citation": "Ark. Code § 26-52-401", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "AR-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Assessor", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "May 31st annually", "fee_amount": 0.00, "legal_citation": "Ark. Const. Art. 16, § 5", "notes": "Annual application by May 31st."},
+    {"requirement_id": "AR-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle License", "filing_agency": "Arkansas Department of Finance and Administration", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "Ark. Code § 23-114-101", "notes": "Raffles permitted for qualified nonprofits. $50 license fee."},
+    {"requirement_id": "AR-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Arkansas Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 250.00, "notes": "$250 fee. Bond required."},
+    {"requirement_id": "AR-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"franchise_tax": "Arkansas assesses an annual franchise tax of $150 minimum on nonprofits, unusual among states."},
+  "helpful_links": [{"title": "Arkansas Secretary of State", "url": "https://www.sos.arkansas.gov/", "description": "Incorporation and compliance"}]
+}

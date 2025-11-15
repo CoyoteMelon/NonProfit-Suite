@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "ID",
+  "jurisdiction_name": "Idaho",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Idaho Secretary of State", "source_url": "https://sos.idaho.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Idaho Secretary of State - Business Entities Division",
+  "charitable_registration_agency": "Idaho Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 30.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Idaho Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "ID-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "Idaho Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "Anniversary month of incorporation", "fee_amount": 0.00, "legal_citation": "Idaho Code § 30-30-112", "notes": "Annual report is FREE in Idaho."},
+    {"requirement_id": "ID-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Idaho Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 25.00, "legal_citation": "Idaho Code § 48-1203", "notes": "Initial registration $25."},
+    {"requirement_id": "ID-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Idaho Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 25.00, "notes": "Annual report $25."},
+    {"requirement_id": "ID-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Idaho Sales Tax Exemption Certificate", "filing_agency": "Idaho State Tax Commission", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form ST-101 - Sales Tax Resale or Exemption Certificate", "legal_citation": "Idaho Code § 63-3622", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "ID-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Assessor", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "April 15th annually", "fee_amount": 0.00, "legal_citation": "Idaho Code § 63-602C", "notes": "Annual application by April 15th."},
+    {"requirement_id": "ID-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle License", "filing_agency": "Idaho Lottery", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Idaho Code § 67-7714", "notes": "Raffles permitted for qualified nonprofits."},
+    {"requirement_id": "ID-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Idaho Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 200.00, "notes": "$200 fee. Bond required."},
+    {"requirement_id": "ID-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"free_annual_report": "Idaho's annual corporate report is completely FREE.", "low_fees": "Idaho has very affordable fees across the board."},
+  "helpful_links": [{"title": "Idaho Secretary of State", "url": "https://sos.idaho.gov/", "description": "Incorporation and compliance"}]
+}

@@ -1,0 +1,22 @@
+/**
+ * Setup Wizard Styles
+ *
+ * @package NonprofitSuite
+ * @subpackage Admin/CSS
+ */
+
+/* Additional styles for setup wizard and migration tools */
+/* Main styles are inline in view files for better organization */
+
+.ns-setup-wizard,
+.ns-migration-tools {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+.ns-setup-wizard .notice {
+	margin: 20px 0;
+}
+
+.ns-migration-tools .wp-list-table {
+	margin-top: 20px;
+}

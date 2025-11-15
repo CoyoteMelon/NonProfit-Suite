@@ -1,0 +1,409 @@
+/**
+ * Volunteer Shifts UI Styles
+ *
+ * Styles for the volunteer shift signup interface.
+ *
+ * @package NonprofitSuite
+ * @since   1.5.0
+ */
+
+/* Container */
+.ns-volunteer-shifts-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Section Headers */
+.ns-my-shifts-section,
+.ns-available-shifts-section {
+	margin-bottom: 40px;
+}
+
+.ns-my-shifts-section h2,
+.ns-available-shifts-section h2 {
+	font-size: 24px;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid #0073aa;
+}
+
+/* Filters */
+.ns-shifts-filters {
+	background: #f8f9fa;
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 4px;
+	display: flex;
+	gap: 15px;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+.ns-shifts-filters label {
+	display: flex;
+	flex-direction: column;
+	font-weight: 600;
+	font-size: 14px;
+	gap: 5px;
+}
+
+.ns-shifts-filters select {
+	min-width: 200px;
+	padding: 8px 12px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 14px;
+}
+
+.ns-shifts-filters button {
+	padding: 8px 20px;
+	height: 38px;
+}
+
+/* Event Groups */
+.ns-event-group {
+	margin-bottom: 40px;
+}
+
+.ns-event-title {
+	font-size: 20px;
+	margin-bottom: 10px;
+	color: #2c3e50;
+}
+
+.ns-event-description {
+	color: #666;
+	margin-bottom: 20px;
+	font-size: 14px;
+}
+
+/* Shifts Grid */
+.ns-shifts-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+	gap: 20px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+	.ns-shifts-grid {
+		grid-template-columns: 1fr;
+	}
+}
+
+/* Shift Cards */
+.ns-shift-card {
+	background: #fff;
+	border: 1px solid #e1e4e8;
+	border-radius: 8px;
+	padding: 20px;
+	transition: all 0.3s ease;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+	display: flex;
+	flex-direction: column;
+}
+
+.ns-shift-card:hover {
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	transform: translateY(-2px);
+}
+
+.ns-shift-card.ns-shift-full {
+	opacity: 0.6;
+	background: #f5f5f5;
+}
+
+.ns-shift-card.ns-shift-signed-up {
+	border-color: #46b450;
+	background: #f0f8f1;
+}
+
+/* Shift Header */
+.ns-shift-header {
+	display: flex;
+	gap: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid #e1e4e8;
+}
+
+.ns-shift-date {
+	background: #0073aa;
+	color: #fff;
+	border-radius: 8px;
+	padding: 10px;
+	text-align: center;
+	min-width: 70px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.ns-shift-day {
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 1;
+}
+
+.ns-shift-month {
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 5px;
+}
+
+.ns-shift-year {
+	font-size: 12px;
+	opacity: 0.9;
+}
+
+.ns-shift-title {
+	flex: 1;
+}
+
+.ns-shift-title h3,
+.ns-shift-title h4 {
+	margin: 0 0 5px 0;
+	font-size: 18px;
+	color: #2c3e50;
+}
+
+.ns-shift-name {
+	margin: 0;
+	color: #666;
+	font-size: 14px;
+}
+
+/* Shift Details */
+.ns-shift-details {
+	flex: 1;
+	margin-bottom: 15px;
+}
+
+.ns-shift-details > div {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 10px;
+	font-size: 14px;
+	color: #555;
+}
+
+.ns-shift-details .dashicons {
+	color: #0073aa;
+	font-size: 18px;
+	width: 18px;
+	height: 18px;
+}
+
+.ns-shift-time,
+.ns-shift-role,
+.ns-shift-positions {
+	font-weight: 500;
+}
+
+.ns-shift-positions.ns-positions-full {
+	color: #dc3232;
+}
+
+.ns-shift-notes {
+	font-size: 13px;
+	color: #666;
+	font-style: italic;
+}
+
+/* Shift Actions */
+.ns-shift-actions {
+	display: flex;
+	gap: 10px;
+	justify-content: center;
+	padding-top: 15px;
+	border-top: 1px solid #e1e4e8;
+}
+
+.ns-shift-actions button,
+.ns-shift-actions a {
+	flex: 1;
+	text-align: center;
+	padding: 10px 15px;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.ns-signup-btn {
+	background: #46b450 !important;
+	border-color: #46b450 !important;
+	color: #fff !important;
+}
+
+.ns-signup-btn:hover {
+	background: #3fa846 !important;
+	border-color: #3fa846 !important;
+}
+
+.ns-cancel-shift-btn {
+	background: #dc3232 !important;
+	border-color: #dc3232 !important;
+	color: #fff !important;
+}
+
+.ns-cancel-shift-btn:hover {
+	background: #c92c2c !important;
+	border-color: #c92c2c !important;
+}
+
+/* Status Badges */
+.ns-status-badge {
+	display: inline-flex;
+	align-items: center;
+	gap: 5px;
+	padding: 8px 15px;
+	border-radius: 4px;
+	font-size: 13px;
+	font-weight: 600;
+	width: 100%;
+	justify-content: center;
+}
+
+.ns-status-badge.ns-signed-up {
+	background: #d4edda;
+	color: #155724;
+}
+
+.ns-status-badge.ns-full {
+	background: #f8d7da;
+	color: #721c24;
+}
+
+.ns-status-badge .dashicons {
+	font-size: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+/* My Shifts Grid */
+.ns-my-shifts-grid .ns-shift-card {
+	border-color: #0073aa;
+	background: #f0f6fc;
+}
+
+.ns-my-shift-card .ns-shift-date {
+	background: #0073aa;
+}
+
+/* No Shifts Message */
+.ns-no-shifts {
+	text-align: center;
+	padding: 40px 20px;
+	background: #f8f9fa;
+	border-radius: 4px;
+	color: #666;
+	font-size: 15px;
+}
+
+/* Loading State */
+.ns-shifts-list.loading {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.ns-shifts-list.loading::after {
+	content: "";
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 40px;
+	height: 40px;
+	margin: -20px 0 0 -20px;
+	border: 3px solid #f3f3f3;
+	border-top: 3px solid #0073aa;
+	border-radius: 50%;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	0% { transform: rotate(0deg); }
+	100% { transform: rotate(360deg); }
+}
+
+/* Notifications */
+.ns-notification {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	padding: 15px 20px;
+	background: #fff;
+	border-left: 4px solid;
+	border-radius: 4px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	z-index: 9999;
+	max-width: 350px;
+	animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateX(400px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.ns-notification.success {
+	border-left-color: #46b450;
+	background: #f0f8f1;
+}
+
+.ns-notification.error {
+	border-left-color: #dc3232;
+	background: #fef0f0;
+}
+
+.ns-notification.info {
+	border-left-color: #0073aa;
+	background: #f0f6fc;
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+	.ns-shifts-filters {
+		flex-direction: column;
+		align-items: stretch;
+	}
+
+	.ns-shifts-filters label {
+		width: 100%;
+	}
+
+	.ns-shifts-filters select {
+		width: 100%;
+		min-width: auto;
+	}
+
+	.ns-shift-header {
+		flex-direction: column;
+	}
+
+	.ns-shift-date {
+		width: 100%;
+		flex-direction: row;
+		padding: 15px;
+		justify-content: center;
+		gap: 10px;
+	}
+
+	.ns-shift-day {
+		font-size: 24px;
+	}
+
+	.ns-notification {
+		left: 20px;
+		right: 20px;
+		max-width: none;
+	}
+}

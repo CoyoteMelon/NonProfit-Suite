@@ -1,0 +1,31 @@
+{
+  "jurisdiction_code": "MD",
+  "jurisdiction_name": "Maryland",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {"source_name": "Maryland Department of Assessments and Taxation", "source_url": "https://dat.maryland.gov/", "last_accessed": "2025-11-12"},
+    {"source_name": "Maryland Secretary of State - Charities", "source_url": "https://sos.maryland.gov/Charity/Pages/default.aspx", "last_accessed": "2025-11-12"},
+    {"source_name": "Maryland Comptroller", "source_url": "https://www.marylandtaxes.gov/", "last_accessed": "2025-11-12"}
+  ],
+  "incorporation_agency": "Maryland Department of Assessments and Taxation - Charter Division",
+  "charitable_registration_agency": "Maryland Secretary of State - Charitable Organizations Division",
+  "exemption_threshold_note": "Organizations with gross contributions under $25,000 annually may be exempt from registration. Religious organizations are exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 170.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Maryland Department of Assessments and Taxation", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "Maryland requires resident agent with Maryland address. Filing fee is relatively high."},
+  "requirements": [
+    {"requirement_id": "MD-001", "requirement_type": "Annual Report", "requirement_name": "Annual Personal Property Report", "filing_agency": "Maryland Department of Assessments and Taxation", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "April 15th each year", "fee_amount": 0.00, "legal_citation": "Md. Code Corps. & Ass'ns § 2-109", "contact_phone": "410-767-1340", "notes": "Free annual report due April 15th. Required for all nonprofits."},
+    {"requirement_id": "MD-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Maryland Secretary of State", "frequency": "one-time", "due_date_calculation": "event_triggered", "due_date_specifics": "Before soliciting in Maryland", "fee_amount": 0.00, "form_number": "Form COR-92", "legal_citation": "Md. Code Bus. Reg. § 6-401", "contact_phone": "410-974-5521", "notes": "Initial registration free. Required before soliciting."},
+    {"requirement_id": "MD-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Solicitation Filing", "filing_agency": "Maryland Secretary of State", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "form_number": "Form COR-91", "legal_citation": "Md. Code Bus. Reg. § 6-502", "contact_phone": "410-974-5521", "notes": "Annual filing free. Due within 6 months of fiscal year end."},
+    {"requirement_id": "MD-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Maryland Sales Tax Exemption Certificate", "filing_agency": "Maryland Comptroller", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form 332 - Exemption Certificate", "legal_citation": "Md. Code Tax-Gen. § 11-204", "contact_phone": "410-260-7980", "notes": "Qualifying 501(c)(3) organizations exempt from sales tax."},
+    {"requirement_id": "MD-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "State Department of Assessments and Taxation", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Md. Code Tax-Prop. § 7-202", "contact_phone": "410-767-1184", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "MD-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Gaming License", "filing_agency": "Local Government (County or Municipality)", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 0.00, "legal_citation": "Md. Code Crim. Law § 13-201", "notes": "Gaming permitted for qualified nonprofits. Local licensing required."},
+    {"requirement_id": "MD-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Maryland Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 0.00, "form_number": "Form COR-93", "legal_citation": "Md. Code Bus. Reg. § 6-401", "notes": "Registration free. $25,000 bond required."},
+    {"requirement_id": "MD-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement. Best practices suggest audit for organizations over $500,000."}
+  ],
+  "special_notes": {"high_formation_fee": "Maryland's $170 incorporation fee is among the highest nationally.", "free_charity_filings": "All charitable registration and renewals are free.", "april_15_deadline": "All nonprofits must file personal property report by April 15th annually."},
+  "helpful_links": [
+    {"title": "Maryland SDAT - Charities", "url": "https://dat.maryland.gov/", "description": "Incorporation and annual reports"},
+    {"title": "Maryland Secretary of State - Charities", "url": "https://sos.maryland.gov/Charity/Pages/default.aspx", "description": "Charitable registration"}
+  ]
+}

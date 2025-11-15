@@ -1,0 +1,329 @@
+{
+  "jurisdiction_code": "NY",
+  "jurisdiction_name": "New York",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "New York Department of State - Division of Corporations",
+      "source_url": "https://www.dos.ny.gov/corps/",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "New York Attorney General - Charities Bureau",
+      "source_url": "https://www.charitiesnys.com/",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "New York Department of Taxation and Finance",
+      "source_url": "https://www.tax.ny.gov/bus/",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "New York Department of State - Division of Corporations",
+  "charitable_registration_agency": "New York Attorney General - Charities Bureau",
+  "exemption_threshold_note": "Organizations with gross receipts under $25,000 annually that receive contributions from fewer than 100 contributors may be exempt from charitable registration, but must file a simple registration statement.",
+  "formation_requirements": {
+    "minimum_directors": 3,
+    "initial_filing_fee": 75.00,
+    "certificate_of_formation": "Certificate of Incorporation - Not-For-Profit Corporation",
+    "filing_agency": "New York Department of State",
+    "publication_requirement": false,
+    "registered_agent_required": false,
+    "bylaws_filing_required": false,
+    "notes": "New York does not require a registered agent but requires a 'service of process' address. Certificate must include statement that corporation is formed under the Not-For-Profit Corporation Law."
+  },
+  "requirements": [
+    {
+      "requirement_id": "NY-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Biennial Statement",
+      "filing_agency": "New York Department of State - Division of Corporations",
+      "frequency": "biennial",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due every two years during the calendar month of incorporation",
+      "fee_amount": 25.00,
+      "form_number": "Biennial Statement for Not-For-Profit Corporations",
+      "form_url": "https://www.dos.ny.gov/forms/corporations/1513-f-l.pdf",
+      "online_filing_available": true,
+      "online_filing_url": "https://appext20.dos.ny.gov/eaccts/login_corp",
+      "required_information": [
+        "Names and addresses of directors",
+        "Names and addresses of principal officers",
+        "Address of principal office",
+        "Statement of activities and purposes"
+      ],
+      "legal_citation": "NY Not-For-Profit Corporation Law § 519",
+      "contact_phone": "518-473-2492",
+      "contact_email": "corporations@dos.ny.gov",
+      "notes": "Filing is required every two years, not annually. Late filings incur $25 penalty. Failure to file can result in administrative dissolution."
+    },
+    {
+      "requirement_id": "NY-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Registration (CHAR410)",
+      "filing_agency": "New York Attorney General - Charities Bureau",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Within 30 days of receiving $25,000 in contributions or soliciting from 100+ contributors",
+      "fee_amount": 0.00,
+      "form_number": "CHAR410 - Registration Statement",
+      "form_url": "https://www.charitiesnys.com/RegistrationFormsCombined_char410.html",
+      "online_filing_available": true,
+      "online_filing_url": "https://www.charitiesnys.com/",
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Certificate of Incorporation",
+        "Copy of Bylaws",
+        "List of directors and officers with addresses",
+        "Most recent IRS Form 990",
+        "Financial statements"
+      ],
+      "legal_citation": "NY Executive Law Article 7-A § 172",
+      "contact_phone": "212-416-8401",
+      "contact_email": "charities.bureau@ag.ny.gov",
+      "notes": "Registration is free but mandatory for most charities. Small organizations may file simplified CHAR410-S. Registration must be renewed annually via CHAR500."
+    },
+    {
+      "requirement_id": "NY-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Financial Report (CHAR500)",
+      "filing_agency": "New York Attorney General - Charities Bureau",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 6 months after fiscal year end (4.5 months if using extension)",
+      "fee_amount": 0.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "CHAR500 - Annual Filing for Charitable Organizations",
+      "form_url": "https://www.charitiesnys.com/pdfs/CHAR500.pdf",
+      "online_filing_available": true,
+      "online_filing_url": "https://www.charitiesnys.com/",
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "New York Schedule 4-A (Professional Fundraiser Contracts)",
+        "Updated list of directors and officers",
+        "Financial statements or audit (if required)",
+        "Program service accomplishments"
+      ],
+      "legal_citation": "NY Executive Law Article 7-A § 172-b",
+      "contact_phone": "212-416-8401",
+      "contact_email": "charities.bureau@ag.ny.gov",
+      "notes": "This is the annual renewal of charitable registration. Late filing can result in fines up to $1,000. Organizations may file automatically via IRS 990 if under revenue thresholds."
+    },
+    {
+      "requirement_id": "NY-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Sales Tax Exemption Certificate (Form ST-119)",
+      "filing_agency": "New York Department of Taxation and Finance",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File after receiving IRS 501(c) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form ST-119.1 or ST-119",
+      "form_url": "https://www.tax.ny.gov/pdf/current_forms/st/st119_1_fill_in.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Copy of Certificate of Incorporation",
+        "Description of organization's purposes and activities",
+        "Federal EIN"
+      ],
+      "legal_citation": "NY Tax Law § 1116(a)",
+      "contact_phone": "518-457-5181",
+      "notes": "Form ST-119.1 is for organizations exempt under IRC 501(c)(3). Form ST-119 is for other qualifying organizations. Once approved, exemption is permanent but organization must provide exemption certificate to vendors. Not all purchases are exempt - review specific exemptions."
+    },
+    {
+      "requirement_id": "NY-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Real Property Tax Exemption Application (Form RP-420)",
+      "filing_agency": "Local Assessor's Office and State Board of Real Property Services",
+      "frequency": "one-time",
+      "due_date_calculation": "fixed_date",
+      "due_date_specifics": "March 1st (Taxable Status Date) for exemption beginning the following tax year",
+      "fee_amount": 0.00,
+      "form_number": "Form RP-420-a (Initial Application) or RP-420-b (Claim for Exemption)",
+      "form_url": "https://www.tax.ny.gov/pdf/current_forms/orpts/rp420a.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Copy of Certificate of Incorporation",
+        "Deed or proof of property ownership",
+        "Description of property use for exempt purposes",
+        "Financial statements",
+        "Property appraisal"
+      ],
+      "legal_citation": "NY Real Property Tax Law § 420-a",
+      "contact_phone": "Varies by municipality",
+      "notes": "Property must be owned by the nonprofit and used exclusively for exempt purposes. Initial application (RP-420-a) includes $500 filing fee. Annual exemption claims (RP-420-b) have no fee. Exemption must be renewed annually in most jurisdictions."
+    },
+    {
+      "requirement_id": "NY-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Games of Chance License",
+      "filing_agency": "Municipal Clerk or Racing and Wagering Board (for multi-municipal events)",
+      "frequency": "per_event",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File application at least 30 days before gaming event",
+      "fee_amount": 25.00,
+      "form_number": "GC-7 Series Forms (varies by game type)",
+      "form_url": "https://www.gaming.ny.gov/gaming/index.php?ID=6",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of incorporation in New York",
+        "Proof of 1+ years operation in community",
+        "List of officers and game managers",
+        "Proposed game dates, times, and locations",
+        "Statement of game proceeds use"
+      ],
+      "legal_citation": "NY General Municipal Law Article 9-A",
+      "contact_phone": "518-474-8767",
+      "notes": "New York permits bingo, raffles, bell jars, and other games of chance for qualified nonprofits. Organization must be incorporated in NY for at least 1 year. Maximum prizes and frequency limits apply. Professional management prohibited."
+    },
+    {
+      "requirement_id": "NY-007",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Fundraising Counsel Registration",
+      "filing_agency": "New York Attorney General - Charities Bureau",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 400.00,
+      "form_number": "CHAR401 - Registration Statement for Fundraising Counsel",
+      "form_url": "https://www.charitiesnys.com/pdfs/CHAR401.pdf",
+      "online_filing_available": true,
+      "online_filing_url": "https://www.charitiesnys.com/",
+      "required_information": [
+        "Business information and ownership structure",
+        "List of persons with management responsibility",
+        "Sample contract with charity clients",
+        "Financial statement",
+        "List of current charity clients in New York"
+      ],
+      "legal_citation": "NY Executive Law Article 7-A § 172-a",
+      "contact_phone": "212-416-8401",
+      "contact_email": "charities.bureau@ag.ny.gov",
+      "notes": "Fundraising counsel provides consulting services but does not solicit or receive contributions. Paid employees of registered charities are exempt."
+    },
+    {
+      "requirement_id": "NY-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Fundraiser Registration",
+      "filing_agency": "New York Attorney General - Charities Bureau",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 400.00,
+      "form_number": "CHAR500-PF - Registration Statement for Professional Fundraiser",
+      "form_url": "https://www.charitiesnys.com/pdfs/CHAR500-PF.pdf",
+      "online_filing_available": true,
+      "online_filing_url": "https://www.charitiesnys.com/",
+      "required_information": [
+        "Business information and ownership structure",
+        "List of persons with management responsibility",
+        "$10,000 bond or equivalent",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "List of current charity clients and campaigns"
+      ],
+      "legal_citation": "NY Executive Law Article 7-A § 172-a",
+      "contact_phone": "212-416-8401",
+      "contact_email": "charities.bureau@ag.ny.gov",
+      "notes": "Professional fundraisers solicit contributions on behalf of charities. Each contract must be filed with Charities Bureau on Schedule 4-A within 10 days. Bond must be maintained throughout registration."
+    },
+    {
+      "requirement_id": "NY-009",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and included in CHAR500 filing",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 180 days after fiscal year end (completed before CHAR500 due date)",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements (Statement of Financial Position, Activities, Cash Flows)",
+        "Notes to financial statements",
+        "Management letter (if applicable)",
+        "Auditor's communication with governance"
+      ],
+      "legal_citation": "NY Not-For-Profit Corporation Law § 712",
+      "notes": "Required for organizations with gross revenues over $1,000,000 in the current or either of two preceding fiscal years. Organizations between $500,000-$1,000,000 must have an independent review. Organizations under $500,000 may prepare internally compiled statements. Audit must be performed by independent CPA licensed in New York."
+    },
+    {
+      "requirement_id": "NY-010",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Conflicts of Interest Policy Filing",
+      "filing_agency": "New York Attorney General - Charities Bureau (included in CHAR500)",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Filed with annual CHAR500 report",
+      "fee_amount": 0.00,
+      "form_number": "Included in CHAR500 filing",
+      "required_information": [
+        "Written conflicts of interest policy",
+        "Annual disclosure statements from directors and officers",
+        "Documentation of conflict review and resolution process"
+      ],
+      "legal_citation": "NY Not-For-Profit Corporation Law § 715-a",
+      "contact_phone": "212-416-8401",
+      "contact_email": "charities.bureau@ag.ny.gov",
+      "notes": "New York requires written conflicts of interest policies and annual disclosure statements from board members. Charities must certify on CHAR500 that they have adopted and implemented such policies."
+    }
+  ],
+  "special_notes": {
+    "strict_registration": "New York has some of the most comprehensive charitable registration requirements in the U.S. The Charities Bureau actively monitors compliance and can impose significant penalties for non-compliance.",
+    "char500_filing": "The CHAR500 annual filing is mandatory for all registered charities, regardless of size. Organizations with revenues under $250,000 may use simplified CHAR500-Short form.",
+    "professional_fundraiser_contracts": "Every contract with a professional fundraiser or fundraising counsel must be filed with the Attorney General within 10 days of execution using Schedule 4-A. Failure to file can result in fines.",
+    "board_requirements": "New York nonprofit corporations must have at least three directors. Directors serve staggered terms as specified in bylaws. Board must meet regularly and maintain minutes.",
+    "conflict_of_interest_mandatory": "Unlike many states, New York legally requires all nonprofits to adopt and implement a written conflicts of interest policy. Annual compliance must be certified on CHAR500.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions on political campaign intervention and lobbying. New York law mirrors and reinforces these federal limits.",
+    "property_tax_complexity": "Property tax exemption in New York is complex with many local variations. Initial application fee of $500 applies. Exemption typically requires annual renewal claims.",
+    "gaming_restrictions": "New York gaming laws are complex. Organizations must be incorporated in New York for at least 1 year before conducting games of chance. Professional operation is prohibited.",
+    "financial_thresholds": "Key thresholds: $25,000 triggers charitable registration, $250,000 enables CHAR500-Short form, $500,000 requires financial review, $1,000,000 requires independent audit.",
+    "ubit_filing": "Organizations with unrelated business income over $1,000 must file IRS Form 990-T and New York Corporation Tax Return (CT-13) if conducting business in New York.",
+    "dissolution_assets": "Upon dissolution, assets must be distributed to organizations with similar charitable purposes or to government. Attorney General must approve dissolution plans for registered charities.",
+    "registration_reciprocity": "New York does not participate in the Unified Registration Statement (URS) for multi-state charitable solicitation. Separate NY-specific forms are required."
+  },
+  "helpful_links": [
+    {
+      "title": "New York Charities Bureau - Main Portal",
+      "url": "https://www.charitiesnys.com/",
+      "description": "Primary portal for CHAR forms, registration, annual filing, and online filing system"
+    },
+    {
+      "title": "New York Attorney General - Charities Bureau Resources",
+      "url": "https://ag.ny.gov/charities/charities",
+      "description": "Guidance documents, FAQs, best practices, and compliance information"
+    },
+    {
+      "title": "New York Department of State - Division of Corporations",
+      "url": "https://www.dos.ny.gov/corps/",
+      "description": "Incorporation, biennial statements, corporate searches, and business entity database"
+    },
+    {
+      "title": "New York Department of Taxation and Finance",
+      "url": "https://www.tax.ny.gov/bus/",
+      "description": "Sales tax exemption, corporate tax, UBIT filing, and tax exemption information"
+    },
+    {
+      "title": "New York State Board of Real Property Services",
+      "url": "https://www.tax.ny.gov/research/property/",
+      "description": "Property tax exemption forms, guidance, and local assessor directory"
+    },
+    {
+      "title": "New York Gaming Commission - Charitable Gaming",
+      "url": "https://www.gaming.ny.gov/gaming/",
+      "description": "Games of chance licensing, raffle permits, bingo regulations, and compliance"
+    },
+    {
+      "title": "Charities Bureau - Right to Know Guide",
+      "url": "https://ag.ny.gov/sites/default/files/charities_publicdocs_rightsofcharitableorg.pdf",
+      "description": "Comprehensive guide explaining charity rights and responsibilities in New York"
+    }
+  ]
+}

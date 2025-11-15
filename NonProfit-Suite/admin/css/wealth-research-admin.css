@@ -1,0 +1,53 @@
+/**
+ * Wealth Research Admin Styles
+ *
+ * @package NonprofitSuite
+ * @subpackage Admin/CSS
+ * @since 1.18.0
+ */
+
+/* Main styles are inline in view files for better organization */
+
+.ns-wealth-research .capacity-badge {
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 3px;
+	font-weight: bold;
+}
+
+.ns-wealth-research-widget {
+	background: #fff;
+	border: 1px solid #ccd0d4;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+.ns-wealth-research-widget h3 {
+	margin-top: 0;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.wealth-research-summary {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+
+.wealth-research-summary .summary-item {
+	padding: 10px;
+	background: #f9f9f9;
+	border-radius: 3px;
+}
+
+.wealth-research-summary .summary-label {
+	font-weight: 600;
+	color: #646970;
+	font-size: 0.9em;
+}
+
+.wealth-research-summary .summary-value {
+	font-size: 1.1em;
+	color: #1d2327;
+	margin-top: 5px;
+}

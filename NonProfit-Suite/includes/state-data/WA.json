@@ -1,0 +1,333 @@
+{
+  "jurisdiction_code": "WA",
+  "jurisdiction_name": "Washington",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "Washington Secretary of State - Corporations Division",
+      "source_url": "https://www.sos.wa.gov/corps/",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Washington Secretary of State - Charities Program",
+      "source_url": "https://www.sos.wa.gov/charities/",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Washington Department of Revenue",
+      "source_url": "https://dor.wa.gov/",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "Washington Secretary of State - Corporations Division",
+  "charitable_registration_agency": "Washington Secretary of State - Charities Program",
+  "exemption_threshold_note": "Organizations with gross receipts under $50,000 annually may be exempt from registration. However, organizations intending to solicit must still register even if below threshold.",
+  "formation_requirements": {
+    "minimum_directors": 3,
+    "initial_filing_fee": 30.00,
+    "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation",
+    "filing_agency": "Washington Secretary of State - Corporations Division",
+    "publication_requirement": false,
+    "registered_agent_required": true,
+    "bylaws_filing_required": false,
+    "notes": "Washington requires a registered agent with a Washington address. Filing fee of $30 is very affordable. Online filing available through Corporations Online system."
+  },
+  "requirements": [
+    {
+      "requirement_id": "WA-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Annual Report for Nonprofit Corporations",
+      "filing_agency": "Washington Secretary of State - Corporations Division",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due by the end of the month preceding the anniversary month (e.g., if incorporated in May, due by April 30)",
+      "fee_amount": 10.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Annual Report",
+      "form_url": "https://www.sos.wa.gov/corps/annualreports.aspx",
+      "online_filing_available": true,
+      "online_filing_url": "https://ccfs.sos.wa.gov/",
+      "required_information": [
+        "Registered agent name and address",
+        "Principal office address",
+        "Names and addresses of officers and directors",
+        "Email address for future correspondence"
+      ],
+      "legal_citation": "RCW 24.03.405",
+      "contact_phone": "360-725-0377",
+      "contact_email": "corps@sos.wa.gov",
+      "notes": "Filing fee is only $10, one of the lowest in the nation. No late fee but administrative dissolution possible if two consecutive years are missed."
+    },
+    {
+      "requirement_id": "WA-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Organization Registration",
+      "filing_agency": "Washington Secretary of State - Charities Program",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting contributions in Washington",
+      "fee_amount": 0.00,
+      "form_number": "Charitable Organization Registration Form",
+      "form_url": "https://www.sos.wa.gov/charities/register-as-a-charity.aspx",
+      "online_filing_available": true,
+      "online_filing_url": "https://www.sos.wa.gov/charities/charity-search.aspx",
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation or organizing documents",
+        "Copy of Bylaws",
+        "List of officers and directors",
+        "Financial statements for most recent fiscal year",
+        "Description of charitable programs"
+      ],
+      "legal_citation": "RCW 19.09.065",
+      "contact_phone": "360-725-0378",
+      "contact_email": "charities@sos.wa.gov",
+      "notes": "Registration is FREE for charitable organizations. Organizations intending to solicit must register even if under $50,000 threshold. Registration is required before soliciting."
+    },
+    {
+      "requirement_id": "WA-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Financial Report (Renewal)",
+      "filing_agency": "Washington Secretary of State - Charities Program",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 135,
+      "due_date_specifics": "Within 4.5 months after fiscal year end (or 6 months if filing IRS extension)",
+      "fee_amount": 0.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Annual Report Form",
+      "form_url": "https://www.sos.wa.gov/charities/annual-renewal.aspx",
+      "online_filing_available": true,
+      "online_filing_url": "https://www.sos.wa.gov/charities/charity-search.aspx",
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "Washington Schedule of Contributions and Expenses",
+        "Professional fundraiser reports (if applicable)",
+        "Updated list of officers and directors"
+      ],
+      "legal_citation": "RCW 19.09.075",
+      "contact_phone": "360-725-0378",
+      "contact_email": "charities@sos.wa.gov",
+      "notes": "Annual renewal is FREE with no late fees. Due within 4.5 months of fiscal year end (6 months if IRS extension filed). Failure to file may result in suspension."
+    },
+    {
+      "requirement_id": "WA-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Retail Sales Tax Exemption Certificate",
+      "filing_agency": "Washington Department of Revenue",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Obtain after receiving IRS 501(c)(3) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Nonprofit Organization Letter Ruling Request",
+      "form_url": "https://dor.wa.gov/forms-publications/forms-subject/tax-exemptions",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Copy of Washington incorporation documents",
+        "Federal Employer Identification Number (FEIN)",
+        "Description of organization's charitable activities",
+        "Request for letter ruling on specific exemptions"
+      ],
+      "legal_citation": "RCW 82.08.02573",
+      "contact_phone": "360-705-6705",
+      "notes": "Washington provides various sales tax exemptions for nonprofits. Organizations should request a letter ruling for specific exemptions. Not all purchases are automatically exempt."
+    },
+    {
+      "requirement_id": "WA-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Property Tax Exemption Application",
+      "filing_agency": "County Assessor",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File by September 1st of assessment year for following tax year",
+      "fee_amount": 0.00,
+      "form_number": "Form 62-A001 - Application for Property Tax Exemption",
+      "form_url": "https://dor.wa.gov/forms-publications/forms-subject/property-tax-forms",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Deed or proof of ownership",
+        "Description of property use for charitable purposes",
+        "Financial statements",
+        "Certification of exclusive charitable use",
+        "Documentation of public benefit"
+      ],
+      "legal_citation": "RCW 84.36.020",
+      "contact_phone": "Varies by county",
+      "notes": "Property must be owned by nonprofit and used exclusively for charitable purposes. Initial application required by September 1st. Once granted, exemption continues if use remains qualifying."
+    },
+    {
+      "requirement_id": "WA-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Gambling License for Raffles",
+      "filing_agency": "Washington State Gambling Commission",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "License valid for one year from issue date",
+      "fee_amount": 25.00,
+      "form_number": "Gambling License Application",
+      "form_url": "https://www.wsgc.wa.gov/licensing/apply-license",
+      "online_filing_available": true,
+      "online_filing_url": "https://fortress.wa.gov/wsgc/apps/LicensingPortal/",
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of 12+ months operation in Washington",
+        "List of officers and gambling managers",
+        "Description of gambling activities",
+        "License fee payment ($25)",
+        "Background check for gambling managers"
+      ],
+      "legal_citation": "RCW 9.46.0209",
+      "contact_phone": "360-486-3440",
+      "notes": "Washington requires gambling license for raffles and other games of chance. Organization must be in existence for 12+ months. Annual reporting required. Prize limits apply."
+    },
+    {
+      "requirement_id": "WA-007",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Bingo License",
+      "filing_agency": "Washington State Gambling Commission",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "License valid for one year from issue date",
+      "fee_amount": 100.00,
+      "form_number": "Bingo License Application",
+      "form_url": "https://www.wsgc.wa.gov/licensing/apply-license",
+      "online_filing_available": true,
+      "online_filing_url": "https://fortress.wa.gov/wsgc/apps/LicensingPortal/",
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of 12+ months operation in Washington",
+        "List of officers and bingo managers",
+        "Venue information and approval",
+        "License fee payment ($100)",
+        "Background checks for managers"
+      ],
+      "legal_citation": "RCW 9.46.0321",
+      "contact_phone": "360-486-3440",
+      "notes": "Bingo license for regular operations. Quarterly activity reports required. Strict operational and prize rules apply."
+    },
+    {
+      "requirement_id": "WA-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Commercial Fundraiser Registration",
+      "filing_agency": "Washington Secretary of State - Charities Program",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 250.00,
+      "form_number": "Commercial Fundraiser Registration Form",
+      "form_url": "https://www.sos.wa.gov/charities/commercial-fundraisers.aspx",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership structure",
+        "List of officers and management",
+        "$25,000 surety bond",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "Registration fee payment ($250)"
+      ],
+      "legal_citation": "RCW 19.09.100",
+      "contact_phone": "360-725-0378",
+      "contact_email": "charities@sos.wa.gov",
+      "notes": "Required for paid commercial fundraisers. Each contract must be filed within 10 days. Bond must remain in effect. Campaign reports required."
+    },
+    {
+      "requirement_id": "WA-009",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Fundraising Counsel Registration",
+      "filing_agency": "Washington Secretary of State - Charities Program",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 250.00,
+      "form_number": "Fundraising Counsel Registration Form",
+      "form_url": "https://www.sos.wa.gov/charities/fundraising-counsel.aspx",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership",
+        "List of officers and management",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "Registration fee payment ($250)"
+      ],
+      "legal_citation": "RCW 19.09.100",
+      "contact_phone": "360-725-0378",
+      "contact_email": "charities@sos.wa.gov",
+      "notes": "Fundraising counsel provides consulting but does not solicit or handle contributions. No bond required. Each contract must be filed."
+    },
+    {
+      "requirement_id": "WA-010",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and may be required for annual renewal",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 135,
+      "due_date_specifics": "Within 135 days after fiscal year end (completed before annual renewal)",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements",
+        "Notes to financial statements",
+        "Management letter (if applicable)"
+      ],
+      "legal_citation": "RCW 19.09.075",
+      "notes": "Washington does not legally mandate audits based solely on revenue, but best practices suggest audits for organizations over $500,000. Federal Single Audit rules may require audits for federal grant recipients."
+    }
+  ],
+  "special_notes": {
+    "free_charity_filing": "Washington provides FREE charitable registration and annual renewal with NO late fees, making it one of the most nonprofit-friendly states for compliance costs.",
+    "no_state_income_tax": "Washington has no state income tax, so organizations do not need to file state income tax exemption applications or returns (except for UBIT).",
+    "low_corporate_fees": "Washington's $30 incorporation fee and $10 annual report fee are among the lowest nationally, reducing barriers to nonprofit formation.",
+    "intent_to_solicit": "Washington requires registration for organizations intending to solicit, even if under the $50,000 threshold. This is broader than some states.",
+    "board_requirements": "Washington nonprofit corporations must have at least three directors. Directors need not be Washington residents.",
+    "twelve_month_gaming": "Washington requires only 12 months (1 year) of operation before charitable gambling, shorter than many states requiring 3-5 years.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions on political campaign intervention and lobbying.",
+    "professional_fundraiser_contracts": "All contracts with commercial fundraisers or fundraising counsel must be filed with the Charities Program within 10 days.",
+    "gambling_commission": "Washington has a dedicated Gambling Commission that oversees all charitable gambling. Regulations are comprehensive and actively enforced.",
+    "property_tax_deadline": "Property tax exemption applications must be filed by September 1st of the assessment year for the following tax year.",
+    "dissolution_requirements": "Upon dissolution, assets must be distributed to organizations with similar charitable purposes. Secretary of State should be notified.",
+    "unrelated_business_income": "Organizations with unrelated business income over $1,000 must file IRS Form 990-T. Washington B&O tax may also apply to UBIT.",
+    "online_systems": "Washington has excellent online filing systems for both corporate filings and charitable registration, making compliance efficient."
+  },
+  "helpful_links": [
+    {
+      "title": "Washington Secretary of State - Charities Program",
+      "url": "https://www.sos.wa.gov/charities/",
+      "description": "Charitable registration, annual renewal, forms, and compliance guidance"
+    },
+    {
+      "title": "Washington Charities Online Portal",
+      "url": "https://www.sos.wa.gov/charities/charity-search.aspx",
+      "description": "Online registration, renewal, and charity search database"
+    },
+    {
+      "title": "Washington Secretary of State - Corporations Division",
+      "url": "https://www.sos.wa.gov/corps/",
+      "description": "Incorporation, annual reports, and business entity information"
+    },
+    {
+      "title": "Washington Corporations Online",
+      "url": "https://ccfs.sos.wa.gov/",
+      "description": "Online filing system for incorporation, annual reports, and business searches"
+    },
+    {
+      "title": "Washington Department of Revenue",
+      "url": "https://dor.wa.gov/",
+      "description": "Sales tax exemptions, B&O tax, and tax forms"
+    },
+    {
+      "title": "Washington State Gambling Commission",
+      "url": "https://www.wsgc.wa.gov/",
+      "description": "Gambling licenses for raffles, bingo, and other charitable gaming"
+    },
+    {
+      "title": "Washington RCW 19.09 - Charitable Solicitations",
+      "url": "https://app.leg.wa.gov/RCW/default.aspx?cite=19.09",
+      "description": "Full text of Washington's charitable solicitation law"
+    }
+  ]
+}

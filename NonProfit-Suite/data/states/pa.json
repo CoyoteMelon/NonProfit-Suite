@@ -1,0 +1,116 @@
+{
+  "state_code": "PA",
+  "state_name": "Pennsylvania",
+  "description": "Pennsylvania nonprofit compliance requirements",
+  "requirements": [
+    {
+      "type": "annual_report",
+      "name": "Decennial Report",
+      "description": "Report filed with the Pennsylvania Department of State every 10 years (not annual)",
+      "frequency": "every_10_years",
+      "due_date": "Every 10 years from incorporation date",
+      "filing_method": "online",
+      "fee": 70,
+      "agency": "Pennsylvania Department of State",
+      "url": "https://www.dos.pa.gov/BusinessCharities/Charities/Pages/default.aspx"
+    },
+    {
+      "type": "charitable_registration",
+      "name": "Charitable Organization Registration (BCO-10)",
+      "description": "Initial registration with the Pennsylvania Department of State Bureau of Charitable Organizations",
+      "frequency": "once",
+      "due_date": "Before soliciting donations",
+      "filing_method": "mail",
+      "fee": 0,
+      "agency": "Pennsylvania Department of State",
+      "url": "https://www.dos.pa.gov/BusinessCharities/Charities/Pages/default.aspx"
+    },
+    {
+      "type": "annual_filing",
+      "name": "Annual Registration (BCO-10)",
+      "description": "Annual financial report filed with the Bureau of Charitable Organizations",
+      "frequency": "annual",
+      "due_date": "135 days after fiscal year end",
+      "filing_method": "mail",
+      "fee": 0,
+      "agency": "Pennsylvania Department of State",
+      "url": "https://www.dos.pa.gov/BusinessCharities/Charities/Pages/default.aspx"
+    },
+    {
+      "type": "tax_filing",
+      "name": "Form 990 Series",
+      "description": "IRS Form 990, 990-EZ, or 990-N required for tax-exempt organizations",
+      "frequency": "annual",
+      "due_date": "5 months after fiscal year end",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Internal Revenue Service",
+      "url": "https://www.irs.gov/forms-pubs/about-form-990"
+    },
+    {
+      "type": "corporate_tax",
+      "name": "PA Corporate Tax Report (RCT-101)",
+      "description": "Pennsylvania corporate tax report for exempt organizations (may be exempt from tax but must file)",
+      "frequency": "annual",
+      "due_date": "15th day of 4th month after fiscal year end",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Pennsylvania Department of Revenue",
+      "url": "https://www.revenue.pa.gov/GeneralTaxInformation/Tax%20Types%20and%20Information/Pages/Corporate-Taxes.aspx"
+    },
+    {
+      "type": "sales_tax",
+      "name": "Sales Tax Exemption Certificate (REV-1715)",
+      "description": "Exemption certificate for qualifying nonprofit purchases",
+      "frequency": "once",
+      "due_date": "Before making exempt purchases",
+      "filing_method": "mail",
+      "fee": 0,
+      "agency": "Pennsylvania Department of Revenue",
+      "url": "https://www.revenue.pa.gov/FormsandPublications/FormsforBusinesses/SUT/Pages/default.aspx"
+    },
+    {
+      "type": "employment",
+      "name": "Unemployment Compensation Registration (UC-2)",
+      "description": "Register with the Pennsylvania Department of Labor & Industry if organization has employees",
+      "frequency": "once",
+      "due_date": "Within 30 days of first hire",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Pennsylvania Department of Labor & Industry",
+      "url": "https://www.uc.pa.gov/employers-uc-services-uc-tax/Pages/default.aspx"
+    },
+    {
+      "type": "solicitation_compliance",
+      "name": "Professional Fundraiser Registration",
+      "description": "Registration required if using professional solicitors",
+      "frequency": "annual",
+      "due_date": "Before engaging solicitor",
+      "filing_method": "mail",
+      "fee": 250,
+      "agency": "Pennsylvania Department of State",
+      "url": "https://www.dos.pa.gov/BusinessCharities/Charities/Pages/default.aspx"
+    }
+  ],
+  "notes": "Pennsylvania has unique requirements including a decennial (10-year) corporate report rather than annual. The Bureau of Charitable Organizations oversees charitable solicitation. Organizations with revenue under $25,000 may be exempt from registration requirements.",
+  "key_agencies": [
+    {
+      "name": "Pennsylvania Department of State - Bureau of Charitable Organizations",
+      "role": "Charitable registration and oversight",
+      "phone": "(717) 783-1720",
+      "website": "https://www.dos.pa.gov/BusinessCharities/Charities/Pages/default.aspx"
+    },
+    {
+      "name": "Pennsylvania Department of State - Bureau of Corporations",
+      "role": "Corporate registration and decennial reports",
+      "phone": "(717) 787-1057",
+      "website": "https://www.dos.pa.gov/BusinessCharities/Business/Pages/default.aspx"
+    },
+    {
+      "name": "Pennsylvania Department of Revenue",
+      "role": "Tax exemptions and corporate tax",
+      "phone": "(717) 787-8201",
+      "website": "https://www.revenue.pa.gov/"
+    }
+  ]
+}

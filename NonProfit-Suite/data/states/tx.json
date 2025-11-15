@@ -1,0 +1,94 @@
+{
+  "state_code": "TX",
+  "state_name": "Texas",
+  "description": "Texas nonprofit compliance requirements",
+  "requirements": [
+    {
+      "type": "annual_report",
+      "name": "Periodic Report (Form 802)",
+      "description": "Annual report filed with the Texas Secretary of State to maintain active status",
+      "frequency": "annual",
+      "due_date": "Between January 1 and May 15",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Texas Secretary of State",
+      "url": "https://www.sos.texas.gov/corp/nonprofit_org.shtml"
+    },
+    {
+      "type": "charitable_registration",
+      "name": "Charitable Organization Registration",
+      "description": "Registration with the Texas Attorney General for organizations soliciting donations (if gross revenue exceeds threshold)",
+      "frequency": "annual",
+      "due_date": "Due within 30 days of solicitation",
+      "filing_method": "mail",
+      "fee": 0,
+      "agency": "Texas Attorney General",
+      "url": "https://www.texasattorneygeneral.gov/charities"
+    },
+    {
+      "type": "tax_filing",
+      "name": "Form 990 Series",
+      "description": "IRS Form 990, 990-EZ, or 990-N required for tax-exempt organizations",
+      "frequency": "annual",
+      "due_date": "5 months after fiscal year end",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Internal Revenue Service",
+      "url": "https://www.irs.gov/forms-pubs/about-form-990"
+    },
+    {
+      "type": "sales_tax",
+      "name": "Sales Tax Exemption Certificate Renewal",
+      "description": "Renew sales tax exemption certificate with the Texas Comptroller",
+      "frequency": "every_4_years",
+      "due_date": "Every 4 years from issuance",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Texas Comptroller of Public Accounts",
+      "url": "https://comptroller.texas.gov/taxes/exempt/"
+    },
+    {
+      "type": "franchise_tax",
+      "name": "Franchise Tax Report",
+      "description": "Texas franchise tax report (most nonprofits are exempt but must file to maintain exemption)",
+      "frequency": "annual",
+      "due_date": "May 15",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Texas Comptroller of Public Accounts",
+      "url": "https://comptroller.texas.gov/taxes/franchise/"
+    },
+    {
+      "type": "employment",
+      "name": "Unemployment Tax Registration",
+      "description": "Register with Texas Workforce Commission if organization has employees",
+      "frequency": "once",
+      "due_date": "Within 10 days of first hire",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Texas Workforce Commission",
+      "url": "https://www.twc.texas.gov/businesses/unemployment-tax-services"
+    }
+  ],
+  "notes": "Texas has relatively light regulatory requirements for nonprofits compared to other states. No state income tax simplifies compliance. Organizations with gross revenue under $50,000 may be exempt from Attorney General registration.",
+  "key_agencies": [
+    {
+      "name": "Texas Secretary of State",
+      "role": "Corporate registration and annual reports",
+      "phone": "(512) 463-5555",
+      "website": "https://www.sos.texas.gov/"
+    },
+    {
+      "name": "Texas Attorney General - Charitable Trusts Section",
+      "role": "Charitable solicitation oversight",
+      "phone": "(512) 463-2018",
+      "website": "https://www.texasattorneygeneral.gov/charities"
+    },
+    {
+      "name": "Texas Comptroller of Public Accounts",
+      "role": "Tax exemption and franchise tax",
+      "phone": "(800) 252-5555",
+      "website": "https://comptroller.texas.gov/"
+    }
+  ]
+}

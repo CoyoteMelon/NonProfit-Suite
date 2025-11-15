@@ -1,0 +1,325 @@
+{
+  "jurisdiction_code": "PA",
+  "jurisdiction_name": "Pennsylvania",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "Pennsylvania Department of State - Bureau of Corporations and Charitable Organizations",
+      "source_url": "https://www.dos.pa.gov/BusinessCharities/Charities/",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Pennsylvania Department of State - Bureau of Corporations",
+      "source_url": "https://www.dos.pa.gov/BusinessCharities/Corporations/",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Pennsylvania Department of Revenue",
+      "source_url": "https://www.revenue.pa.gov/",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "Pennsylvania Department of State - Bureau of Corporations and Charitable Organizations",
+  "charitable_registration_agency": "Pennsylvania Department of State - Bureau of Corporations and Charitable Organizations",
+  "exemption_threshold_note": "Organizations with contributions under $25,000 annually that do not use professional fundraisers may be exempt from registration. Religious organizations and certain others are also exempt.",
+  "formation_requirements": {
+    "minimum_directors": 3,
+    "initial_filing_fee": 125.00,
+    "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation (Form DSCB:15-5306/7102)",
+    "filing_agency": "Pennsylvania Department of State - Bureau of Corporations",
+    "publication_requirement": false,
+    "registered_agent_required": false,
+    "bylaws_filing_required": false,
+    "notes": "Pennsylvania does not require a registered agent but requires a registered office address in Pennsylvania. Nonprofit corporations can be formed as public benefit, mutual benefit, or religious corporations."
+  },
+  "requirements": [
+    {
+      "requirement_id": "PA-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Decennial Report",
+      "filing_agency": "Pennsylvania Department of State - Bureau of Corporations and Charitable Organizations",
+      "frequency": "decennial",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due every 10 years during anniversary month of incorporation",
+      "fee_amount": 70.00,
+      "form_number": "Form DSCB:15-5630",
+      "form_url": "https://www.dos.pa.gov/BusinessCharities/Business/Resources/Pages/Corporation-Forms.aspx",
+      "online_filing_available": true,
+      "online_filing_url": "https://file.dos.pa.gov/",
+      "required_information": [
+        "Names and addresses of current officers and directors",
+        "Registered office address",
+        "Nature of activities",
+        "Confirmation of ongoing operations"
+      ],
+      "legal_citation": "15 Pa.C.S. § 5306",
+      "contact_phone": "717-787-1057",
+      "contact_email": "corps@pa.gov",
+      "notes": "Unlike most states, Pennsylvania requires corporate reports only every 10 years, not annually. However, charitable organizations must still file annual financial reports with Bureau of Charitable Organizations."
+    },
+    {
+      "requirement_id": "PA-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Organization Registration",
+      "filing_agency": "Pennsylvania Department of State - Bureau of Corporations and Charitable Organizations",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting contributions in Pennsylvania",
+      "fee_amount": 0.00,
+      "form_number": "Form BCO-10 - Charitable Organization Registration Statement",
+      "form_url": "https://www.dos.pa.gov/BusinessCharities/Charities/Resources/Documents/Charities/BCO-10%20fillable.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation or equivalent organizing document",
+        "Copy of Bylaws",
+        "List of officers, directors, and trustees with addresses",
+        "Financial statements for most recent fiscal year",
+        "Registration fee payment (if applicable)"
+      ],
+      "legal_citation": "10 P.S. § 162.5",
+      "contact_phone": "717-783-1720",
+      "contact_email": "st-charity@pa.gov",
+      "notes": "Registration is required before soliciting in Pennsylvania. Small organizations (<$25,000 contributions without professional fundraiser) are exempt but may voluntarily register."
+    },
+    {
+      "requirement_id": "PA-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Financial Report",
+      "filing_agency": "Pennsylvania Department of State - Bureau of Corporations and Charitable Organizations",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 135,
+      "due_date_specifics": "Within 135 days (4.5 months) after fiscal year end",
+      "fee_amount": 0.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Form BCO-10 - Annual Financial Report",
+      "form_url": "https://www.dos.pa.gov/BusinessCharities/Charities/Resources/Documents/Charities/BCO-10%20fillable.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "Audited financial statements (if required)",
+        "Professional fundraiser contracts and reports",
+        "Updated list of officers and directors",
+        "Registration fee payment"
+      ],
+      "legal_citation": "10 P.S. § 162.8",
+      "contact_phone": "717-783-1720",
+      "contact_email": "st-charity@pa.gov",
+      "notes": "Registration fee schedule based on contributions: $0-$25k: exempt; $25k-$100k: $0; $100k-$250k: $50; $250k-$1M: $100; $1M-$5M: $150; $5M-$10M: $200; >$10M: $250."
+    },
+    {
+      "requirement_id": "PA-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Pennsylvania Sales Tax Exemption Certificate",
+      "filing_agency": "Pennsylvania Department of Revenue",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Obtain after receiving IRS 501(c)(3) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form REV-1715 - PA Nonprofit Sales and Use Tax Exemption",
+      "form_url": "https://www.revenue.pa.gov/FormsandPublications/FormsforBusinesses/SUT/Documents/rev-1715.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Copy of Pennsylvania incorporation or registration documents",
+        "Federal Employer Identification Number (FEIN)",
+        "Description of organization's activities"
+      ],
+      "legal_citation": "72 P.S. § 7204(3)",
+      "contact_phone": "717-787-1064",
+      "notes": "Once approved, exemption certificate does not expire. Exemption applies to purchases made for the organization's direct use in charitable activities. Not all purchases are exempt - review specific exemptions."
+    },
+    {
+      "requirement_id": "PA-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Real Estate Tax Exemption Application",
+      "filing_agency": "County Assessment Office and Court of Common Pleas",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File before tax bills are issued for the year",
+      "fee_amount": 0.00,
+      "form_number": "Varies by county - Petition for Exemption",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Deed or proof of ownership",
+        "Description of property use for charitable purposes",
+        "Financial statements",
+        "Evidence of charitable activities benefiting the general public",
+        "Court petition if required"
+      ],
+      "legal_citation": "72 P.S. § 5020-204",
+      "contact_phone": "Varies by county",
+      "notes": "Pennsylvania property tax exemption requires: (1) nonprofit ownership, (2) actual use for charitable purposes, (3) benefiting indefinite number of persons (general public), (4) gratuitous service, (5) legitimate charitable purpose. Must meet all five criteria. Some counties require court approval."
+    },
+    {
+      "requirement_id": "PA-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Small Games of Chance License",
+      "filing_agency": "County Treasurer or Local Municipality",
+      "frequency": "annual",
+      "due_date_calculation": "calendar_year",
+      "due_date_specifics": "License valid for calendar year; must renew annually",
+      "fee_amount": 25.00,
+      "form_number": "Small Games of Chance License Application",
+      "form_url": "Varies by county",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of incorporation or registration in Pennsylvania",
+        "List of officers and directors",
+        "Description of games to be conducted",
+        "License fee payment",
+        "Evidence of 1+ year existence"
+      ],
+      "legal_citation": "10 P.S. § 326",
+      "contact_phone": "Varies by county/municipality",
+      "notes": "Pennsylvania allows small games of chance (raffles, daily drawings, weekly drawings, bazaars, bingo) for qualified nonprofits existing 1+ year. Annual prize limit per game varies. Proceeds must benefit charitable purposes."
+    },
+    {
+      "requirement_id": "PA-007",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Special Raffle Permit (Prizes Over $1,000)",
+      "filing_agency": "County Treasurer",
+      "frequency": "per_event",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File application before conducting raffle",
+      "fee_amount": 100.00,
+      "form_number": "Special Raffle Permit Application",
+      "form_url": "Varies by county",
+      "online_filing_available": false,
+      "required_information": [
+        "Current Small Games of Chance License",
+        "Description of raffle prizes (value >$1,000)",
+        "Proposed ticket price and quantity",
+        "Date and location of drawing",
+        "Permit fee payment"
+      ],
+      "legal_citation": "10 P.S. § 327",
+      "contact_phone": "Varies by county",
+      "notes": "Required for raffles with prizes exceeding $1,000 per chance. Limited to one special raffle per license year. Maximum prize $100,000. Organization must have Small Games of Chance license."
+    },
+    {
+      "requirement_id": "PA-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Solicitor Registration",
+      "filing_agency": "Pennsylvania Department of State - Bureau of Corporations and Charitable Organizations",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 250.00,
+      "form_number": "Form BCO-4 - Professional Solicitor Registration",
+      "form_url": "https://www.dos.pa.gov/BusinessCharities/Charities/Resources/Documents/Fundraisers/BCO-4%20fillable.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership structure",
+        "List of officers and persons with management responsibility",
+        "$25,000 surety bond",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "Registration fee payment"
+      ],
+      "legal_citation": "10 P.S. § 162.10",
+      "contact_phone": "717-783-1720",
+      "contact_email": "st-charity@pa.gov",
+      "notes": "Required for paid professional fundraisers who solicit on behalf of charities. Each contract with a charity must be filed (Form BCO-11) before solicitation begins. Bond must be maintained throughout registration."
+    },
+    {
+      "requirement_id": "PA-009",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Fundraising Counsel Registration",
+      "filing_agency": "Pennsylvania Department of State - Bureau of Corporations and Charitable Organizations",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 250.00,
+      "form_number": "Form BCO-5 - Fundraising Counsel Registration",
+      "form_url": "https://www.dos.pa.gov/BusinessCharities/Charities/Resources/Documents/Fundraisers/BCO-5%20fillable.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership",
+        "List of officers and management personnel",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "Registration fee payment"
+      ],
+      "legal_citation": "10 P.S. § 162.11",
+      "contact_phone": "717-783-1720",
+      "contact_email": "st-charity@pa.gov",
+      "notes": "Fundraising counsel provides consulting services but does not solicit or handle contributions. No bond required. Each contract must be filed before providing services."
+    },
+    {
+      "requirement_id": "PA-010",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and included in BCO-10 filing",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 135,
+      "due_date_specifics": "Within 135 days after fiscal year end (completed before BCO-10 due date)",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements",
+        "Notes to financial statements",
+        "Management letter (if applicable)"
+      ],
+      "legal_citation": "10 P.S. § 162.8(a)",
+      "notes": "Pennsylvania requires audited financial statements for organizations with gross contributions over $300,000. Organizations under $300,000 may file internally prepared financial statements. Audit must be performed by independent CPA."
+    }
+  ],
+  "special_notes": {
+    "decennial_filing": "Pennsylvania is unique in requiring corporate reports only every 10 years (Decennial Report). However, charitable organizations must still file annual financial reports with the Bureau of Charitable Organizations.",
+    "registration_fee_schedule": "Annual charitable registration fees are based on contribution levels, ranging from $0 (for organizations under $100K) to $250 (for organizations over $10M).",
+    "board_requirements": "Pennsylvania nonprofit corporations must have at least three directors. Directors need not be Pennsylvania residents but must act in good faith and in the organization's best interest.",
+    "five_part_test": "Pennsylvania uses a strict five-part test for property tax exemption: (1) nonprofit ownership, (2) charitable use, (3) benefits general public, (4) gratuitous service, (5) legitimate purpose. All five must be satisfied.",
+    "professional_fundraiser_contracts": "All contracts with professional solicitors or fundraising counsel must be filed with the Bureau before solicitation begins using Form BCO-11. This is in addition to the fundraiser's own registration.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions on political campaign intervention and lobbying activities. Pennsylvania law reinforces these federal limits.",
+    "small_games_of_chance": "Pennsylvania allows various small games of chance for nonprofits, but regulations are complex. Prize limits, frequency limits, and reporting requirements apply. Consult county regulations.",
+    "audit_threshold": "Pennsylvania's audit threshold is $300,000 in gross contributions, lower than many states. Organizations should track contributions carefully to determine audit requirements.",
+    "dissolution_requirements": "Upon dissolution, assets must be distributed to organizations with similar charitable purposes or to government. Court approval may be required depending on circumstances.",
+    "unrelated_business_income": "Organizations with unrelated business income over $1,000 must file IRS Form 990-T and may owe Pennsylvania Corporate Net Income Tax on UBIT.",
+    "professional_solicitor_disclosure": "Professional solicitors must disclose certain information to prospective donors, including that they are paid solicitors and the charity's name and contact information.",
+    "county_variations": "Gaming licenses and property tax exemptions are administered at the county level with significant variations. Contact local officials for specific requirements."
+  },
+  "helpful_links": [
+    {
+      "title": "Pennsylvania Bureau of Corporations and Charitable Organizations",
+      "url": "https://www.dos.pa.gov/BusinessCharities/Charities/",
+      "description": "Primary portal for charitable organization registration, annual reports, forms, and compliance"
+    },
+    {
+      "title": "Pennsylvania Bureau of Corporations",
+      "url": "https://www.dos.pa.gov/BusinessCharities/Corporations/",
+      "description": "Incorporation, corporate filings, decennial reports, and business entity searches"
+    },
+    {
+      "title": "Pennsylvania Department of State - Online Filing",
+      "url": "https://file.dos.pa.gov/",
+      "description": "Online filing system for corporate documents including decennial reports"
+    },
+    {
+      "title": "Pennsylvania Charities Search",
+      "url": "https://www.dos.pa.gov/BusinessCharities/Charities/Resources/Pages/Charity-Search.aspx",
+      "description": "Search database of registered charitable organizations and their compliance status"
+    },
+    {
+      "title": "Pennsylvania Department of Revenue",
+      "url": "https://www.revenue.pa.gov/",
+      "description": "Sales tax exemption, corporate taxes, and tax forms and guidance"
+    },
+    {
+      "title": "Pennsylvania Local Government Commission - Small Games of Chance",
+      "url": "https://lgc.pa.gov/",
+      "description": "Information about small games of chance regulations and local licensing"
+    },
+    {
+      "title": "Pennsylvania Solicitation of Funds for Charitable Purposes Act",
+      "url": "https://www.legis.state.pa.us/cfdocs/legis/LI/consCheck.cfm?txtType=HTM&ttl=10&div=0&chpt=1",
+      "description": "Full text of Pennsylvania's charitable solicitation law (10 P.S. § 162.1 et seq.)"
+    }
+  ]
+}

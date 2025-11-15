@@ -1,0 +1,105 @@
+{
+  "state_code": "CA",
+  "state_name": "California",
+  "description": "California nonprofit compliance requirements",
+  "requirements": [
+    {
+      "type": "annual_report",
+      "name": "Statement of Information (SI-100)",
+      "description": "Annual statement filed with the California Secretary of State providing current information about the nonprofit corporation",
+      "frequency": "annual",
+      "due_date": "Within 90 days after close of fiscal year",
+      "filing_method": "online",
+      "fee": 20,
+      "agency": "California Secretary of State",
+      "url": "https://bizfilenonline.sos.ca.gov/"
+    },
+    {
+      "type": "charitable_registration",
+      "name": "Charitable Registration (CT-1)",
+      "description": "Initial registration with the Registry of Charitable Trusts for organizations soliciting donations in California",
+      "frequency": "once",
+      "due_date": "Within 30 days of first receiving assets",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "California Attorney General",
+      "url": "https://oag.ca.gov/charities/registration"
+    },
+    {
+      "type": "annual_filing",
+      "name": "Annual Report of Charitable Trust (RRF-1)",
+      "description": "Annual financial report filed with the Attorney General's Registry of Charitable Trusts",
+      "frequency": "annual",
+      "due_date": "4.5 months after close of fiscal year",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "California Attorney General",
+      "url": "https://rct.doj.ca.gov/Verification/Web/Login.aspx"
+    },
+    {
+      "type": "tax_filing",
+      "name": "Form 990 Series",
+      "description": "IRS Form 990, 990-EZ, or 990-N required for tax-exempt organizations",
+      "frequency": "annual",
+      "due_date": "5 months after fiscal year end",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Internal Revenue Service",
+      "url": "https://www.irs.gov/forms-pubs/about-form-990"
+    },
+    {
+      "type": "franchise_tax",
+      "name": "Exempt Organization Annual Information Return (Form 199)",
+      "description": "California Franchise Tax Board annual information return for exempt organizations",
+      "frequency": "annual",
+      "due_date": "15th day of 5th month after fiscal year end",
+      "filing_method": "online",
+      "fee": 10,
+      "agency": "California Franchise Tax Board",
+      "url": "https://www.ftb.ca.gov/forms/2022/2022-199-instructions.html"
+    },
+    {
+      "type": "solicitation_compliance",
+      "name": "Commercial Fundraiser Registration",
+      "description": "Registration required if using commercial fundraisers or fundraising counsel",
+      "frequency": "annual",
+      "due_date": "Annually or upon renewal",
+      "filing_method": "online",
+      "fee": 200,
+      "agency": "California Attorney General",
+      "url": "https://oag.ca.gov/charities/fundraisers"
+    },
+    {
+      "type": "employment",
+      "name": "Unemployment Insurance Registration",
+      "description": "Register with the Employment Development Department if organization has employees",
+      "frequency": "once",
+      "due_date": "Within 15 days of first hire",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "California EDD",
+      "url": "https://edd.ca.gov/en/Payroll_Taxes/"
+    }
+  ],
+  "notes": "California has robust nonprofit oversight with requirements through both the Secretary of State and Attorney General's office. The Registry of Charitable Trusts closely monitors organizations receiving donations.",
+  "key_agencies": [
+    {
+      "name": "California Secretary of State",
+      "role": "Corporate registration and annual statements",
+      "phone": "(916) 653-6814",
+      "website": "https://www.sos.ca.gov/"
+    },
+    {
+      "name": "California Attorney General - Registry of Charitable Trusts",
+      "role": "Charitable solicitation oversight",
+      "phone": "(916) 210-6400",
+      "website": "https://oag.ca.gov/charities"
+    },
+    {
+      "name": "California Franchise Tax Board",
+      "role": "Tax compliance for exempt organizations",
+      "phone": "(800) 852-5711",
+      "website": "https://www.ftb.ca.gov/"
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "state_code": "NY",
+  "state_name": "New York",
+  "description": "New York nonprofit compliance requirements",
+  "requirements": [
+    {
+      "type": "annual_report",
+      "name": "Biennial Statement (Form DOS-1513)",
+      "description": "Statement filed with the New York Department of State every two years",
+      "frequency": "biennial",
+      "due_date": "Every 2 years in the calendar month of incorporation",
+      "filing_method": "online",
+      "fee": 25,
+      "agency": "New York Department of State",
+      "url": "https://dos.ny.gov/biennial-statement-domestic-not-profit-corporations"
+    },
+    {
+      "type": "charitable_registration",
+      "name": "Charitable Registration (CHAR410)",
+      "description": "Initial registration with the New York Attorney General Charities Bureau",
+      "frequency": "once",
+      "due_date": "Before soliciting donations",
+      "filing_method": "online",
+      "fee": 25,
+      "agency": "New York Attorney General",
+      "url": "https://www.charitiesnys.com/"
+    },
+    {
+      "type": "annual_filing",
+      "name": "Annual Filing for Charitable Organizations (CHAR500)",
+      "description": "Annual financial report filed with the Attorney General's Charities Bureau",
+      "frequency": "annual",
+      "due_date": "4.5 months after fiscal year end",
+      "filing_method": "online",
+      "fee": 25,
+      "agency": "New York Attorney General",
+      "url": "https://www.charitiesnys.com/"
+    },
+    {
+      "type": "tax_filing",
+      "name": "Form 990 Series",
+      "description": "IRS Form 990, 990-EZ, or 990-N required for tax-exempt organizations",
+      "frequency": "annual",
+      "due_date": "5 months after fiscal year end",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Internal Revenue Service",
+      "url": "https://www.irs.gov/forms-pubs/about-form-990"
+    },
+    {
+      "type": "sales_tax",
+      "name": "Sales Tax Exemption Certificate (Form ST-119)",
+      "description": "Exempt organization certificate for purchases exempt from sales tax",
+      "frequency": "once",
+      "due_date": "Before making exempt purchases",
+      "filing_method": "mail",
+      "fee": 0,
+      "agency": "New York State Department of Taxation and Finance",
+      "url": "https://www.tax.ny.gov/pdf/current_forms/st/st119.pdf"
+    },
+    {
+      "type": "employment",
+      "name": "Unemployment Insurance Registration",
+      "description": "Register with the New York State Department of Labor if organization has employees",
+      "frequency": "once",
+      "due_date": "Within 20 days of first hire",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "New York State Department of Labor",
+      "url": "https://dol.ny.gov/unemployment/employers"
+    },
+    {
+      "type": "solicitation_compliance",
+      "name": "Professional Fundraiser Registration",
+      "description": "Registration required if using professional fundraisers",
+      "frequency": "annual",
+      "due_date": "Before engaging fundraiser",
+      "filing_method": "online",
+      "fee": 200,
+      "agency": "New York Attorney General",
+      "url": "https://www.charitiesnys.com/"
+    },
+    {
+      "type": "audit_requirement",
+      "name": "Independent Audit (if applicable)",
+      "description": "Organizations with gross revenue over $500,000 must have independent audit",
+      "frequency": "annual",
+      "due_date": "Within fiscal year filing deadline",
+      "filing_method": "submission",
+      "fee": 0,
+      "agency": "New York Attorney General",
+      "url": "https://www.charitiesnys.com/"
+    }
+  ],
+  "notes": "New York has some of the most stringent nonprofit oversight in the country. The Attorney General's Charities Bureau actively monitors compliance and can impose penalties for late filings. Organizations with revenue over $500,000 must submit audited financial statements.",
+  "key_agencies": [
+    {
+      "name": "New York Department of State",
+      "role": "Corporate registration and biennial statements",
+      "phone": "(518) 473-2492",
+      "website": "https://dos.ny.gov/"
+    },
+    {
+      "name": "New York Attorney General - Charities Bureau",
+      "role": "Charitable registration and oversight",
+      "phone": "(212) 416-8401",
+      "website": "https://ag.ny.gov/charities"
+    },
+    {
+      "name": "New York State Department of Taxation and Finance",
+      "role": "Sales tax exemptions",
+      "phone": "(518) 457-5181",
+      "website": "https://www.tax.ny.gov/"
+    }
+  ]
+}

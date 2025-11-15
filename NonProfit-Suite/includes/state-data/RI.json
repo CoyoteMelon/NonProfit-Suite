@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "RI",
+  "jurisdiction_name": "Rhode Island",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Rhode Island Secretary of State", "source_url": "https://www.sos.ri.gov/", "last_accessed": "2025-11-12"}, {"source_name": "Rhode Island Attorney General", "source_url": "https://riag.ri.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Rhode Island Secretary of State - Business Services Division",
+  "charitable_registration_agency": "Rhode Island Department of Business Regulation",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 35.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Rhode Island Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "RI-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "Rhode Island Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "Anniversary month of incorporation", "fee_amount": 50.00, "legal_citation": "R.I. Gen. Laws § 7-6-54", "notes": "Annual report fee $50."},
+    {"requirement_id": "RI-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Rhode Island Department of Business Regulation", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 175.00, "legal_citation": "R.I. Gen. Laws § 5-53-3", "notes": "Initial registration $175."},
+    {"requirement_id": "RI-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Registration Renewal", "filing_agency": "Rhode Island Department of Business Regulation", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 175.00, "notes": "Annual renewal $175."},
+    {"requirement_id": "RI-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Rhode Island Sales Tax Exemption Certificate", "filing_agency": "Rhode Island Division of Taxation", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form RI-SALES-5 - Sales Tax Exemption Certificate", "legal_citation": "R.I. Gen. Laws § 44-18-30", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "RI-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "City/Town Assessor", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "December 31st annually", "fee_amount": 0.00, "legal_citation": "R.I. Gen. Laws § 44-3-3", "notes": "Annual application by December 31st."},
+    {"requirement_id": "RI-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle License", "filing_agency": "Rhode Island Department of Business Regulation - Division of Gaming", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 25.00, "legal_citation": "R.I. Gen. Laws § 11-19-1", "notes": "Raffles permitted for qualified nonprofits. $25 license fee."},
+    {"requirement_id": "RI-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Rhode Island Department of Business Regulation", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 550.00, "legal_citation": "R.I. Gen. Laws § 5-53-3", "notes": "$550 fee - highest in the nation. Bond required."},
+    {"requirement_id": "RI-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"highest_fundraiser_fee": "Rhode Island has the highest professional fundraiser registration fee in the nation at $550.", "high_charity_fees": "Charitable registration fees of $175 are among the highest."},
+  "helpful_links": [{"title": "Rhode Island Secretary of State", "url": "https://www.sos.ri.gov/", "description": "Incorporation and compliance"}]
+}

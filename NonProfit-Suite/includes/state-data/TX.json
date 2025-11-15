@@ -1,0 +1,289 @@
+{
+  "jurisdiction_code": "TX",
+  "jurisdiction_name": "Texas",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "Texas Secretary of State",
+      "source_url": "https://www.sos.texas.gov/corp/nonprofit_org.shtml",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Texas Attorney General - Charitable Organizations",
+      "source_url": "https://www.texasattorneygeneral.gov/charitable-trusts",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Texas Comptroller of Public Accounts",
+      "source_url": "https://comptroller.texas.gov/taxes/exempt/",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "Texas Secretary of State - Corporations Section",
+  "charitable_registration_agency": "Texas Attorney General - Charitable Trusts Section",
+  "exemption_threshold_note": "Organizations with gross receipts under $50,000 annually are generally exempt from charitable registration, but may voluntarily register.",
+  "formation_requirements": {
+    "minimum_directors": 3,
+    "initial_filing_fee": 25.00,
+    "certificate_of_formation": "Form 202 - Certificate of Formation - Nonprofit Corporation",
+    "filing_agency": "Texas Secretary of State",
+    "publication_requirement": false,
+    "registered_agent_required": true,
+    "bylaws_filing_required": false,
+    "notes": "Texas requires a registered agent with a physical Texas address. Incorporators may use professional registered agent services."
+  },
+  "requirements": [
+    {
+      "requirement_id": "TX-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Periodic Report (Form 802)",
+      "filing_agency": "Texas Secretary of State",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due by May 15th each year for all entities regardless of formation date",
+      "fee_amount": 0.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Form 802",
+      "form_url": "https://www.sos.texas.gov/corp/forms/802_boc.pdf",
+      "online_filing_available": true,
+      "online_filing_url": "https://direct.sos.state.tx.us/",
+      "required_information": [
+        "Organization's legal name and file number",
+        "Registered agent name and address",
+        "Registered office address",
+        "Names and addresses of directors/officers",
+        "Purpose of organization"
+      ],
+      "legal_citation": "Texas Business Organizations Code § 22.353",
+      "contact_phone": "512-463-5555",
+      "contact_email": "corpinfo@sos.texas.gov",
+      "notes": "Filing is free but required. Failure to file can result in involuntary termination of the corporation."
+    },
+    {
+      "requirement_id": "TX-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Organization Registration",
+      "filing_agency": "Texas Attorney General - Charitable Trusts Section",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting donations in Texas, if gross receipts exceed $50,000 annually",
+      "fee_amount": 0.00,
+      "form_number": "Form 802-Q",
+      "form_url": "https://www.texasattorneygeneral.gov/sites/default/files/files/divisions/charitable-trusts/802Q.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "IRS Form 990 or 990-EZ",
+        "Articles of Incorporation",
+        "Bylaws",
+        "List of directors and officers",
+        "Financial statements"
+      ],
+      "legal_citation": "Texas Business Organizations Code § 22.352",
+      "contact_phone": "512-463-2185",
+      "contact_email": "charitable.trusts@oag.texas.gov",
+      "notes": "Texas does not require annual renewal, but organizations must file Form 802 updates with changes. Organizations under $50,000 gross receipts are exempt from registration."
+    },
+    {
+      "requirement_id": "TX-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Form 802 Filing with Attorney General",
+      "filing_agency": "Texas Attorney General - Charitable Trusts Section",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due by May 15th each year (same as SOS filing)",
+      "fee_amount": 0.00,
+      "form_number": "Form 802",
+      "form_url": "https://www.texasattorneygeneral.gov/sites/default/files/files/divisions/charitable-trusts/802.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Current IRS Form 990, 990-EZ, or 990-PF",
+        "Updated list of directors and officers",
+        "Any amendments to governing documents"
+      ],
+      "legal_citation": "Texas Business Organizations Code § 22.353",
+      "contact_phone": "512-463-2185",
+      "contact_email": "charitable.trusts@oag.texas.gov",
+      "notes": "This is separate from the Secretary of State Form 802. Both must be filed. The AG version must include the IRS Form 990."
+    },
+    {
+      "requirement_id": "TX-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Sales Tax Exemption Certificate (Form AP-204)",
+      "filing_agency": "Texas Comptroller of Public Accounts",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File after receiving IRS 501(c) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form AP-204",
+      "form_url": "https://comptroller.texas.gov/forms/01-339.pdf",
+      "online_filing_available": true,
+      "online_filing_url": "https://comptroller.texas.gov/taxes/exempt/",
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation",
+        "Organization's FEIN",
+        "Description of activities"
+      ],
+      "legal_citation": "Texas Tax Code § 151.310",
+      "contact_phone": "800-252-5555",
+      "contact_email": "tax.help@cpa.texas.gov",
+      "notes": "Once approved, exemption does not expire. Organizations receive an exemption number to provide to vendors. Sales tax exemption does not apply to all purchases - review specific exemptions."
+    },
+    {
+      "requirement_id": "TX-005",
+      "requirement_type": "Franchise Tax Exemption",
+      "requirement_name": "Franchise Tax Exemption Application (Form AP-204)",
+      "filing_agency": "Texas Comptroller of Public Accounts",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File after receiving IRS 501(c) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form AP-204",
+      "form_url": "https://comptroller.texas.gov/forms/01-339.pdf",
+      "online_filing_available": true,
+      "online_filing_url": "https://comptroller.texas.gov/taxes/exempt/",
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation",
+        "Organization's FEIN"
+      ],
+      "legal_citation": "Texas Tax Code § 171.063",
+      "contact_phone": "800-252-5555",
+      "contact_email": "tax.help@cpa.texas.gov",
+      "notes": "Same application (AP-204) covers both sales tax and franchise tax exemption. Most 501(c)(3) organizations are automatically exempt from franchise tax once registered."
+    },
+    {
+      "requirement_id": "TX-006",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Property Tax Exemption Application",
+      "filing_agency": "County Appraisal District (where property is located)",
+      "frequency": "annual",
+      "due_date_calculation": "fixed_date",
+      "due_date_specifics": "April 30th each year for property owned on January 1st",
+      "fee_amount": 0.00,
+      "form_number": "Form 50-123 or 50-114",
+      "form_url": "https://comptroller.texas.gov/forms/50-123.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Description of property use",
+        "Proof of exclusive use for charitable purposes",
+        "Financial statements showing charitable activities"
+      ],
+      "legal_citation": "Texas Tax Code § 11.18",
+      "contact_phone": "Varies by county",
+      "notes": "Property must be owned by the exempt organization and used exclusively for charitable purposes. Exemption must be applied for annually unless organization receives written notice of approval for future years. Contact your county appraisal district for specific forms and procedures."
+    },
+    {
+      "requirement_id": "TX-007",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Raffle License Application",
+      "filing_agency": "Texas Lottery Commission (for raffles over $50,000) or local authorities",
+      "frequency": "per_event",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File application at least 30 days before raffle event",
+      "fee_amount": 0.00,
+      "form_number": "Raffle Registration Form",
+      "form_url": "https://www.txlottery.org/export/sites/lottery/Games/Charitable_Bingo/index.html",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Raffle rules and procedures",
+        "Prize description and value",
+        "Expected ticket sales",
+        "Board resolution authorizing raffle"
+      ],
+      "legal_citation": "Texas Occupations Code Chapter 2002",
+      "contact_phone": "800-375-6886",
+      "notes": "Texas allows qualified nonprofits to conduct up to two raffles per calendar year. Total prizes cannot exceed $50,000 per raffle for most organizations. Organizations existing for at least 3 years may conduct raffles with prizes exceeding $50,000 with proper registration."
+    },
+    {
+      "requirement_id": "TX-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Solicitor Registration",
+      "filing_agency": "Texas Secretary of State",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 250.00,
+      "form_number": "Professional Solicitor Registration Form",
+      "form_url": "https://www.sos.texas.gov/corp/forms/solicitor.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Solicitor's business information",
+        "List of persons with management responsibility",
+        "Sample contracts with charities",
+        "$10,000 bond or letter of credit"
+      ],
+      "legal_citation": "Texas Business and Commerce Code § 17.901",
+      "contact_phone": "512-463-5555",
+      "contact_email": "corpinfo@sos.texas.gov",
+      "notes": "Required for professional fundraisers who solicit on behalf of charitable organizations. Paid employees of a charity are generally exempt. Bond must be maintained throughout registration period."
+    },
+    {
+      "requirement_id": "TX-009",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and provided to Attorney General upon request",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 180 days after fiscal year end",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements",
+        "Notes to financial statements",
+        "Management letter (if applicable)"
+      ],
+      "legal_citation": "Texas Business Organizations Code § 22.355",
+      "notes": "Required for charitable organizations with gross receipts over $1,000,000. Organizations between $250,000-$1,000,000 must have an independent review. Organizations under $250,000 may prepare internal financial statements. Audit must be performed by independent CPA."
+    }
+  ],
+  "special_notes": {
+    "dual_filing_requirement": "Texas nonprofits must file Form 802 with BOTH the Secretary of State and the Attorney General each year. These are separate filings with different requirements.",
+    "no_renewal_registration": "Unlike many states, Texas does not require annual charitable registration renewal. Once registered with the Attorney General, organizations only need to file annual Form 802 updates.",
+    "board_requirements": "Texas nonprofit corporations must have at least three directors. Directors may not receive compensation for their service as directors, but may be reimbursed for reasonable expenses.",
+    "political_activity_limits": "501(c)(3) organizations in Texas must comply with federal restrictions on political campaign intervention and lobbying activities. Violations can result in loss of tax-exempt status.",
+    "unrelated_business_income": "Texas follows federal UBIT rules. Organizations with unrelated business income over $1,000 must file IRS Form 990-T and may owe franchise tax on that income.",
+    "dissolution_requirements": "Upon dissolution, Texas nonprofits must distribute assets to other 501(c)(3) organizations or to federal, state, or local government for public purposes per Articles of Incorporation.",
+    "county_variations": "Property tax exemption procedures and requirements vary by county. Contact your local county appraisal district for specific requirements and deadlines.",
+    "gaming_restrictions": "Texas has strict gaming laws. Only raffles are permitted for nonprofits, and organizations must meet specific criteria. Bingo requires separate licensing. Most other forms of gambling are prohibited.",
+    "financial_thresholds": "Many Texas nonprofit requirements are threshold-based: $50,000 for charitable registration, $250,000 for financial review, $1,000,000 for audit. Track gross receipts carefully.",
+    "professional_solicitor_bond": "Professional fundraisers must maintain a $10,000 surety bond or irrevocable letter of credit. This protects charities from fraud or misappropriation of funds."
+  },
+  "helpful_links": [
+    {
+      "title": "Texas Secretary of State - Nonprofit Organizations",
+      "url": "https://www.sos.texas.gov/corp/nonprofit_org.shtml",
+      "description": "Primary resource for nonprofit formation, Form 802 filing, and corporate compliance"
+    },
+    {
+      "title": "Texas Attorney General - Charitable Trusts",
+      "url": "https://www.texasattorneygeneral.gov/charitable-trusts",
+      "description": "Charitable registration requirements, Form 802-Q, annual reporting, and charitable solicitation rules"
+    },
+    {
+      "title": "Texas Comptroller - Tax Exemptions",
+      "url": "https://comptroller.texas.gov/taxes/exempt/",
+      "description": "Sales tax exemption, franchise tax exemption, Form AP-204, and exemption certificate information"
+    },
+    {
+      "title": "Texas Comptroller - Property Tax Exemptions",
+      "url": "https://comptroller.texas.gov/taxes/property-tax/exemptions/",
+      "description": "Property tax exemption requirements, forms, and procedures for charitable organizations"
+    },
+    {
+      "title": "Texas Appraisal Districts Directory",
+      "url": "https://comptroller.texas.gov/taxes/property-tax/county-directory/",
+      "description": "Directory of county appraisal districts for property tax exemption applications"
+    },
+    {
+      "title": "Texas Lottery Commission - Charitable Raffles",
+      "url": "https://www.txlottery.org/export/sites/lottery/Games/Charitable_Bingo/index.html",
+      "description": "Raffle rules, registration requirements, and charitable gaming regulations"
+    }
+  ]
+}

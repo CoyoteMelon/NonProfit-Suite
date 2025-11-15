@@ -1,0 +1,210 @@
+/**
+ * Background Check Consent Form Styles
+ *
+ * @package NonprofitSuite
+ * @subpackage Public/CSS
+ * @since 1.18.0
+ */
+
+.ns-background-check-consent-form {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 30px;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.consent-header {
+	text-align: center;
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom: 2px solid #2271b1;
+}
+
+.consent-header h2 {
+	margin: 0 0 10px 0;
+	color: #1d2327;
+}
+
+.consent-header .description {
+	color: #646970;
+	font-size: 1.1em;
+}
+
+.consent-section {
+	margin-bottom: 30px;
+	padding: 20px;
+	background: #f9f9f9;
+	border-radius: 3px;
+}
+
+.consent-section h3 {
+	margin-top: 0;
+	color: #2271b1;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+}
+
+.candidate-info {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.candidate-info th,
+.candidate-info td {
+	padding: 10px;
+	text-align: left;
+	border-bottom: 1px solid #ddd;
+}
+
+.candidate-info th {
+	font-weight: 600;
+	color: #646970;
+	width: 30%;
+}
+
+.disclosure-text {
+	background: #fff;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	max-height: 300px;
+	overflow-y: auto;
+	font-size: 0.95em;
+	line-height: 1.6;
+	color: #1d2327;
+}
+
+.disclosure-section .disclosure-text {
+	border-left: 3px solid #2271b1;
+}
+
+.consent-checkboxes {
+	background: #e5f6fd;
+}
+
+.consent-checkbox {
+	display: block;
+	margin-bottom: 15px;
+	font-size: 1.05em;
+}
+
+.consent-checkbox input[type="checkbox"] {
+	margin-right: 10px;
+	width: 18px;
+	height: 18px;
+	vertical-align: middle;
+}
+
+.consent-checkbox span {
+	vertical-align: middle;
+	line-height: 1.5;
+}
+
+.signature-section {
+	background: #fff4ce;
+}
+
+.signature-section label {
+	display: block;
+	margin: 15px 0 5px 0;
+	font-weight: 600;
+	color: #1d2327;
+}
+
+.signature-section input.regular-text {
+	width: 100%;
+	padding: 10px;
+	font-size: 1.1em;
+	border: 2px solid #2271b1;
+	border-radius: 3px;
+}
+
+.submit-section {
+	text-align: center;
+	background: #f0f0f1;
+}
+
+.submit-section .button {
+	padding: 15px 40px;
+	font-size: 1.1em;
+}
+
+.privacy-note {
+	margin-top: 15px;
+	font-size: 0.9em;
+	color: #646970;
+	font-style: italic;
+}
+
+#consent-status.success {
+	padding: 15px;
+	background: #d4f4dd;
+	border: 1px solid #46b450;
+	border-radius: 3px;
+	color: #0e6245;
+	font-weight: bold;
+}
+
+#consent-status.error {
+	padding: 15px;
+	background: #ffe4e1;
+	border: 1px solid #dc3232;
+	border-radius: 3px;
+	color: #a00;
+	font-weight: bold;
+}
+
+/* Confirmation Screen */
+.ns-background-check-consent-confirmation {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 40px;
+	text-align: center;
+	background: #fff;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+}
+
+.confirmation-icon {
+	font-size: 80px;
+	color: #46b450;
+	margin-bottom: 20px;
+}
+
+.confirmation-details {
+	margin: 30px 0;
+	padding: 20px;
+	background: #f9f9f9;
+	border-radius: 3px;
+	text-align: left;
+}
+
+.confirmation-details p {
+	margin: 10px 0;
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
+	.ns-background-check-consent-form {
+		padding: 15px;
+	}
+
+	.candidate-info th,
+	.candidate-info td {
+		display: block;
+		width: 100%;
+	}
+
+	.candidate-info th {
+		font-weight: bold;
+		border-bottom: none;
+		padding-bottom: 5px;
+	}
+
+	.candidate-info td {
+		padding-top: 0;
+		margin-bottom: 10px;
+	}
+}

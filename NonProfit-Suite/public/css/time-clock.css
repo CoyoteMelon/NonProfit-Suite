@@ -1,0 +1,504 @@
+/**
+ * Time Clock UI Styles
+ *
+ * Styles for the time clock and timesheet interfaces.
+ *
+ * @package NonprofitSuite
+ * @since   1.5.0
+ */
+
+/* Time Clock Container */
+.ns-time-clock-container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Time Clock Card */
+.ns-time-clock-card {
+	background: #fff;
+	border-radius: 12px;
+	padding: 30px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+	margin-bottom: 30px;
+}
+
+.ns-time-clock-title {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin: 0 0 25px 0;
+	font-size: 24px;
+	color: #2c3e50;
+}
+
+.ns-time-clock-title .dashicons {
+	font-size: 28px;
+	width: 28px;
+	height: 28px;
+	color: #0073aa;
+}
+
+/* Clock Display */
+.ns-clock-display {
+	text-align: center;
+	padding: 30px 20px;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	border-radius: 8px;
+	margin-bottom: 30px;
+	color: #fff;
+}
+
+.ns-current-time {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 10px;
+	font-family: 'Courier New', monospace;
+}
+
+.ns-current-date {
+	font-size: 16px;
+	opacity: 0.9;
+}
+
+/* Clock Status */
+.ns-clock-status {
+	padding: 20px 0;
+}
+
+.ns-status-indicator {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-bottom: 15px;
+	font-size: 18px;
+}
+
+.ns-status-dot {
+	width: 16px;
+	height: 16px;
+	border-radius: 50%;
+	animation: pulse 2s infinite;
+}
+
+.ns-clocked-in .ns-status-dot {
+	background: #46b450;
+}
+
+.ns-clocked-out .ns-status-dot {
+	background: #dc3232;
+}
+
+@keyframes pulse {
+	0%, 100% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0.5;
+	}
+}
+
+.ns-clock-in-time {
+	color: #666;
+	margin-bottom: 10px;
+}
+
+.ns-elapsed-time {
+	font-size: 36px;
+	font-weight: 700;
+	font-family: 'Courier New', monospace;
+	color: #2c3e50;
+	margin: 20px 0;
+	text-align: center;
+	padding: 15px;
+	background: #f8f9fa;
+	border-radius: 8px;
+}
+
+/* Forms */
+.ns-clock-form {
+	margin-top: 20px;
+}
+
+.ns-form-field {
+	margin-bottom: 20px;
+}
+
+.ns-form-field label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: 600;
+	color: #2c3e50;
+}
+
+.ns-input {
+	width: 100%;
+	padding: 10px 15px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	font-size: 14px;
+	transition: border-color 0.3s;
+}
+
+.ns-input:focus {
+	outline: none;
+	border-color: #0073aa;
+	box-shadow: 0 0 0 1px #0073aa;
+}
+
+textarea.ns-input {
+	resize: vertical;
+	font-family: inherit;
+}
+
+/* Buttons */
+.ns-btn {
+	display: inline-flex;
+	align-items: center;
+	gap: 8px;
+	padding: 12px 24px;
+	border: none;
+	border-radius: 4px;
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+	transition: all 0.3s;
+	text-decoration: none;
+}
+
+.ns-btn .dashicons {
+	font-size: 20px;
+	width: 20px;
+	height: 20px;
+}
+
+.ns-btn-large {
+	width: 100%;
+	justify-content: center;
+	padding: 15px 24px;
+	font-size: 18px;
+}
+
+.ns-btn-primary {
+	background: #0073aa;
+	color: #fff;
+}
+
+.ns-btn-primary:hover {
+	background: #005a87;
+}
+
+.ns-btn-success {
+	background: #46b450;
+	color: #fff;
+}
+
+.ns-btn-success:hover {
+	background: #3fa846;
+}
+
+.ns-btn:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+/* Recent Entries */
+.ns-recent-entries {
+	background: #fff;
+	border-radius: 12px;
+	padding: 25px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.ns-recent-entries h3 {
+	margin: 0 0 20px 0;
+	font-size: 18px;
+	color: #2c3e50;
+}
+
+.ns-entries-list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.ns-entry-item {
+	display: flex;
+	align-items: center;
+	padding: 12px;
+	margin-bottom: 8px;
+	background: #f8f9fa;
+	border-radius: 6px;
+	gap: 15px;
+}
+
+.ns-entry-date {
+	font-weight: 600;
+	color: #0073aa;
+	min-width: 60px;
+}
+
+.ns-entry-details {
+	flex: 1;
+}
+
+.ns-entry-time {
+	font-size: 14px;
+	color: #2c3e50;
+}
+
+.ns-entry-hours {
+	font-size: 13px;
+	color: #666;
+}
+
+.ns-entry-status {
+	margin-left: auto;
+}
+
+/* Timesheet */
+.ns-timesheet-container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.ns-timesheet-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 30px;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.ns-timesheet-header h2 {
+	margin: 0;
+	font-size: 24px;
+}
+
+.ns-period-selector {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.ns-period-selector label {
+	font-weight: 600;
+}
+
+/* Summary Cards */
+.ns-timesheet-summary {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	gap: 20px;
+	margin-bottom: 30px;
+}
+
+.ns-summary-card {
+	background: #fff;
+	padding: 25px;
+	border-radius: 8px;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+	text-align: center;
+}
+
+.ns-summary-label {
+	font-size: 14px;
+	color: #666;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	letter-spacing: 0.5px;
+}
+
+.ns-summary-value {
+	font-size: 32px;
+	font-weight: 700;
+	color: #0073aa;
+}
+
+/* Timesheet Actions */
+.ns-timesheet-actions {
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: flex-end;
+}
+
+/* Timesheet Table */
+.ns-timesheet-table-wrapper {
+	background: #fff;
+	border-radius: 8px;
+	overflow: hidden;
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.ns-timesheet-table {
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.ns-timesheet-table thead {
+	background: #f8f9fa;
+}
+
+.ns-timesheet-table th {
+	padding: 15px;
+	text-align: left;
+	font-weight: 600;
+	color: #2c3e50;
+	border-bottom: 2px solid #e1e4e8;
+}
+
+.ns-timesheet-table td {
+	padding: 12px 15px;
+	border-bottom: 1px solid #e1e4e8;
+}
+
+.ns-timesheet-table tbody tr:hover {
+	background: #f8f9fa;
+}
+
+.ns-col-select {
+	width: 40px;
+	text-align: center;
+}
+
+.ns-col-date {
+	width: 120px;
+}
+
+.ns-col-time {
+	width: 150px;
+}
+
+.ns-col-hours {
+	width: 80px;
+}
+
+.ns-col-status {
+	width: 100px;
+}
+
+/* Status Badges */
+.ns-status-badge {
+	display: inline-block;
+	padding: 4px 10px;
+	border-radius: 12px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+
+.ns-status-badge.ns-status-draft {
+	background: #f0f0f0;
+	color: #666;
+}
+
+.ns-status-badge.ns-status-submitted {
+	background: #fff3cd;
+	color: #856404;
+}
+
+.ns-status-badge.ns-status-approved {
+	background: #d4edda;
+	color: #155724;
+}
+
+.ns-status-badge.ns-status-rejected {
+	background: #f8d7da;
+	color: #721c24;
+}
+
+.ns-status-badge.ns-status-paid {
+	background: #cce5ff;
+	color: #004085;
+}
+
+/* No Entries */
+.ns-no-entries {
+	text-align: center;
+	padding: 40px 20px;
+	color: #666;
+	background: #f8f9fa;
+	border-radius: 8px;
+}
+
+/* Login Required */
+.ns-login-required {
+	text-align: center;
+	padding: 40px 20px;
+	background: #fff3cd;
+	border: 1px solid #ffc107;
+	border-radius: 4px;
+	color: #856404;
+}
+
+/* Notifications */
+.ns-notification {
+	position: fixed;
+	top: 20px;
+	right: 20px;
+	padding: 15px 20px;
+	background: #fff;
+	border-left: 4px solid;
+	border-radius: 4px;
+	box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+	z-index: 9999;
+	max-width: 350px;
+	animation: slideIn 0.3s ease;
+}
+
+@keyframes slideIn {
+	from {
+		transform: translateX(400px);
+		opacity: 0;
+	}
+	to {
+		transform: translateX(0);
+		opacity: 1;
+	}
+}
+
+.ns-notification.success {
+	border-left-color: #46b450;
+	background: #f0f8f1;
+}
+
+.ns-notification.error {
+	border-left-color: #dc3232;
+	background: #fef0f0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	.ns-time-clock-card {
+		padding: 20px;
+	}
+
+	.ns-current-time {
+		font-size: 36px;
+	}
+
+	.ns-elapsed-time {
+		font-size: 28px;
+	}
+
+	.ns-timesheet-header {
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.ns-timesheet-table-wrapper {
+		overflow-x: auto;
+	}
+
+	.ns-timesheet-table {
+		min-width: 600px;
+	}
+
+	.ns-notification {
+		left: 20px;
+		right: 20px;
+		max-width: none;
+	}
+}

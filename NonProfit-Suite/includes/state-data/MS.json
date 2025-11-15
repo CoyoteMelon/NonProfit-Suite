@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "MS",
+  "jurisdiction_name": "Mississippi",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Mississippi Secretary of State", "source_url": "https://www.sos.ms.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Mississippi Secretary of State - Business Services",
+  "charitable_registration_agency": "Mississippi Secretary of State - Charities Registration",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 50.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Mississippi Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "MS-001", "requirement_type": "Annual Report", "requirement_name": "No Annual Report Required", "filing_agency": "Mississippi Secretary of State", "frequency": "not_required", "due_date_calculation": "not_applicable", "fee_amount": 0.00, "legal_citation": "Miss. Code § 79-11-255", "notes": "Mississippi does NOT require annual reports for nonprofit corporations."},
+    {"requirement_id": "MS-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Mississippi Secretary of State", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "Miss. Code § 79-11-501", "notes": "Initial registration $50."},
+    {"requirement_id": "MS-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Registration Renewal", "filing_agency": "Mississippi Secretary of State", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual renewal $50."},
+    {"requirement_id": "MS-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Mississippi Sales Tax Exemption Certificate", "filing_agency": "Mississippi Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form 72-310 - Sales Tax Exemption Certificate", "legal_citation": "Miss. Code § 27-65-17", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "MS-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Tax Assessor", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Miss. Const. Art. 4, § 112", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "MS-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Charitable Bingo License", "filing_agency": "Mississippi Gaming Commission", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 500.00, "legal_citation": "Miss. Code § 97-33-51", "notes": "Bingo permitted for qualified nonprofits. High license fee of $500."},
+    {"requirement_id": "MS-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Mississippi Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 200.00, "notes": "$200 fee. Bond required."},
+    {"requirement_id": "MS-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"no_corporate_report": "Mississippi does NOT require annual corporate reports.", "high_bingo_fee": "Mississippi's $500 bingo license fee is among the highest nationally."},
+  "helpful_links": [{"title": "Mississippi Secretary of State", "url": "https://www.sos.ms.gov/", "description": "Incorporation and charitable registration"}]
+}

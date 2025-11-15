@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "CT",
+  "jurisdiction_name": "Connecticut",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Connecticut Secretary of State", "source_url": "https://portal.ct.gov/SOTS", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Connecticut Secretary of State - Commercial Recording Division",
+  "charitable_registration_agency": "Connecticut Department of Consumer Protection - Public Charities Unit",
+  "exemption_threshold_note": "Organizations with gross revenue under $50,000 annually may file simplified registration. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 50.00, "certificate_of_formation": "Certificate of Incorporation - Nonstock Corporation", "filing_agency": "Connecticut Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "CT-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "Connecticut Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "End of anniversary month", "fee_amount": 50.00, "legal_citation": "Conn. Gen. Stat. § 33-1320", "notes": "Annual report fee $50."},
+    {"requirement_id": "CT-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Connecticut Department of Consumer Protection", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "Conn. Gen. Stat. § 21a-190b", "notes": "Initial registration $50."},
+    {"requirement_id": "CT-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Connecticut Department of Consumer Protection", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual report $50."},
+    {"requirement_id": "CT-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Connecticut Sales Tax Exemption Certificate", "filing_agency": "Connecticut Department of Revenue Services", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form CERT-119 - Exempt Organization Certificate", "legal_citation": "Conn. Gen. Stat. § 12-412", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "CT-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "Local Assessor", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "November 1st annually", "fee_amount": 0.00, "legal_citation": "Conn. Gen. Stat. § 12-81", "notes": "Annual application by November 1st."},
+    {"requirement_id": "CT-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Bazaar Permit", "filing_agency": "Local Municipality", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Conn. Gen. Stat. § 7-169", "notes": "Bazaars permitted for qualified nonprofits. Local approval required."},
+    {"requirement_id": "CT-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Connecticut Department of Consumer Protection", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 400.00, "notes": "$400 fee. Bond required."},
+    {"requirement_id": "CT-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "legal_citation": "Conn. Gen. Stat. § 21a-190e", "notes": "Audit required for organizations with revenue over $500,000 or using professional solicitors."}
+  ],
+  "special_notes": {"audit_mandated": "Connecticut mandates audits for organizations over $500,000 or using professional solicitors.", "higher_threshold": "Connecticut's $50,000 exemption threshold is higher than most states."},
+  "helpful_links": [{"title": "Connecticut Secretary of State", "url": "https://portal.ct.gov/SOTS", "description": "Incorporation and compliance"}]
+}

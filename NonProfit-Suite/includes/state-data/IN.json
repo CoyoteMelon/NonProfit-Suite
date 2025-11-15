@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "IN",
+  "jurisdiction_name": "Indiana",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Indiana Secretary of State", "source_url": "https://www.in.gov/sos/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Indiana Secretary of State - Business Services Division",
+  "charitable_registration_agency": "Indiana Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross contributions under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 50.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Indiana Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "IN-001", "requirement_type": "Annual Report", "requirement_name": "Business Entity Report", "filing_agency": "Indiana Secretary of State", "frequency": "biennial", "due_date_calculation": "anniversary_month", "due_date_specifics": "Every two years during anniversary month", "fee_amount": 50.00, "legal_citation": "Ind. Code § 23-17-24-7", "notes": "Biennial report fee $50."},
+    {"requirement_id": "IN-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Indiana Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Ind. Code § 23-7-8-3", "notes": "Registration is free."},
+    {"requirement_id": "IN-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Indiana Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "Annual report is free."},
+    {"requirement_id": "IN-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Indiana Sales Tax Exemption Certificate", "filing_agency": "Indiana Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form ST-105 - Sales Tax Exemption Certificate", "legal_citation": "Ind. Code § 6-2.5-5-26", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "IN-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Auditor", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "May 15th annually", "fee_amount": 0.00, "form_number": "Form 136", "legal_citation": "Ind. Code § 6-1.1-11-3", "notes": "Annual filing by May 15th."},
+    {"requirement_id": "IN-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Charity Gaming License", "filing_agency": "Indiana Gaming Commission", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 50.00, "legal_citation": "Ind. Code § 4-32.3", "notes": "Required for raffles and charity gaming."},
+    {"requirement_id": "IN-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Fundraiser Registration", "filing_agency": "Indiana Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 0.00, "notes": "Registration is free. Bond required."},
+    {"requirement_id": "IN-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"biennial_corporate": "Indiana requires business entity reports every 2 years, not annually.", "free_charity_filing": "All charitable registration and renewals are free."},
+  "helpful_links": [{"title": "Indiana Secretary of State", "url": "https://www.in.gov/sos/", "description": "Incorporation and compliance"}]
+}

@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "AK",
+  "jurisdiction_name": "Alaska",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Alaska Department of Commerce, Community & Economic Development", "source_url": "https://www.commerce.alaska.gov/web/cbpl/corporations", "last_accessed": "2025-11-12"}, {"source_name": "Alaska Department of Law", "source_url": "http://www.law.alaska.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Alaska Department of Commerce, Community & Economic Development - Corporations Section",
+  "charitable_registration_agency": "Alaska Department of Law - Civil Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 1, "initial_filing_fee": 250.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Alaska Department of Commerce", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "Alaska allows single-director nonprofits. High incorporation fee."},
+  "requirements": [
+    {"requirement_id": "AK-001", "requirement_type": "Annual Report", "requirement_name": "Biennial Report", "filing_agency": "Alaska Department of Commerce", "frequency": "biennial", "due_date_calculation": "anniversary_month", "due_date_specifics": "Every two years on January 2nd", "fee_amount": 100.00, "legal_citation": "AS 10.20.506", "notes": "Biennial report fee $100. Due January 2nd every two years."},
+    {"requirement_id": "AK-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Alaska Department of Law", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 20.00, "legal_citation": "AS 45.68.010", "notes": "Initial registration $20."},
+    {"requirement_id": "AK-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Alaska Department of Law", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 20.00, "notes": "Annual report $20."},
+    {"requirement_id": "AK-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "No State Sales Tax", "filing_agency": "Not applicable", "frequency": "not_applicable", "due_date_calculation": "not_applicable", "fee_amount": 0.00, "notes": "Alaska has no state sales tax, though some municipalities have local sales taxes."},
+    {"requirement_id": "AK-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "Municipal Assessor", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "March 31st annually", "fee_amount": 0.00, "legal_citation": "AS 29.45.050", "notes": "Annual application by March 31st."},
+    {"requirement_id": "AK-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Charitable Gaming License", "filing_agency": "Alaska Department of Revenue - Charitable Gaming", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 25.00, "legal_citation": "AS 05.15.100", "notes": "Required for charitable gaming including raffles."},
+    {"requirement_id": "AK-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Alaska Department of Law", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 100.00, "notes": "$100 fee. Bond required."},
+    {"requirement_id": "AK-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"biennial_reporting": "Alaska requires biennial (every 2 years) corporate reports, not annual.", "no_state_sales_tax": "Alaska has no state sales tax, though some municipalities impose local sales taxes.", "high_incorporation_fee": "Alaska's $250 incorporation fee is among the highest nationally.", "no_state_income_tax": "Alaska has no state income tax."},
+  "helpful_links": [{"title": "Alaska Corporations Section", "url": "https://www.commerce.alaska.gov/web/cbpl/corporations", "description": "Incorporation and compliance"}]
+}

@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "GU",
+  "jurisdiction_name": "Guam",
+  "jurisdiction_type": "territory",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Guam Department of Revenue and Taxation", "source_url": "https://www.guamtax.com/", "last_accessed": "2025-11-12"}, {"source_name": "Guam Attorney General", "source_url": "https://www.guamag.org/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Guam Department of Revenue and Taxation - Corporate Division",
+  "charitable_registration_agency": "Guam Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 150.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Guam Department of Revenue and Taxation", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "Guam follows Organic Act of Guam governance structure."},
+  "requirements": [
+    {"requirement_id": "GU-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "Guam Department of Revenue and Taxation", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "End of anniversary month", "fee_amount": 150.00, "legal_citation": "18 GCA § 2105", "notes": "Annual report fee $150."},
+    {"requirement_id": "GU-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Guam Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 75.00, "legal_citation": "5 GCA § 31102", "notes": "Initial registration $75."},
+    {"requirement_id": "GU-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Guam Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 75.00, "notes": "Annual report $75."},
+    {"requirement_id": "GU-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Guam Gross Receipts Tax Exemption", "filing_agency": "Guam Department of Revenue and Taxation", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form GRT-1 - Gross Receipts Tax Return", "legal_citation": "11 GCA § 25102", "notes": "Guam has 4% Gross Receipts Tax. Qualifying nonprofits may be exempt."},
+    {"requirement_id": "GU-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Real Property Tax Exemption Application", "filing_agency": "Guam Department of Revenue and Taxation - Real Property Tax Division", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "September 1st annually", "fee_amount": 0.00, "legal_citation": "11 GCA § 24104", "notes": "Annual application by September 1st."},
+    {"requirement_id": "GU-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Gaming License", "filing_agency": "Guam Department of Revenue and Taxation - Gaming Control", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 100.00, "legal_citation": "11 GCA § 67105", "notes": "Required for charitable gaming including raffles."},
+    {"requirement_id": "GU-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Guam Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 250.00, "notes": "$250 fee. Bond required."},
+    {"requirement_id": "GU-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"pacific_territory": "Guam is the westernmost U.S. territory located in Micronesia, Western Pacific.", "chamorro_culture": "Indigenous Chamorro culture and language are integral to the island.", "organic_act": "Governed by Organic Act of Guam (1950), providing framework for territorial government.", "gross_receipts_tax": "4% Gross Receipts Tax instead of traditional sales tax.", "strategic_location": "Strategic U.S. military presence impacts local economy and governance.", "time_zone": "Chamorro Standard Time (GMT+10), unique among U.S. jurisdictions."},
+  "helpful_links": [{"title": "Guam Department of Revenue and Taxation", "url": "https://www.guamtax.com/", "description": "Incorporation, compliance, and taxation"}]
+}

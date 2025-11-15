@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "MO",
+  "jurisdiction_name": "Missouri",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Missouri Secretary of State", "source_url": "https://www.sos.mo.gov/", "last_accessed": "2025-11-12"}, {"source_name": "Missouri Attorney General", "source_url": "https://ago.mo.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Missouri Secretary of State",
+  "charitable_registration_agency": "Missouri Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 25.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Missouri Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "MO-001", "requirement_type": "Annual Report", "requirement_name": "Annual Registration Report", "filing_agency": "Missouri Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "End of anniversary month", "fee_amount": 0.00, "legal_citation": "Mo. Rev. Stat. § 355.856", "notes": "Annual report is FREE."},
+    {"requirement_id": "MO-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Missouri Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 15.00, "legal_citation": "Mo. Rev. Stat. § 407.453", "notes": "Initial registration $15."},
+    {"requirement_id": "MO-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Missouri Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 15.00, "notes": "Annual report $15."},
+    {"requirement_id": "MO-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Missouri Sales Tax Exemption Certificate", "filing_agency": "Missouri Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form 1746 - Certificate of Exemption", "legal_citation": "Mo. Rev. Stat. § 144.030", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "MO-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Assessor", "frequency": "biennial", "due_date_calculation": "fixed_date", "fee_amount": 0.00, "legal_citation": "Mo. Const. Art. X, § 6", "notes": "Biennial application required."},
+    {"requirement_id": "MO-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle License", "filing_agency": "Local Government", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Mo. Rev. Stat. § 313.005", "notes": "Raffles permitted for qualified nonprofits."},
+    {"requirement_id": "MO-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Fundraiser Registration", "filing_agency": "Missouri Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 200.00, "notes": "$200 fee. Bond required."},
+    {"requirement_id": "MO-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"free_corporate_report": "Missouri's annual corporate report is free.", "low_charity_fees": "Charitable registration fees very affordable at $15."},
+  "helpful_links": [{"title": "Missouri Secretary of State", "url": "https://www.sos.mo.gov/", "description": "Incorporation and compliance"}]
+}

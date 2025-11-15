@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "AS",
+  "jurisdiction_name": "American Samoa",
+  "jurisdiction_type": "territory",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "American Samoa Government", "source_url": "https://www.americansamoa.gov/", "last_accessed": "2025-11-12"}, {"source_name": "American Samoa Attorney General", "source_url": "https://www.asg-gov.net/departments/attorney-general/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "American Samoa Registrar of Corporations",
+  "charitable_registration_agency": "American Samoa Attorney General - Consumer Affairs",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 100.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "American Samoa Registrar of Corporations", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "American Samoa has unique governance structure combining U.S. territorial law with traditional Fa'a Samoa customs."},
+  "requirements": [
+    {"requirement_id": "AS-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "American Samoa Registrar of Corporations", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "End of anniversary month", "fee_amount": 100.00, "legal_citation": "A.S.C.A. § 27.0215", "notes": "Annual report fee $100."},
+    {"requirement_id": "AS-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "American Samoa Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "A.S.C.A. § 27.5002", "notes": "Initial registration $50."},
+    {"requirement_id": "AS-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "American Samoa Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual report $50."},
+    {"requirement_id": "AS-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "No Territorial Sales Tax", "filing_agency": "Not applicable", "frequency": "not_applicable", "due_date_calculation": "not_applicable", "fee_amount": 0.00, "notes": "American Samoa has no territorial sales tax."},
+    {"requirement_id": "AS-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "American Samoa Tax Office", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "June 30th annually", "fee_amount": 0.00, "legal_citation": "A.S.C.A. § 43.0105", "notes": "Annual application by June 30th. Note: Most land in American Samoa is communally owned."},
+    {"requirement_id": "AS-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Gaming Permit", "filing_agency": "American Samoa Department of Commerce", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "A.S.C.A. § 27.6101", "notes": "Raffles permitted for qualified nonprofits. Per-event permit."},
+    {"requirement_id": "AS-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "American Samoa Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 200.00, "notes": "$200 fee. Bond required."},
+    {"requirement_id": "AS-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"unincorporated_territory": "American Samoa is the only unincorporated U.S. territory where residents are U.S. nationals (not automatically citizens).", "faa_samoa": "Traditional Fa'a Samoa (Samoan way of life) customs are integrated into governance and law.", "communal_land": "Approximately 90% of land is communally owned under Fa'a Samoa system, affecting property transactions.", "no_sales_tax": "American Samoa has no territorial sales tax.", "unique_constitution": "Only U.S. territory with its own constitution (ratified 1967).", "remote_location": "Most remote U.S. territory, located in South Pacific Ocean."},
+  "helpful_links": [{"title": "American Samoa Government", "url": "https://www.americansamoa.gov/", "description": "Official territorial government website"}]
+}

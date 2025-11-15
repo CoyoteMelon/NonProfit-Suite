@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "MP",
+  "jurisdiction_name": "Northern Mariana Islands",
+  "jurisdiction_type": "territory",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "CNMI Department of Commerce", "source_url": "https://commerce.gov.mp/", "last_accessed": "2025-11-12"}, {"source_name": "CNMI Attorney General", "source_url": "https://ago.gov.mp/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "CNMI Department of Commerce - Corporations Division",
+  "charitable_registration_agency": "CNMI Attorney General - Consumer Affairs Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 100.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "CNMI Department of Commerce", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "CNMI is a commonwealth in political union with the United States under the Covenant Agreement."},
+  "requirements": [
+    {"requirement_id": "MP-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "CNMI Department of Commerce", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "End of anniversary month", "fee_amount": 100.00, "legal_citation": "4 CMC § 1525", "notes": "Annual report fee $100."},
+    {"requirement_id": "MP-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "CNMI Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "6 CMC § 7102", "notes": "Initial registration $50."},
+    {"requirement_id": "MP-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "CNMI Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual report $50."},
+    {"requirement_id": "MP-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "No Territorial Sales Tax", "filing_agency": "Not applicable", "frequency": "not_applicable", "due_date_calculation": "not_applicable", "fee_amount": 0.00, "notes": "Northern Mariana Islands has no territorial sales tax."},
+    {"requirement_id": "MP-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Real Property Tax Exemption Application", "filing_agency": "CNMI Division of Revenue and Taxation", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "August 31st annually", "fee_amount": 0.00, "legal_citation": "4 CMC § 1403", "notes": "Annual application by August 31st."},
+    {"requirement_id": "MP-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Gaming License", "filing_agency": "CNMI Commonwealth Casino Commission", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 75.00, "legal_citation": "4 CMC § 5105", "notes": "Required for charitable gaming including raffles."},
+    {"requirement_id": "MP-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "CNMI Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 200.00, "notes": "$200 fee. Bond required."},
+    {"requirement_id": "MP-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"commonwealth_status": "CNMI is a commonwealth in political union with the U.S., established by Covenant Agreement (1976).", "chamorro_carolinian": "Indigenous Chamorro and Carolinian cultures shape local governance and customs.", "trust_territory_history": "Former UN Trust Territory administered by U.S., achieved commonwealth status in 1986.", "no_sales_tax": "Northern Mariana Islands has no territorial sales tax.", "fourteen_islands": "Commonwealth consists of 14 islands in the Western Pacific, including Saipan, Tinian, and Rota.", "unique_immigration": "CNMI has unique immigration laws separate from rest of U.S. under Covenant Agreement."},
+  "helpful_links": [{"title": "CNMI Department of Commerce", "url": "https://commerce.gov.mp/", "description": "Incorporation and business registration"}]
+}

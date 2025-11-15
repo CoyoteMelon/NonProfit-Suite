@@ -1,0 +1,330 @@
+{
+  "jurisdiction_code": "MI",
+  "jurisdiction_name": "Michigan",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "Michigan Department of Licensing and Regulatory Affairs - Corporations Division",
+      "source_url": "https://www.michigan.gov/lara/bureau-list/corporations",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Michigan Attorney General - Charitable Trust Section",
+      "source_url": "https://www.michigan.gov/ag/initiatives/charities",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Michigan Department of Treasury",
+      "source_url": "https://www.michigan.gov/treasury",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "Michigan Department of Licensing and Regulatory Affairs - Corporations, Securities & Commercial Licensing Bureau",
+  "charitable_registration_agency": "Michigan Attorney General - Charitable Trust Section",
+  "exemption_threshold_note": "Organizations with contributions under $25,000 annually (or $25,000 in assets if non-soliciting) are generally exempt from charitable registration. Religious organizations and certain educational institutions are also exempt.",
+  "formation_requirements": {
+    "minimum_directors": 3,
+    "initial_filing_fee": 20.00,
+    "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation",
+    "filing_agency": "Michigan Department of Licensing and Regulatory Affairs",
+    "publication_requirement": false,
+    "registered_agent_required": true,
+    "bylaws_filing_required": false,
+    "notes": "Michigan requires a resident agent with a Michigan address. Filing fee of $20 is one of the lowest in the nation. Resident agent can be an individual or business entity."
+  },
+  "requirements": [
+    {
+      "requirement_id": "MI-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Annual Statement",
+      "filing_agency": "Michigan Department of Licensing and Regulatory Affairs - Corporations Division",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due by October 1st each year for all corporations regardless of formation date",
+      "fee_amount": 0.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Annual Statement",
+      "form_url": "https://cofs.lara.state.mi.us/",
+      "online_filing_available": true,
+      "online_filing_url": "https://cofs.lara.state.mi.us/",
+      "required_information": [
+        "Resident agent name and address",
+        "Registered office address",
+        "Names and addresses of directors and officers",
+        "Principal office location"
+      ],
+      "legal_citation": "MCL 450.2911",
+      "contact_phone": "517-241-6470",
+      "contact_email": "corporations@michigan.gov",
+      "notes": "Michigan's annual statement is FREE with no filing fee or late penalties. Due October 1st for all entities. Failure to file for two consecutive years can result in administrative dissolution."
+    },
+    {
+      "requirement_id": "MI-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Organization Registration",
+      "filing_agency": "Michigan Attorney General - Charitable Trust Section",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting contributions in Michigan (or within 30 days if soliciting threshold exceeded)",
+      "fee_amount": 0.00,
+      "form_number": "Initial Registration Form",
+      "form_url": "https://www.michigan.gov/ag/-/media/Project/AG/Charities/Charity_Registration_Initial.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation",
+        "Copy of Bylaws",
+        "List of officers, directors, and trustees",
+        "Financial statements for most recent fiscal year",
+        "Description of charitable programs"
+      ],
+      "legal_citation": "MCL 400.271",
+      "contact_phone": "517-335-7599",
+      "contact_email": "charitabletrust@michigan.gov",
+      "notes": "Registration is free and required for organizations soliciting in Michigan with contributions over $25,000. Organizations holding assets over $25,000 must also register even if not soliciting."
+    },
+    {
+      "requirement_id": "MI-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Financial Report (Renewal)",
+      "filing_agency": "Michigan Attorney General - Charitable Trust Section",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 6 months after fiscal year end",
+      "fee_amount": 0.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Annual Financial Report",
+      "form_url": "https://www.michigan.gov/ag/-/media/Project/AG/Charities/Charity_Registration_Annual.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "Audited financial statements (if required)",
+        "Professional fundraiser reports (if applicable)",
+        "Updated list of officers and directors",
+        "Program accomplishment descriptions"
+      ],
+      "legal_citation": "MCL 400.282",
+      "contact_phone": "517-335-7599",
+      "contact_email": "charitabletrust@michigan.gov",
+      "notes": "Annual filing is free with no late penalties. Organizations must file within 6 months of fiscal year end. Failure to file may result in investigation or enforcement action."
+    },
+    {
+      "requirement_id": "MI-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Michigan Sales Tax Exemption Certificate",
+      "filing_agency": "Michigan Department of Treasury",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Obtain after receiving IRS 501(c)(3) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form 3372 - Michigan Sales and Use Tax Certificate of Exemption",
+      "form_url": "https://www.michigan.gov/taxes/iit/forms",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Federal Employer Identification Number (FEIN)",
+        "Organization name and address",
+        "Michigan registration or incorporation documents"
+      ],
+      "legal_citation": "MCL 205.54a",
+      "contact_phone": "517-636-4230",
+      "notes": "Michigan provides sales tax exemption for qualifying 501(c)(3) organizations on purchases for charitable purposes. Use Form 3372 to claim exemption. Not all purchases are exempt - review specific exemptions."
+    },
+    {
+      "requirement_id": "MI-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Real Property Tax Exemption Affidavit",
+      "filing_agency": "Local Tax Assessor and State Tax Commission",
+      "frequency": "annual",
+      "due_date_calculation": "fixed_date",
+      "due_date_specifics": "File annually by December 31st for following tax year (assessment date)",
+      "fee_amount": 0.00,
+      "form_number": "Form 5278 - Affidavit for Charitable Nonprofit Housing Exemption (and similar forms)",
+      "form_url": "https://www.michigan.gov/taxes/property",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Deed or proof of ownership",
+        "Description of property use for charitable purposes",
+        "Financial statements",
+        "Affidavit certifying charitable use",
+        "Documentation of actual public benefit"
+      ],
+      "legal_citation": "MCL 211.7o",
+      "contact_phone": "Varies by locality",
+      "notes": "Michigan property tax exemption requires exclusive charitable use. Different exemption statutes apply to different types of charitable property (housing, education, etc.). Annual affidavit required. Contact local assessor for specific forms and requirements."
+    },
+    {
+      "requirement_id": "MI-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Charitable Gaming License",
+      "filing_agency": "Michigan Gaming Control Board - Charitable Gaming Division",
+      "frequency": "annual",
+      "due_date_calculation": "calendar_year",
+      "due_date_specifics": "License valid for calendar year; renew annually",
+      "fee_amount": 100.00,
+      "form_number": "License Application for Small and Large Raffle",
+      "form_url": "https://www.michigan.gov/mgcb/charitable-gaming",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of 5+ years continuous operation",
+        "Proof of incorporation or organization in Michigan",
+        "List of officers and directors",
+        "Description of gaming activities",
+        "License fee payment ($100)",
+        "Municipal approval"
+      ],
+      "legal_citation": "MCL 432.103",
+      "contact_phone": "517-284-8300",
+      "notes": "Michigan allows raffles, bingo, and charitable gaming for qualified nonprofits in existence for 5+ years. Small raffles (under $5,000 aggregate prizes) and large raffles have different requirements. Municipality must approve gaming activities."
+    },
+    {
+      "requirement_id": "MI-007",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Bingo License",
+      "filing_agency": "Michigan Gaming Control Board - Charitable Gaming Division",
+      "frequency": "annual",
+      "due_date_calculation": "calendar_year",
+      "due_date_specifics": "License valid for calendar year; renew annually",
+      "fee_amount": 100.00,
+      "form_number": "Bingo License Application",
+      "form_url": "https://www.michigan.gov/mgcb/charitable-gaming",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of 5+ years continuous operation",
+        "List of officers and bingo managers",
+        "Venue information and approval",
+        "Background checks for operators",
+        "License fee payment ($100)",
+        "Municipal approval"
+      ],
+      "legal_citation": "MCL 432.103",
+      "contact_phone": "517-284-8300",
+      "notes": "Bingo license required for regular bingo operations. Organization must be in existence for 5+ years. Quarterly reporting required. Strict rules on prize amounts and operations apply."
+    },
+    {
+      "requirement_id": "MI-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Fundraiser Registration",
+      "filing_agency": "Michigan Attorney General - Charitable Trust Section",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 0.00,
+      "form_number": "Professional Fundraiser Registration",
+      "form_url": "https://www.michigan.gov/ag/-/media/Project/AG/Charities/Professional_Fundraiser_Registration.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership structure",
+        "List of officers and management",
+        "$25,000 surety bond",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "List of current Michigan charity clients"
+      ],
+      "legal_citation": "MCL 400.273",
+      "contact_phone": "517-335-7599",
+      "contact_email": "charitabletrust@michigan.gov",
+      "notes": "Required for paid professional fundraisers who solicit on behalf of charities. Registration is free but bond is required. Each contract must be filed within 10 days. Annual campaign reports required."
+    },
+    {
+      "requirement_id": "MI-009",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Fundraising Counsel Registration",
+      "filing_agency": "Michigan Attorney General - Charitable Trust Section",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 0.00,
+      "form_number": "Fundraising Counsel Registration",
+      "form_url": "https://www.michigan.gov/ag/-/media/Project/AG/Charities/Fundraising_Counsel_Registration.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership",
+        "List of officers and management",
+        "Sample contracts with charity clients",
+        "Financial statement"
+      ],
+      "legal_citation": "MCL 400.273a",
+      "contact_phone": "517-335-7599",
+      "contact_email": "charitabletrust@michigan.gov",
+      "notes": "Fundraising counsel provides consulting but does not solicit or handle contributions. Registration is free and no bond is required. Each contract must be filed within 10 days."
+    },
+    {
+      "requirement_id": "MI-010",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and included in annual report if required",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 180 days after fiscal year end (completed before annual renewal)",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements",
+        "Notes to financial statements",
+        "Management letter (if applicable)"
+      ],
+      "legal_citation": "MCL 400.282",
+      "notes": "Michigan requires audited financial statements for organizations with gross receipts over $500,000. Organizations between $200,000-$500,000 should have financial review. Organizations under $200,000 may file internally prepared statements. Audit must be performed by independent CPA licensed in Michigan."
+    }
+  ],
+  "special_notes": {
+    "free_filings": "Michigan is exceptionally nonprofit-friendly with free charitable registration, free annual reports (both corporate and charitable), and no late fees. Initial incorporation fee of $20 is among the lowest nationally.",
+    "dual_threshold": "Michigan registration is triggered by either $25,000 in contributions (if soliciting) OR $25,000 in assets (even if not soliciting). This dual threshold is unusual.",
+    "board_requirements": "Michigan nonprofit corporations must have at least three directors. Directors need not be Michigan residents. Board must comply with bylaws and fiduciary duties.",
+    "five_year_gaming_rule": "Organizations must be in continuous operation for 5 years before conducting charitable gaming. This is standard but represents a barrier for newer nonprofits.",
+    "gaming_control_board": "Michigan has a dedicated Gaming Control Board that oversees all charitable gaming including raffles and bingo. Regulations are comprehensive and strictly enforced.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions on political campaign intervention and lobbying. Michigan law reinforces these federal limits.",
+    "professional_fundraiser_free": "Professional fundraiser and fundraising counsel registration is free in Michigan, unlike most states that charge significant fees. Bond still required for fundraisers.",
+    "audit_threshold": "Michigan audit threshold is $500,000 in gross receipts, which is mid-range. Review threshold is $200,000.",
+    "dissolution_requirements": "Upon dissolution, assets must be distributed to organizations with similar charitable purposes. Attorney General must be notified and may need to approve dissolution plans.",
+    "unrelated_business_income": "Organizations with unrelated business income over $1,000 must file IRS Form 990-T and Michigan Corporate Income Tax Return (Form 4891) if conducting business in Michigan.",
+    "property_tax_annual_filing": "Michigan requires annual affidavits for property tax exemption, unlike some states where exemption is perpetual once granted. This adds administrative burden.",
+    "october_corporate_deadline": "All Michigan corporations must file annual statements by October 1st regardless of formation or fiscal year end date. This is unusual and different from most states.",
+    "charitable_trust_assets": "Organizations holding charitable assets in trust form have additional reporting requirements beyond standard charitable organization registration."
+  },
+  "helpful_links": [
+    {
+      "title": "Michigan Attorney General - Charities",
+      "url": "https://www.michigan.gov/ag/initiatives/charities",
+      "description": "Charitable organization registration, annual reports, forms, and compliance guidance"
+    },
+    {
+      "title": "Michigan LARA - Corporations Division",
+      "url": "https://www.michigan.gov/lara/bureau-list/corporations",
+      "description": "Incorporation, annual statements, and business entity information"
+    },
+    {
+      "title": "Michigan Corporations Online Filing",
+      "url": "https://cofs.lara.state.mi.us/",
+      "description": "Online filing system for corporate documents, annual statements, and business searches"
+    },
+    {
+      "title": "Michigan Department of Treasury",
+      "url": "https://www.michigan.gov/treasury",
+      "description": "Sales tax exemption, property tax, and tax forms and guidance"
+    },
+    {
+      "title": "Michigan Gaming Control Board - Charitable Gaming",
+      "url": "https://www.michigan.gov/mgcb/charitable-gaming",
+      "description": "Charitable gaming licenses, raffle permits, bingo regulations, and compliance"
+    },
+    {
+      "title": "Michigan Compiled Laws Chapter 400.271-400.292 - Charitable Organizations",
+      "url": "https://www.legislature.mi.gov/(S(uq0rwx0hfdsndhcfhyolcwkh))/mileg.aspx?page=getObject&objectName=mcl-Act-169-of-1975",
+      "description": "Full text of Michigan's charitable solicitation and registration law"
+    },
+    {
+      "title": "Michigan Property Tax Exemptions",
+      "url": "https://www.michigan.gov/taxes/property",
+      "description": "Property tax exemption forms, guidance, and local assessor information"
+    }
+  ]
+}

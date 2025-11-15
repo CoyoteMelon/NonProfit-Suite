@@ -1,0 +1,18 @@
+/**
+ * Public Documents Admin Styles
+ *
+ * @package NonprofitSuite
+ * @subpackage Admin/CSS
+ */
+
+/* Main styles are inline in view files for better organization */
+
+.ns-public-documents .wp-list-table th,
+.ns-document-categories .wp-list-table th {
+	font-weight: 600;
+}
+
+.ns-public-documents .button-small,
+.ns-document-categories .button-small {
+	margin-right: 5px;
+}

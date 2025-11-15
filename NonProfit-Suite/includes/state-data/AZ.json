@@ -1,0 +1,221 @@
+{
+  "jurisdiction_code": "AZ",
+  "jurisdiction_name": "Arizona",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "Arizona Corporation Commission",
+      "source_url": "https://ecorp.azcc.gov/",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Arizona Secretary of State - Charitable Organizations",
+      "source_url": "https://azsos.gov/business/charities",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Arizona Department of Revenue",
+      "source_url": "https://azdor.gov/",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "Arizona Corporation Commission",
+  "charitable_registration_agency": "Arizona Secretary of State - Charitable Organizations Section",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt from registration. Religious organizations and certain educational institutions are also exempt.",
+  "formation_requirements": {
+    "minimum_directors": 1,
+    "initial_filing_fee": 40.00,
+    "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation",
+    "filing_agency": "Arizona Corporation Commission",
+    "publication_requirement": true,
+    "publication_details": "Notice of incorporation must be published in newspaper of general circulation three consecutive times within 60 days of filing",
+    "registered_agent_required": true,
+    "bylaws_filing_required": false,
+    "notes": "Arizona requires statutory agent (registered agent) with Arizona address. Uniquely allows single-director nonprofits. Publication requirement adds time and cost."
+  },
+  "requirements": [
+    {
+      "requirement_id": "AZ-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "No Annual Report Required",
+      "filing_agency": "Arizona Corporation Commission",
+      "frequency": "not_required",
+      "due_date_calculation": "not_applicable",
+      "fee_amount": 0.00,
+      "legal_citation": "A.R.S. § 10-11622",
+      "contact_phone": "602-542-3026",
+      "notes": "Arizona does NOT require annual reports for nonprofit corporations, making it unique among states. However, charitable organizations must still file with Secretary of State."
+    },
+    {
+      "requirement_id": "AZ-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Organization Registration",
+      "filing_agency": "Arizona Secretary of State - Charitable Organizations Section",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting contributions in Arizona",
+      "fee_amount": 0.00,
+      "form_number": "Charitable Organization Application",
+      "form_url": "https://azsos.gov/business/charities",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation",
+        "Copy of Bylaws",
+        "List of officers and directors",
+        "Financial statements for most recent fiscal year"
+      ],
+      "legal_citation": "A.R.S. § 44-6553",
+      "contact_phone": "602-542-6187",
+      "notes": "Initial registration is free. Organizations under $25,000 gross revenue may be exempt. Registration required before soliciting."
+    },
+    {
+      "requirement_id": "AZ-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Financial Report",
+      "filing_agency": "Arizona Secretary of State - Charitable Organizations Section",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 6 months after fiscal year end",
+      "fee_amount": 0.00,
+      "form_number": "Annual Report",
+      "form_url": "https://azsos.gov/business/charities",
+      "online_filing_available": false,
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "Updated list of officers and directors",
+        "Professional fundraiser information (if applicable)"
+      ],
+      "legal_citation": "A.R.S. § 44-6558",
+      "contact_phone": "602-542-6187",
+      "notes": "Annual filing is free. Due within 6 months of fiscal year end. Late filing may result in compliance action."
+    },
+    {
+      "requirement_id": "AZ-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Transaction Privilege Tax (TPT) Exemption",
+      "filing_agency": "Arizona Department of Revenue",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Obtain after receiving IRS 501(c)(3) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form 5000 - Application for Nonprofit Organization Tax Exemption",
+      "form_url": "https://azdor.gov/forms/transaction-privilege-tax-forms",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Arizona incorporation documents",
+        "Federal Employer Identification Number (FEIN)",
+        "Description of charitable activities"
+      ],
+      "legal_citation": "A.R.S. § 42-5061",
+      "contact_phone": "602-255-2060",
+      "notes": "Arizona has Transaction Privilege Tax (TPT) instead of sales tax. Qualifying 501(c)(3) organizations may be exempt. Not all transactions are exempt - review specific exemptions."
+    },
+    {
+      "requirement_id": "AZ-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Property Tax Exemption Application",
+      "filing_agency": "County Assessor",
+      "frequency": "annual",
+      "due_date_calculation": "fixed_date",
+      "due_date_specifics": "File by March 1st for exemption beginning the following tax year",
+      "fee_amount": 0.00,
+      "form_number": "Form 82901 - Exemption Affidavit",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Deed or proof of ownership",
+        "Description of property use for charitable purposes",
+        "Financial statements",
+        "Affidavit of exclusive charitable use"
+      ],
+      "legal_citation": "A.R.S. § 42-11110",
+      "contact_phone": "Varies by county",
+      "notes": "Property must be owned by nonprofit and used exclusively for charitable purposes. Annual affidavit required by March 1st. Contact county assessor for specific requirements."
+    },
+    {
+      "requirement_id": "AZ-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Raffle License",
+      "filing_agency": "Local City or Town Clerk",
+      "frequency": "per_event",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File application before raffle event",
+      "fee_amount": 0.00,
+      "form_number": "Raffle License Application (varies by municipality)",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of 3+ years operation",
+        "Description of raffle prizes",
+        "Proposed ticket pricing"
+      ],
+      "legal_citation": "A.R.S. § 5-401 et seq.",
+      "contact_phone": "Varies by municipality",
+      "notes": "Arizona allows raffles for nonprofits in existence 3+ years. Municipality approval required. Prize limit $100,000 per raffle. No more than 2 raffles per year."
+    },
+    {
+      "requirement_id": "AZ-007",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Fundraiser Registration",
+      "filing_agency": "Arizona Secretary of State - Charitable Organizations Section",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration",
+      "fee_amount": 0.00,
+      "form_number": "Professional Fundraiser Registration",
+      "form_url": "https://azsos.gov/business/charities",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information",
+        "$25,000 surety bond",
+        "Sample contracts",
+        "Financial statement"
+      ],
+      "legal_citation": "A.R.S. § 44-6555",
+      "contact_phone": "602-542-6187",
+      "notes": "Registration is free but bond required. Each contract must be filed."
+    },
+    {
+      "requirement_id": "AZ-008",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "fee_amount": 0.00,
+      "notes": "Arizona does not mandate audits by law. Best practices suggest audits for organizations over $500,000 in revenue."
+    }
+  ],
+  "special_notes": {
+    "no_corporate_annual_report": "Arizona does NOT require annual corporate reports for nonprofits, reducing administrative burden significantly.",
+    "publication_requirement": "Arizona requires publication of incorporation notice, adding cost and time to formation.",
+    "single_director_allowed": "Arizona allows single-director nonprofits, unusual flexibility.",
+    "transaction_privilege_tax": "Arizona uses Transaction Privilege Tax (TPT) instead of traditional sales tax.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions.",
+    "three_year_raffle_rule": "Organizations must exist for 3+ years before conducting raffles.",
+    "free_filings": "All charitable registration and professional fundraiser registration is free in Arizona."
+  },
+  "helpful_links": [
+    {
+      "title": "Arizona Secretary of State - Charities",
+      "url": "https://azsos.gov/business/charities",
+      "description": "Charitable registration and compliance"
+    },
+    {
+      "title": "Arizona Corporation Commission",
+      "url": "https://ecorp.azcc.gov/",
+      "description": "Incorporation and business entity information"
+    },
+    {
+      "title": "Arizona Department of Revenue",
+      "url": "https://azdor.gov/",
+      "description": "Tax exemptions and forms"
+    }
+  ]
+}

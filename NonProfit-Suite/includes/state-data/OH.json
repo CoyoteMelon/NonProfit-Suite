@@ -1,0 +1,324 @@
+{
+  "jurisdiction_code": "OH",
+  "jurisdiction_name": "Ohio",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "Ohio Secretary of State - Business Services",
+      "source_url": "https://www.ohiosos.gov/businesses/",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Ohio Attorney General - Charitable Law Section",
+      "source_url": "https://www.ohioattorneygeneral.gov/Business/Services-for-Charities",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Ohio Department of Taxation",
+      "source_url": "https://tax.ohio.gov/",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "Ohio Secretary of State - Business Services Division",
+  "charitable_registration_agency": "Ohio Attorney General - Charitable Law Section",
+  "exemption_threshold_note": "Organizations with contributions under $25,000 annually that do not use professional fundraisers may be exempt from registration. Religious organizations and certain educational institutions are also exempt.",
+  "formation_requirements": {
+    "minimum_directors": 3,
+    "initial_filing_fee": 125.00,
+    "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation (Form 532A)",
+    "filing_agency": "Ohio Secretary of State",
+    "publication_requirement": false,
+    "registered_agent_required": true,
+    "bylaws_filing_required": false,
+    "notes": "Ohio requires a statutory agent (registered agent) with a physical Ohio address. The agent can be an individual Ohio resident or a business entity authorized to do business in Ohio."
+  },
+  "requirements": [
+    {
+      "requirement_id": "OH-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "No Annual Report Required",
+      "filing_agency": "Ohio Secretary of State",
+      "frequency": "not_required",
+      "due_date_calculation": "not_applicable",
+      "fee_amount": 0.00,
+      "legal_citation": "Ohio Revised Code § 1702",
+      "contact_phone": "614-466-3910",
+      "contact_email": "busserv@ohiosos.gov",
+      "notes": "Ohio is one of the few states that does NOT require annual corporate reports for nonprofit corporations. However, nonprofits must still file annual charitable organization reports with the Attorney General if registered."
+    },
+    {
+      "requirement_id": "OH-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Organization Registration",
+      "filing_agency": "Ohio Attorney General - Charitable Law Section",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting contributions in Ohio",
+      "fee_amount": 0.00,
+      "form_number": "Form CHAR-1 - Initial Registration",
+      "form_url": "https://www.ohioattorneygeneral.gov/Files/Forms/Charities-Forms/Charitable-Organization-Forms/Charitable-Organization-Registration-Form",
+      "online_filing_available": true,
+      "online_filing_url": "https://charitableregistration.ohioago.gov/",
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation or organizing documents",
+        "Copy of Bylaws or code of regulations",
+        "List of officers, directors, and trustees",
+        "Financial statements for most recent fiscal year",
+        "Purpose and program description"
+      ],
+      "legal_citation": "Ohio Revised Code § 1716.02",
+      "contact_phone": "614-466-3180",
+      "contact_email": "charitable@ohioago.gov",
+      "notes": "Registration is free and required before soliciting in Ohio. Organizations with contributions under $25,000 without professional fundraisers may be exempt but should confirm eligibility."
+    },
+    {
+      "requirement_id": "OH-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Financial Report",
+      "filing_agency": "Ohio Attorney General - Charitable Law Section",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 6 months after fiscal year end",
+      "fee_amount": 0.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Form CHAR-2 - Annual Financial Report",
+      "form_url": "https://www.ohioattorneygeneral.gov/Files/Forms/Charities-Forms/Charitable-Organization-Forms/Charitable-Organization-Financial-Report",
+      "online_filing_available": true,
+      "online_filing_url": "https://charitableregistration.ohioago.gov/",
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "Audited financial statements (if required)",
+        "Professional fundraiser contracts and reports",
+        "Updated list of officers and directors",
+        "Program service descriptions"
+      ],
+      "legal_citation": "Ohio Revised Code § 1716.03",
+      "contact_phone": "614-466-3180",
+      "contact_email": "charitable@ohioago.gov",
+      "notes": "Annual filing is free. Organizations with contributions under $25,000 may be exempt but many choose to file voluntarily. Late filing may result in compliance actions."
+    },
+    {
+      "requirement_id": "OH-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Ohio Sales Tax Exemption Certificate",
+      "filing_agency": "Ohio Department of Taxation",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Apply after receiving IRS 501(c)(3) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form STEC 1 - Sales Tax Exemption Certificate Application",
+      "form_url": "https://tax.ohio.gov/static/forms/sales_and_use/stec/stec1.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Copy of Ohio incorporation documents",
+        "Federal Employer Identification Number (FEIN)",
+        "Description of organization's charitable activities",
+        "Statement of nonprofit purpose"
+      ],
+      "legal_citation": "Ohio Revised Code § 5739.02",
+      "contact_phone": "888-405-4039",
+      "notes": "Once approved, exemption certificate does not expire but should be updated if organization information changes. Exemption applies to purchases for charitable purposes. Provide certificate to vendors at time of purchase."
+    },
+    {
+      "requirement_id": "OH-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Real Property Tax Exemption Application",
+      "filing_agency": "County Auditor and State Board of Tax Appeals",
+      "frequency": "one-time",
+      "due_date_calculation": "fixed_date",
+      "due_date_specifics": "File by March 31st of the first year claiming exemption",
+      "fee_amount": 0.00,
+      "form_number": "Form DTE 24A - Application for Exemption of Real Property",
+      "form_url": "https://tax.ohio.gov/static/forms/real_property/dte24a.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Deed or proof of ownership",
+        "Description of property use for exempt purposes",
+        "Financial statements showing charitable activities",
+        "Statement of exclusive charitable use",
+        "Supporting documentation of public benefit"
+      ],
+      "legal_citation": "Ohio Revised Code § 5709.12",
+      "contact_phone": "Varies by county",
+      "notes": "Property must be owned by nonprofit and used exclusively for charitable purposes. Once granted, exemption continues if use remains charitable. Annual recertification may be required. Contact county auditor for specific requirements."
+    },
+    {
+      "requirement_id": "OH-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Charitable Raffle License",
+      "filing_agency": "Ohio Attorney General - Charitable Law Section",
+      "frequency": "annual",
+      "due_date_calculation": "calendar_year",
+      "due_date_specifics": "License valid for calendar year; renew annually",
+      "fee_amount": 0.00,
+      "form_number": "Form RAFF-1 - Raffle License Application",
+      "form_url": "https://www.ohioattorneygeneral.gov/Files/Forms/Charities-Forms/Raffle-Forms/Raffle-License-Application",
+      "online_filing_available": true,
+      "online_filing_url": "https://charitableregistration.ohioago.gov/",
+      "required_information": [
+        "Proof of IRS 501(c)(3) status or other qualifying status",
+        "Proof of 2+ years operation in Ohio",
+        "List of officers and raffle operators",
+        "Description of charitable purposes",
+        "Statement that proceeds will benefit charitable purpose"
+      ],
+      "legal_citation": "Ohio Revised Code § 2915.092",
+      "contact_phone": "614-466-3180",
+      "contact_email": "charitable@ohioago.gov",
+      "notes": "Ohio raffle license is free and valid for calendar year. Organization must be in existence for 2+ years. No limit on number of raffles per year. Net proceeds must be used for charitable purposes."
+    },
+    {
+      "requirement_id": "OH-007",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Charitable Bingo License",
+      "filing_agency": "Ohio Attorney General - Charitable Law Section",
+      "frequency": "annual",
+      "due_date_calculation": "calendar_year",
+      "due_date_specifics": "License valid for calendar year; renew annually",
+      "fee_amount": 100.00,
+      "form_number": "Form BINGO-1 - Bingo License Application",
+      "form_url": "https://www.ohioattorneygeneral.gov/Files/Forms/Charities-Forms/Bingo-Forms/Bingo-License-Application",
+      "online_filing_available": false,
+      "required_information": [
+        "Proof of IRS 501(c)(3) or other qualifying status",
+        "Proof of 2+ years operation in Ohio",
+        "List of officers and bingo operators",
+        "Venue information",
+        "Operator background check information",
+        "License fee payment"
+      ],
+      "legal_citation": "Ohio Revised Code § 2915.08",
+      "contact_phone": "614-466-3180",
+      "contact_email": "charitable@ohioago.gov",
+      "notes": "Ohio charitable bingo requires annual license and quarterly financial reports. Organization must be in existence for 2+ years. Proceeds must benefit charitable purposes. Strict rules on prize amounts and operations."
+    },
+    {
+      "requirement_id": "OH-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Solicitor Registration",
+      "filing_agency": "Ohio Attorney General - Charitable Law Section",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 200.00,
+      "form_number": "Form PS-1 - Professional Solicitor Registration",
+      "form_url": "https://www.ohioattorneygeneral.gov/Files/Forms/Charities-Forms/Professional-Solicitor-Forms/Professional-Solicitor-Registration",
+      "online_filing_available": true,
+      "online_filing_url": "https://charitableregistration.ohioago.gov/",
+      "required_information": [
+        "Business information and ownership structure",
+        "List of officers and management",
+        "$25,000 surety bond",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "Registration fee payment ($200)"
+      ],
+      "legal_citation": "Ohio Revised Code § 1716.06",
+      "contact_phone": "614-466-3180",
+      "contact_email": "charitable@ohioago.gov",
+      "notes": "Required for paid professional solicitors who solicit on behalf of charities. Each campaign must be registered with Form PS-2. Bond must remain in effect throughout registration period."
+    },
+    {
+      "requirement_id": "OH-009",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Fundraising Counsel Registration",
+      "filing_agency": "Ohio Attorney General - Charitable Law Section",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 200.00,
+      "form_number": "Form FC-1 - Fundraising Counsel Registration",
+      "form_url": "https://www.ohioattorneygeneral.gov/Files/Forms/Charities-Forms/Fundraising-Counsel-Forms/Fundraising-Counsel-Registration",
+      "online_filing_available": true,
+      "online_filing_url": "https://charitableregistration.ohioago.gov/",
+      "required_information": [
+        "Business information and ownership",
+        "List of officers and management",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "Registration fee payment ($200)"
+      ],
+      "legal_citation": "Ohio Revised Code § 1716.07",
+      "contact_phone": "614-466-3180",
+      "contact_email": "charitable@ohioago.gov",
+      "notes": "Fundraising counsel provides consulting but does not solicit or handle contributions. No bond required. Each contract must be filed within 10 days of execution."
+    },
+    {
+      "requirement_id": "OH-010",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and included in CHAR-2 filing if required",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 180 days after fiscal year end (completed before CHAR-2 due date)",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements",
+        "Notes to financial statements",
+        "Management letter (if applicable)"
+      ],
+      "legal_citation": "Ohio Revised Code § 1716.03(B)",
+      "notes": "Ohio requires audited financial statements for organizations with contributions over $500,000. Organizations between $100,000-$500,000 must have financial review or compilation. Organizations under $100,000 may file internally prepared statements. Audit must be performed by independent CPA."
+    }
+  ],
+  "special_notes": {
+    "no_annual_corporate_report": "Ohio does NOT require annual corporate reports for nonprofit corporations with the Secretary of State, making it unique among states. However, charitable organization annual reports ARE required with the Attorney General.",
+    "free_registration": "Ohio's charitable registration and annual reporting are free, though professional fundraiser and bingo licenses have fees. Raffle licenses are also free.",
+    "board_requirements": "Ohio nonprofit corporations must have at least three directors. Directors need not be Ohio residents. Board must meet requirements specified in code of regulations (bylaws).",
+    "two_year_gaming_rule": "Ohio gaming laws require organizations to be in existence for at least 2 years before conducting raffles, bingo, or other charitable gaming. This is shorter than some states but still a significant requirement.",
+    "raffle_flexibility": "Unlike many states, Ohio does not limit the number of raffles per year or impose strict prize limits for raffles, making it relatively friendly for charitable raffle operations.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions on political campaign intervention and lobbying activities. Ohio law reinforces these federal limits.",
+    "professional_solicitor_disclosure": "Professional solicitors must make specific disclosures to donors including that they are paid solicitors, the charity's name, and how to contact the charity directly.",
+    "bingo_reporting": "Organizations conducting charitable bingo must file quarterly financial reports (Form BINGO-2) in addition to the annual CHAR-2 report. Bingo operations are heavily regulated.",
+    "audit_threshold": "Ohio audit threshold is $500,000 in contributions, which is mid-to-high compared to other states. Review/compilation required for $100,000-$500,000.",
+    "dissolution_requirements": "Upon dissolution, assets must be distributed to organizations with similar charitable purposes. Attorney General should be notified of dissolution plans.",
+    "unrelated_business_income": "Organizations with unrelated business income over $1,000 must file IRS Form 990-T and Ohio Corporate or Pass-Through Entity Tax returns if conducting business in Ohio.",
+    "online_filing_system": "Ohio has a modern online filing system for charitable registration, annual reports, and professional fundraiser registration, making compliance more efficient.",
+    "property_tax_exclusive_use": "Ohio property tax exemption requires exclusive charitable use. Any non-exempt use of property may disqualify the exemption for the entire property or proportionally."
+  },
+  "helpful_links": [
+    {
+      "title": "Ohio Attorney General - Services for Charities",
+      "url": "https://www.ohioattorneygeneral.gov/Business/Services-for-Charities",
+      "description": "Primary portal for charitable registration, annual reports, forms, and guidance"
+    },
+    {
+      "title": "Ohio Charitable Registration Portal",
+      "url": "https://charitableregistration.ohioago.gov/",
+      "description": "Online filing system for charitable registration, renewals, and professional fundraiser registration"
+    },
+    {
+      "title": "Ohio Attorney General - Charity Search",
+      "url": "https://charitableregistration.ohioago.gov/CharityCheck.aspx",
+      "description": "Search database of registered charities and check compliance status"
+    },
+    {
+      "title": "Ohio Secretary of State - Business Services",
+      "url": "https://www.ohiosos.gov/businesses/",
+      "description": "Incorporation, business filings, and business entity searches"
+    },
+    {
+      "title": "Ohio Business Central",
+      "url": "https://businesscentral.ohiosos.gov/",
+      "description": "Online filing system for business entity formation and amendments"
+    },
+    {
+      "title": "Ohio Department of Taxation",
+      "url": "https://tax.ohio.gov/",
+      "description": "Sales tax exemption, property tax information, and tax forms"
+    },
+    {
+      "title": "Ohio Revised Code Chapter 1716 - Charitable Organizations",
+      "url": "https://codes.ohio.gov/ohio-revised-code/chapter-1716",
+      "description": "Full text of Ohio's charitable solicitation and registration law"
+    }
+  ]
+}

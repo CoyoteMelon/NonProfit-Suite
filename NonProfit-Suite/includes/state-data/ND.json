@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "ND",
+  "jurisdiction_name": "North Dakota",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "North Dakota Secretary of State", "source_url": "https://sos.nd.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "North Dakota Secretary of State - Business Division",
+  "charitable_registration_agency": "North Dakota Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $50,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 40.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "North Dakota Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "ND-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "North Dakota Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "November 15th each year", "fee_amount": 25.00, "legal_citation": "NDCC § 10-33-105", "notes": "Annual report fee $25. Due November 15th for all nonprofits."},
+    {"requirement_id": "ND-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "North Dakota Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "NDCC § 50-22-02", "notes": "Registration is free."},
+    {"requirement_id": "ND-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "North Dakota Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "Annual report is free."},
+    {"requirement_id": "ND-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "North Dakota Sales Tax Exemption Certificate", "filing_agency": "North Dakota Office of State Tax Commissioner", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form SFN 22045 - Sales and Use Tax Exemption Certificate", "legal_citation": "NDCC § 57-39.2-04", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "ND-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Auditor", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "NDCC § 57-02-08", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "ND-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Gaming License", "filing_agency": "North Dakota Attorney General - Gaming Division", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 50.00, "legal_citation": "NDCC § 53-06.1-07", "notes": "Charitable gaming permitted for qualified nonprofits. $50 license fee."},
+    {"requirement_id": "ND-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "North Dakota Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 0.00, "notes": "Registration is free. Bond required."},
+    {"requirement_id": "ND-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"november_15_deadline": "All nonprofits must file annual reports by November 15th.", "free_charity_filings": "All charitable registration and renewals are free.", "higher_threshold": "North Dakota's $50,000 exemption threshold is higher than most states.", "no_state_income_tax": "North Dakota has no state income tax on individuals."},
+  "helpful_links": [{"title": "North Dakota Secretary of State", "url": "https://sos.nd.gov/", "description": "Incorporation and compliance"}]
+}

@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "SD",
+  "jurisdiction_name": "South Dakota",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "South Dakota Secretary of State", "source_url": "https://sdsos.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "South Dakota Secretary of State - Business Services",
+  "charitable_registration_agency": "South Dakota Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $50,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 40.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "South Dakota Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "SD-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "South Dakota Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "First day of anniversary month", "fee_amount": 10.00, "legal_citation": "SDCL § 47-22-52", "notes": "Annual report fee only $10, among lowest nationally."},
+    {"requirement_id": "SD-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "South Dakota Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "SDCL § 37-30-3", "notes": "Registration is free."},
+    {"requirement_id": "SD-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "South Dakota Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "Annual report is free."},
+    {"requirement_id": "SD-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "South Dakota Sales Tax Exemption Certificate", "filing_agency": "South Dakota Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form 1957 - Sales Tax Exemption Certificate", "legal_citation": "SDCL § 10-45-7", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "SD-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Director of Equalization", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "SDCL § 10-4-9", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "SD-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Video Lottery/Gaming License", "filing_agency": "South Dakota Department of Revenue - Lottery Division", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 100.00, "legal_citation": "SDCL § 42-7A-14", "notes": "Limited charitable gaming permitted. License fee $100."},
+    {"requirement_id": "SD-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "South Dakota Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 0.00, "notes": "Registration is free. Bond required."},
+    {"requirement_id": "SD-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"very_low_fees": "South Dakota has among the lowest fees nationally - $10 annual report fee.", "free_charity_filings": "All charitable registration and renewals are free.", "higher_threshold": "South Dakota's $50,000 exemption threshold is higher than most states.", "no_state_income_tax": "South Dakota has no state income tax."},
+  "helpful_links": [{"title": "South Dakota Secretary of State", "url": "https://sdsos.gov/", "description": "Incorporation and compliance"}]
+}

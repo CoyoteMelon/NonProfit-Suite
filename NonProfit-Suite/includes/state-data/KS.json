@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "KS",
+  "jurisdiction_name": "Kansas",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Kansas Secretary of State", "source_url": "https://www.kssos.org/", "last_accessed": "2025-11-12"}, {"source_name": "Kansas Attorney General", "source_url": "https://ag.ks.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Kansas Secretary of State - Business Services Division",
+  "charitable_registration_agency": "Kansas Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross receipts under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 90.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Kansas Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "KS-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "Kansas Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "15th day of anniversary month", "fee_amount": 80.00, "legal_citation": "K.S.A. 17-7509", "notes": "Annual report fee $80."},
+    {"requirement_id": "KS-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Kansas Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 35.00, "legal_citation": "K.S.A. 17-1760", "notes": "Initial registration $35."},
+    {"requirement_id": "KS-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Kansas Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 35.00, "notes": "Annual report $35."},
+    {"requirement_id": "KS-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Kansas Sales Tax Exemption Certificate", "filing_agency": "Kansas Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form ST-28 - Exemption Certificate", "legal_citation": "K.S.A. 79-3606", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "KS-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Appraiser", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "March 15th annually", "fee_amount": 0.00, "legal_citation": "K.S.A. 79-201", "notes": "Annual application by March 15th."},
+    {"requirement_id": "KS-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Bingo License", "filing_agency": "Local City or County Clerk", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 0.00, "legal_citation": "K.S.A. 75-5171", "notes": "Bingo permitted for qualified nonprofits. Local licensing required."},
+    {"requirement_id": "KS-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Kansas Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 250.00, "notes": "$250 fee. Bond required."},
+    {"requirement_id": "KS-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"higher_corporate_fee": "Kansas corporate annual report fee of $80 is relatively high.", "raffle_restrictions": "Kansas generally prohibits traditional raffles. Only bingo permitted for most nonprofits."},
+  "helpful_links": [{"title": "Kansas Secretary of State", "url": "https://www.kssos.org/", "description": "Incorporation and compliance"}]
+}

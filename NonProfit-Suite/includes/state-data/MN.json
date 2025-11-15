@@ -1,0 +1,31 @@
+{
+  "jurisdiction_code": "MN",
+  "jurisdiction_name": "Minnesota",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {"source_name": "Minnesota Secretary of State", "source_url": "https://www.sos.state.mn.us/", "last_accessed": "2025-11-12"},
+    {"source_name": "Minnesota Attorney General - Charities", "source_url": "https://www.ag.state.mn.us/charity/", "last_accessed": "2025-11-12"},
+    {"source_name": "Minnesota Department of Revenue", "source_url": "https://www.revenue.state.mn.us/", "last_accessed": "2025-11-12"}
+  ],
+  "incorporation_agency": "Minnesota Secretary of State - Business Services Division",
+  "charitable_registration_agency": "Minnesota Attorney General - Charities Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may file simplified registration. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 70.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Minnesota Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "Minnesota requires registered agent with Minnesota address."},
+  "requirements": [
+    {"requirement_id": "MN-001", "requirement_type": "Annual Report", "requirement_name": "Annual Renewal", "filing_agency": "Minnesota Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "December 31st of year following incorporation, then annually", "fee_amount": 0.00, "legal_citation": "Minn. Stat. § 317A.801", "contact_phone": "651-296-2803", "notes": "Annual renewal is FREE. Due December 31st annually after initial year."},
+    {"requirement_id": "MN-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Minnesota Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "due_date_specifics": "Before soliciting in Minnesota", "fee_amount": 25.00, "form_number": "Charitable Organization Initial Registration", "legal_citation": "Minn. Stat. § 309.52", "contact_phone": "651-757-1461", "notes": "Initial registration $25. Organizations under $25,000 file simplified form."},
+    {"requirement_id": "MN-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Registration Renewal", "filing_agency": "Minnesota Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 25.00, "form_number": "Annual Report Form", "legal_citation": "Minn. Stat. § 309.53", "contact_phone": "651-757-1461", "notes": "Annual renewal $25. Due within 6 months of fiscal year end."},
+    {"requirement_id": "MN-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Minnesota Sales Tax Exemption Certificate", "filing_agency": "Minnesota Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form ST3 - Certificate of Exemption", "legal_citation": "Minn. Stat. § 297A.70", "contact_phone": "651-296-6181", "notes": "Qualifying 501(c)(3) organizations exempt from sales tax."},
+    {"requirement_id": "MN-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Assessor", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Minn. Stat. § 272.02", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "MN-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Lawful Gambling License", "filing_agency": "Minnesota Gambling Control Board", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 0.00, "legal_citation": "Minn. Stat. § 349.16", "contact_phone": "651-639-4000", "notes": "Required for raffles, bingo, and other gambling. No license fee but reporting required."},
+    {"requirement_id": "MN-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Fundraiser Registration", "filing_agency": "Minnesota Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 200.00, "form_number": "Fundraiser Registration", "legal_citation": "Minn. Stat. § 309.53", "contact_phone": "651-757-1461", "notes": "$200 fee. $20,000 bond required."},
+    {"requirement_id": "MN-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement. Best practices suggest audit for organizations over $500,000."}
+  ],
+  "special_notes": {"free_corporate_renewal": "Minnesota's annual corporate renewal is completely free.", "low_charity_fees": "Charitable registration fees of $25 are very affordable.", "december_31_deadline": "All nonprofits must file annual renewal by December 31st each year."},
+  "helpful_links": [
+    {"title": "Minnesota Secretary of State", "url": "https://www.sos.state.mn.us/", "description": "Incorporation and annual renewals"},
+    {"title": "Minnesota Attorney General - Charities", "url": "https://www.ag.state.mn.us/charity/", "description": "Charitable registration and compliance"}
+  ]
+}

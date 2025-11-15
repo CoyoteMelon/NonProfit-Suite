@@ -1,0 +1,30 @@
+{
+  "jurisdiction_code": "CO",
+  "jurisdiction_name": "Colorado",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {"source_name": "Colorado Secretary of State", "source_url": "https://www.sos.state.co.us/", "last_accessed": "2025-11-12"},
+    {"source_name": "Colorado Department of Revenue", "source_url": "https://tax.colorado.gov/", "last_accessed": "2025-11-12"}
+  ],
+  "incorporation_agency": "Colorado Secretary of State - Business Division",
+  "charitable_registration_agency": "Colorado Secretary of State - Charitable Solicitations Program",
+  "exemption_threshold_note": "Organizations with gross revenue under $50,000 annually may be exempt from charitable registration. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 1, "initial_filing_fee": 50.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Colorado Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "Colorado requires registered agent with Colorado address. Allows single-director nonprofits."},
+  "requirements": [
+    {"requirement_id": "CO-001", "requirement_type": "Annual Report", "requirement_name": "Periodic Report", "filing_agency": "Colorado Secretary of State", "frequency": "periodic", "due_date_calculation": "anniversary_month", "due_date_specifics": "Due every 2-5 years based on corporation name", "fee_amount": 10.00, "legal_citation": "C.R.S. § 7-123-102", "contact_phone": "303-894-2200", "notes": "Periodic report frequency based on first letter of corporation name. Fee $10."},
+    {"requirement_id": "CO-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Colorado Secretary of State", "frequency": "one-time", "due_date_calculation": "event_triggered", "due_date_specifics": "Before soliciting in Colorado", "fee_amount": 10.00, "form_number": "Paid Solicitor/Charitable Organization Registration", "legal_citation": "C.R.S. § 6-16-104", "contact_phone": "303-894-2680", "notes": "Initial registration $10. Organizations under $50,000 may be exempt."},
+    {"requirement_id": "CO-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Registration Renewal", "filing_agency": "Colorado Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "Annually from registration date", "fee_amount": 10.00, "legal_citation": "C.R.S. § 6-16-104.3", "contact_phone": "303-894-2680", "notes": "Annual renewal $10."},
+    {"requirement_id": "CO-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Colorado Sales Tax Exemption Certificate", "filing_agency": "Colorado Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form DR 0715 - Exemption Certificate", "legal_citation": "C.R.S. § 39-26-718", "notes": "Qualifying 501(c)(3) organizations exempt from sales tax."},
+    {"requirement_id": "CO-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Assessor", "frequency": "biennial", "due_date_calculation": "fixed_date", "due_date_specifics": "File by January 15th of each odd-numbered year", "fee_amount": 0.00, "legal_citation": "C.R.S. § 39-3-106", "notes": "Property used exclusively for charitable purposes may be exempt. Biennial filing required."},
+    {"requirement_id": "CO-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Bingo-Raffle License", "filing_agency": "Colorado Department of Revenue - Bingo-Raffle Division", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 50.00, "legal_citation": "C.R.S. § 12-9-103", "contact_phone": "303-205-2300", "notes": "Required for bingo and raffles. Organization must exist for 5+ years."},
+    {"requirement_id": "CO-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Fundraiser Registration", "filing_agency": "Colorado Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 200.00, "legal_citation": "C.R.S. § 6-16-104", "notes": "$200 fee. $25,000 bond required."},
+    {"requirement_id": "CO-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"periodic_reporting": "Colorado requires periodic reports every 2-5 years based on corporation name, not annually.", "low_fees": "All fees in Colorado are very affordable ($10-$50).", "five_year_gaming": "Gaming requires 5 years of operation."},
+  "helpful_links": [
+    {"title": "Colorado Secretary of State", "url": "https://www.sos.state.co.us/", "description": "Incorporation and compliance"},
+    {"title": "Colorado Department of Revenue", "url": "https://tax.colorado.gov/", "description": "Tax exemptions"}
+  ]
+}

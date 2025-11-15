@@ -1,0 +1,105 @@
+{
+  "state_code": "FL",
+  "state_name": "Florida",
+  "description": "Florida nonprofit compliance requirements",
+  "requirements": [
+    {
+      "type": "annual_report",
+      "name": "Annual Report",
+      "description": "Annual report filed with the Florida Department of State Division of Corporations",
+      "frequency": "annual",
+      "due_date": "Between January 1 and May 1",
+      "filing_method": "online",
+      "fee": 61.25,
+      "agency": "Florida Department of State",
+      "url": "https://dos.myflorida.com/sunbiz/"
+    },
+    {
+      "type": "charitable_registration",
+      "name": "Solicitation of Contributions Registration (CH Form)",
+      "description": "Registration with the Florida Department of Agriculture and Consumer Services for organizations soliciting donations",
+      "frequency": "annual",
+      "due_date": "Before soliciting donations",
+      "filing_method": "online",
+      "fee": 400,
+      "agency": "Florida Department of Agriculture and Consumer Services",
+      "url": "https://csapp.800helpfla.com/"
+    },
+    {
+      "type": "annual_filing",
+      "name": "Annual Financial Report",
+      "description": "Annual financial report filed with Department of Agriculture if registered for charitable solicitation",
+      "frequency": "annual",
+      "due_date": "Within 6 months after fiscal year end or with extensions within 9 months",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Florida Department of Agriculture and Consumer Services",
+      "url": "https://csapp.800helpfla.com/"
+    },
+    {
+      "type": "tax_filing",
+      "name": "Form 990 Series",
+      "description": "IRS Form 990, 990-EZ, or 990-N required for tax-exempt organizations",
+      "frequency": "annual",
+      "due_date": "5 months after fiscal year end",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Internal Revenue Service",
+      "url": "https://www.irs.gov/forms-pubs/about-form-990"
+    },
+    {
+      "type": "sales_tax",
+      "name": "Consumer's Certificate of Exemption (DR-14)",
+      "description": "Sales tax exemption certificate for qualifying nonprofit purchases",
+      "frequency": "once",
+      "due_date": "Before making exempt purchases",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Florida Department of Revenue",
+      "url": "https://floridarevenue.com/taxes/taxesfees/Pages/sales_tax.aspx"
+    },
+    {
+      "type": "employment",
+      "name": "Reemployment Tax Registration",
+      "description": "Register with the Florida Department of Revenue if organization has employees",
+      "frequency": "once",
+      "due_date": "Within 15 days after first quarter with employees",
+      "filing_method": "online",
+      "fee": 0,
+      "agency": "Florida Department of Revenue",
+      "url": "https://floridarevenue.com/taxes/taxesfees/Pages/reemployment.aspx"
+    },
+    {
+      "type": "solicitation_compliance",
+      "name": "Professional Fundraising Consultant Registration",
+      "description": "Registration required if using professional fundraising consultants",
+      "frequency": "annual",
+      "due_date": "Before engaging consultant",
+      "filing_method": "online",
+      "fee": 250,
+      "agency": "Florida Department of Agriculture and Consumer Services",
+      "url": "https://csapp.800helpfla.com/"
+    }
+  ],
+  "notes": "Florida has unique charitable solicitation oversight through the Department of Agriculture rather than the Attorney General. The state has moderate nonprofit regulation with annual reporting to both the Department of State and Agriculture for organizations soliciting donations.",
+  "key_agencies": [
+    {
+      "name": "Florida Department of State - Division of Corporations",
+      "role": "Corporate registration and annual reports",
+      "phone": "(850) 245-6051",
+      "website": "https://dos.myflorida.com/sunbiz/"
+    },
+    {
+      "name": "Florida Department of Agriculture and Consumer Services",
+      "role": "Charitable solicitation registration and oversight",
+      "phone": "(800) 435-7352",
+      "website": "https://www.fdacs.gov/Consumer-Resources/Charities-and-Fundraising"
+    },
+    {
+      "name": "Florida Department of Revenue",
+      "role": "Sales tax exemptions and employment taxes",
+      "phone": "(800) 352-3671",
+      "website": "https://floridarevenue.com/"
+    }
+  ]
+}

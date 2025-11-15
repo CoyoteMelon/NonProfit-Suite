@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "NH",
+  "jurisdiction_name": "New Hampshire",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "New Hampshire Secretary of State", "source_url": "https://www.sos.nh.gov/", "last_accessed": "2025-11-12"}, {"source_name": "New Hampshire Attorney General", "source_url": "https://www.doj.nh.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "New Hampshire Secretary of State - Corporation Division",
+  "charitable_registration_agency": "New Hampshire Attorney General - Charitable Trusts Unit",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 100.00, "certificate_of_formation": "Articles of Agreement - Nonprofit Corporation", "filing_agency": "New Hampshire Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "New Hampshire uses 'Articles of Agreement' terminology."},
+  "requirements": [
+    {"requirement_id": "NH-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "New Hampshire Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "April 1st each year", "fee_amount": 25.00, "legal_citation": "RSA 292:6", "notes": "Annual report fee $25. Due April 1st for all nonprofits."},
+    {"requirement_id": "NH-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "New Hampshire Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "RSA 7:21", "notes": "Initial registration $50."},
+    {"requirement_id": "NH-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "New Hampshire Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual report $50."},
+    {"requirement_id": "NH-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "No State Sales Tax", "filing_agency": "Not applicable", "frequency": "not_applicable", "due_date_calculation": "not_applicable", "fee_amount": 0.00, "notes": "New Hampshire has no state sales tax."},
+    {"requirement_id": "NH-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "Town/City Assessor", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "April 15th annually", "fee_amount": 0.00, "legal_citation": "RSA 72:23", "notes": "Annual application by April 15th."},
+    {"requirement_id": "NH-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Games of Chance License", "filing_agency": "New Hampshire Lottery Commission", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 25.00, "legal_citation": "RSA 287-E:7", "notes": "Games of chance permitted for qualified nonprofits. $25 license fee."},
+    {"requirement_id": "NH-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "New Hampshire Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 200.00, "notes": "$200 fee. Bond required."},
+    {"requirement_id": "NH-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"no_sales_tax": "New Hampshire has no state sales tax or income tax.", "april_first_deadline": "All nonprofits must file annual reports by April 1st.", "articles_of_agreement": "New Hampshire uses 'Articles of Agreement' instead of 'Articles of Incorporation'."},
+  "helpful_links": [{"title": "New Hampshire Secretary of State", "url": "https://www.sos.nh.gov/", "description": "Incorporation and compliance"}]
+}

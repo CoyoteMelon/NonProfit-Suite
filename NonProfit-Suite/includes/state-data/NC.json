@@ -1,0 +1,330 @@
+{
+  "jurisdiction_code": "NC",
+  "jurisdiction_name": "North Carolina",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "North Carolina Secretary of State - Business Registration",
+      "source_url": "https://www.sosnc.gov/divisions/business_registration",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "North Carolina Secretary of State - Solicitation Licensing",
+      "source_url": "https://www.sosnc.gov/divisions/charitable_solicitation_licensing",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "North Carolina Department of Revenue",
+      "source_url": "https://www.ncdor.gov/",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "North Carolina Secretary of State - Business Registration Division",
+  "charitable_registration_agency": "North Carolina Secretary of State - Solicitation Licensing Section",
+  "exemption_threshold_note": "Organizations with contributions under $25,000 annually are generally exempt from charitable registration. Religious organizations and certain others are also exempt, but must apply for exemption.",
+  "formation_requirements": {
+    "minimum_directors": 1,
+    "initial_filing_fee": 60.00,
+    "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation",
+    "filing_agency": "North Carolina Secretary of State",
+    "publication_requirement": false,
+    "registered_agent_required": true,
+    "bylaws_filing_required": false,
+    "notes": "North Carolina requires a registered agent with a physical North Carolina address. Uniquely, NC allows single-director nonprofits. The registered agent can be an individual or a business entity."
+  },
+  "requirements": [
+    {
+      "requirement_id": "NC-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Annual Report for Nonprofit Corporations",
+      "filing_agency": "North Carolina Secretary of State - Business Registration Division",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due by the 15th day of the anniversary month of incorporation",
+      "fee_amount": 25.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Annual Report",
+      "form_url": "https://www.sosnc.gov/online_services/search/by_title/_Annual_Report",
+      "online_filing_available": true,
+      "online_filing_url": "https://www.sosnc.gov/online_services",
+      "required_information": [
+        "Principal office address",
+        "Registered agent name and office address",
+        "Names and addresses of directors and principal officers",
+        "Brief description of activities"
+      ],
+      "legal_citation": "N.C. Gen. Stat. § 55A-1-22",
+      "contact_phone": "919-814-5400",
+      "contact_email": "corporations@sosnc.gov",
+      "notes": "Filing fee is $25. No late fee but failure to file results in administrative dissolution. Due on 15th of anniversary month."
+    },
+    {
+      "requirement_id": "NC-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Organization License",
+      "filing_agency": "North Carolina Secretary of State - Solicitation Licensing Section",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting contributions in North Carolina",
+      "fee_amount": 200.00,
+      "form_number": "Form CSL-1-CO - Charitable Organization License Application",
+      "form_url": "https://www.sosnc.gov/forms/by_title/_Charitable_Solicitation",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation",
+        "Copy of Bylaws",
+        "List of officers, directors, and trustees",
+        "Financial statements for most recent fiscal year",
+        "Description of solicitation methods",
+        "License fee payment ($200)"
+      ],
+      "legal_citation": "N.C. Gen. Stat. § 131F-5",
+      "contact_phone": "919-814-5400",
+      "contact_email": "csl@sosnc.gov",
+      "notes": "Initial license fee is $200. Organizations with contributions under $25,000 may apply for exemption instead of license. License must be obtained before soliciting."
+    },
+    {
+      "requirement_id": "NC-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual License Renewal and Financial Report",
+      "filing_agency": "North Carolina Secretary of State - Solicitation Licensing Section",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 6 months after fiscal year end",
+      "fee_amount": 200.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Form CSL-2-CO - Annual Renewal and Financial Report",
+      "form_url": "https://www.sosnc.gov/forms/by_title/_Charitable_Solicitation",
+      "online_filing_available": false,
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "Audited financial statements (if required)",
+        "Professional fundraiser contracts and reports",
+        "Updated list of officers and directors",
+        "Description of fundraising activities",
+        "Renewal fee payment ($200)"
+      ],
+      "legal_citation": "N.C. Gen. Stat. § 131F-8",
+      "contact_phone": "919-814-5400",
+      "contact_email": "csl@sosnc.gov",
+      "notes": "Annual renewal fee is $200. Organizations that fall below $25,000 threshold may convert to exempt status. Late filing may result in license suspension."
+    },
+    {
+      "requirement_id": "NC-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Streamlined Sales Tax Certificate of Exemption",
+      "filing_agency": "North Carolina Department of Revenue",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Obtain after receiving IRS 501(c)(3) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form E-595E - Streamlined Sales and Use Tax Certificate of Exemption",
+      "form_url": "https://www.ncdor.gov/taxes-forms/sales-and-use-tax/sales-and-use-tax-exemptions",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Federal Employer Identification Number (FEIN)",
+        "Organization name and address"
+      ],
+      "legal_citation": "N.C. Gen. Stat. § 105-164.13",
+      "contact_phone": "877-252-3052",
+      "notes": "North Carolina 501(c)(3) organizations are generally exempt from sales tax on purchases for charitable purposes. Use Form E-595E to claim exemption at point of sale. Not all purchases are exempt - review specific exemptions."
+    },
+    {
+      "requirement_id": "NC-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Property Tax Exemption Application (AV-10)",
+      "filing_agency": "County Tax Assessor",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File during listing period (January 1 - January 31) before tax year",
+      "fee_amount": 0.00,
+      "form_number": "Form AV-10 - Property Tax Exemption Application",
+      "form_url": "https://www.ncdor.gov/documents/av-10-application-exemption-property-taxation",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Deed or proof of ownership",
+        "Description of property use for charitable purposes",
+        "Financial statements",
+        "Certification of exclusive charitable use",
+        "Documentation of actual public benefit"
+      ],
+      "legal_citation": "N.C. Gen. Stat. § 105-278.3",
+      "contact_phone": "Varies by county",
+      "notes": "Property must be owned by nonprofit and used exclusively for charitable, educational, or religious purposes. Once granted, exemption continues if use remains qualifying. Contact county assessor for specific requirements."
+    },
+    {
+      "requirement_id": "NC-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Raffle License",
+      "filing_agency": "North Carolina Department of Revenue - License and Theft Bureau",
+      "frequency": "per_event",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File application at least 30 days before raffle event",
+      "fee_amount": 0.00,
+      "form_number": "Form NC-RFL - Raffle License Application",
+      "form_url": "https://www.ncdor.gov/taxes-forms/other-taxes-and-fees/bingo-raffles",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of 5+ years continuous operation in North Carolina",
+        "List of officers and raffle operators",
+        "Description of raffle prizes",
+        "Proposed ticket price and quantity",
+        "Statement of proceeds use"
+      ],
+      "legal_citation": "N.C. Gen. Stat. § 14-309.15",
+      "contact_phone": "919-754-2542",
+      "notes": "North Carolina allows two raffles per year for qualifying nonprofits in existence for 5+ years. Maximum prize value $25,000 per raffle, $50,000 aggregate per year. License is free but strictly regulated."
+    },
+    {
+      "requirement_id": "NC-007",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Bingo License",
+      "filing_agency": "North Carolina Department of Revenue - License and Theft Bureau",
+      "frequency": "biennial",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "License valid for two years; renew biennially",
+      "fee_amount": 100.00,
+      "form_number": "Form BC-100 - Bingo License Application",
+      "form_url": "https://www.ncdor.gov/taxes-forms/other-taxes-and-fees/bingo-raffles",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of 5+ years continuous operation in North Carolina",
+        "List of officers and bingo operators",
+        "Venue information and approval",
+        "Operator background checks",
+        "License fee payment ($100)"
+      ],
+      "legal_citation": "N.C. Gen. Stat. § 14-309.6",
+      "contact_phone": "919-754-2542",
+      "notes": "Bingo license valid for 2 years. Organization must be in existence for 5+ years. Quarterly financial reports required. Strict prize limits and operational rules apply."
+    },
+    {
+      "requirement_id": "NC-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Solicitor License",
+      "filing_agency": "North Carolina Secretary of State - Solicitation Licensing Section",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial license date",
+      "fee_amount": 200.00,
+      "form_number": "Form CSL-1-S - Solicitor License Application",
+      "form_url": "https://www.sosnc.gov/forms/by_title/_Charitable_Solicitation",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership structure",
+        "List of officers and persons involved in solicitation",
+        "$25,000 surety bond",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "License fee payment ($200)"
+      ],
+      "legal_citation": "N.C. Gen. Stat. § 131F-5",
+      "contact_phone": "919-814-5400",
+      "contact_email": "csl@sosnc.gov",
+      "notes": "Required for paid professional solicitors who solicit on behalf of charities. Each contract must be filed before solicitation begins. Bond must remain in effect throughout license period."
+    },
+    {
+      "requirement_id": "NC-009",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Fundraising Consultant License",
+      "filing_agency": "North Carolina Secretary of State - Solicitation Licensing Section",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial license date",
+      "fee_amount": 200.00,
+      "form_number": "Form CSL-1-FC - Fundraising Consultant License Application",
+      "form_url": "https://www.sosnc.gov/forms/by_title/_Charitable_Solicitation",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership",
+        "List of officers and management",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "License fee payment ($200)"
+      ],
+      "legal_citation": "N.C. Gen. Stat. § 131F-5",
+      "contact_phone": "919-814-5400",
+      "contact_email": "csl@sosnc.gov",
+      "notes": "Fundraising consultants provide advice but do not solicit or handle contributions. No bond required. Each contract must be filed before providing services."
+    },
+    {
+      "requirement_id": "NC-010",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and may be required for CSL-2-CO filing",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 180 days after fiscal year end (completed before annual renewal)",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements",
+        "Notes to financial statements",
+        "Management letter (if applicable)"
+      ],
+      "legal_citation": "N.C. Gen. Stat. § 131F-8",
+      "notes": "North Carolina requires audited financial statements for organizations with gross revenue over $1,000,000 OR that pay professional solicitors more than $300,000. Organizations between $100,000-$1,000,000 should have financial review. Audit must be performed by independent CPA."
+    }
+  ],
+  "special_notes": {
+    "single_director_allowed": "North Carolina uniquely allows nonprofit corporations to have just one director, unlike most states that require at least three. This provides flexibility for small organizations.",
+    "high_license_fees": "North Carolina's $200 annual license fee for charities and professional fundraisers is among the highest in the nation. Budget accordingly for compliance costs.",
+    "five_year_gaming_rule": "Organizations must be in continuous operation for 5 years before conducting raffles or bingo. This is longer than most states and presents a barrier for newer nonprofits.",
+    "raffle_prize_limits": "North Carolina limits raffles to 2 per year with maximum prize of $25,000 each ($50,000 aggregate). This is more restrictive than many states.",
+    "exemption_application_required": "Even organizations exempt from licensing (under $25,000) must apply for exemption status. Exemption is not automatic.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions on political campaign intervention and lobbying activities. North Carolina reinforces these federal limits.",
+    "professional_fundraiser_contracts": "All contracts with professional solicitors or fundraising consultants must be filed with the Secretary of State before solicitation or consulting begins.",
+    "audit_threshold": "North Carolina's $1,000,000 audit threshold is relatively high compared to other states. Additional threshold of $300,000 paid to professional solicitors also triggers audit requirement.",
+    "dissolution_requirements": "Upon dissolution, assets must be distributed to organizations with similar charitable purposes. Secretary of State should be notified of dissolution plans.",
+    "unrelated_business_income": "Organizations with unrelated business income over $1,000 must file IRS Form 990-T and North Carolina Corporate Income Tax Return (Form CD-405) if conducting business in North Carolina.",
+    "biennial_bingo": "Bingo licenses are valid for two years, reducing administrative burden compared to annual licensing in other states.",
+    "streamlined_sales_tax": "North Carolina participates in the Streamlined Sales Tax system. Organizations can use Form E-595E for exemption claims.",
+    "property_tax_timing": "Property tax exemption applications must be filed during the January listing period. Missing this window delays exemption for a full year."
+  },
+  "helpful_links": [
+    {
+      "title": "North Carolina Secretary of State - Solicitation Licensing",
+      "url": "https://www.sosnc.gov/divisions/charitable_solicitation_licensing",
+      "description": "Charitable organization licensing, renewal, forms, and compliance information"
+    },
+    {
+      "title": "North Carolina Secretary of State - Business Registration",
+      "url": "https://www.sosnc.gov/divisions/business_registration",
+      "description": "Incorporation, annual reports, and business entity information"
+    },
+    {
+      "title": "North Carolina Online Filing System",
+      "url": "https://www.sosnc.gov/online_services",
+      "description": "Online filing for annual reports and business searches"
+    },
+    {
+      "title": "North Carolina Department of Revenue",
+      "url": "https://www.ncdor.gov/",
+      "description": "Sales tax exemption, property tax, corporate income tax, and tax forms"
+    },
+    {
+      "title": "North Carolina Department of Revenue - Bingo and Raffles",
+      "url": "https://www.ncdor.gov/taxes-forms/other-taxes-and-fees/bingo-raffles",
+      "description": "Bingo and raffle licensing, forms, rules, and quarterly reporting"
+    },
+    {
+      "title": "North Carolina General Statutes Chapter 131F - Solicitation of Contributions",
+      "url": "https://www.ncleg.gov/Laws/GeneralStatutes/Chapter131F",
+      "description": "Full text of North Carolina's charitable solicitation law"
+    },
+    {
+      "title": "North Carolina Property Tax Forms",
+      "url": "https://www.ncdor.gov/taxes-forms/property-tax",
+      "description": "Property tax exemption forms and guidance"
+    }
+  ]
+}

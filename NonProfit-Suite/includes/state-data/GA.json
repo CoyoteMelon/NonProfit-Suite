@@ -1,0 +1,321 @@
+{
+  "jurisdiction_code": "GA",
+  "jurisdiction_name": "Georgia",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "Georgia Secretary of State - Corporations Division",
+      "source_url": "https://sos.ga.gov/corporations",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Georgia Secretary of State - Charities Division",
+      "source_url": "https://sos.ga.gov/how-to-guide/how-register-charity",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Georgia Department of Revenue",
+      "source_url": "https://dor.georgia.gov/",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "Georgia Secretary of State - Corporations Division",
+  "charitable_registration_agency": "Georgia Secretary of State - Charities Division",
+  "exemption_threshold_note": "Organizations with contributions under $25,000 annually are generally exempt from charitable registration. Religious organizations and certain educational institutions are also exempt.",
+  "formation_requirements": {
+    "minimum_directors": 3,
+    "initial_filing_fee": 100.00,
+    "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation",
+    "filing_agency": "Georgia Secretary of State - Corporations Division",
+    "publication_requirement": true,
+    "publication_details": "Notice of intent to incorporate must be published in official county legal organ once a week for two consecutive weeks",
+    "registered_agent_required": true,
+    "bylaws_filing_required": false,
+    "notes": "Georgia requires a registered agent with a physical Georgia address. Publication requirement adds cost and time to incorporation process. Affidavit of publication must be filed after publication."
+  },
+  "requirements": [
+    {
+      "requirement_id": "GA-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Annual Registration",
+      "filing_agency": "Georgia Secretary of State - Corporations Division",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due by April 1st each year for all entities regardless of formation date",
+      "fee_amount": 50.00,
+      "penalty_late_fee": 25.00,
+      "form_number": "Annual Registration",
+      "form_url": "https://ecorp.sos.ga.gov/",
+      "online_filing_available": true,
+      "online_filing_url": "https://ecorp.sos.ga.gov/",
+      "required_information": [
+        "Principal office address",
+        "Registered agent name and office address",
+        "Names and addresses of officers and directors",
+        "Brief statement of organization's activities"
+      ],
+      "legal_citation": "O.C.G.A. § 14-3-1630",
+      "contact_phone": "404-656-2817",
+      "contact_email": "corporations@sos.ga.gov",
+      "notes": "Filing fee is $50 online, $55 by mail. Late fee of $25 applies after April 1st. Failure to file for two consecutive years results in administrative dissolution."
+    },
+    {
+      "requirement_id": "GA-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Organization Registration",
+      "filing_agency": "Georgia Secretary of State - Charities Division",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting contributions in Georgia (or within 30 days of first solicitation)",
+      "fee_amount": 35.00,
+      "form_number": "Form CHAR-001 - Charitable Organization Registration",
+      "form_url": "https://sos.ga.gov/how-to-guide/how-register-charity",
+      "online_filing_available": true,
+      "online_filing_url": "https://charities.sos.ga.gov/",
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation",
+        "Copy of Bylaws",
+        "List of officers and directors with addresses",
+        "Financial statements for most recent fiscal year",
+        "Registration fee payment ($35)"
+      ],
+      "legal_citation": "O.C.G.A. § 43-17-5",
+      "contact_phone": "404-656-4910",
+      "contact_email": "securities@sos.ga.gov",
+      "notes": "Registration required before soliciting in Georgia if contributions exceed $25,000 annually. Religious organizations and certain others are exempt."
+    },
+    {
+      "requirement_id": "GA-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Financial Report (Renewal)",
+      "filing_agency": "Georgia Secretary of State - Charities Division",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due on anniversary of initial registration date",
+      "fee_amount": 35.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Form CHAR-004 - Annual Financial Report",
+      "form_url": "https://sos.ga.gov/how-to-guide/how-file-annual-report-charity",
+      "online_filing_available": true,
+      "online_filing_url": "https://charities.sos.ga.gov/",
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "Georgia Financial Statement (included in CHAR-004)",
+        "Professional fundraiser reports (if applicable)",
+        "Updated list of officers and directors",
+        "Registration renewal fee ($35)"
+      ],
+      "legal_citation": "O.C.G.A. § 43-17-9",
+      "contact_phone": "404-656-4910",
+      "contact_email": "securities@sos.ga.gov",
+      "notes": "Annual renewal is required on anniversary date, not fiscal year end. Late filing may result in revocation of registration and inability to solicit."
+    },
+    {
+      "requirement_id": "GA-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Sales and Use Tax Exemption Certificate",
+      "filing_agency": "Georgia Department of Revenue",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Apply after receiving IRS 501(c)(3) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form ST-5 - Certificate of Exemption",
+      "form_url": "https://dor.georgia.gov/forms/st-5-application-and-certificate-exemption",
+      "online_filing_available": true,
+      "online_filing_url": "https://gtc.dor.ga.gov/",
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Copy of Georgia incorporation documents",
+        "Federal Employer Identification Number (FEIN)",
+        "Description of organization's charitable activities"
+      ],
+      "legal_citation": "O.C.G.A. § 48-8-3",
+      "contact_phone": "877-423-6711",
+      "notes": "Georgia provides sales tax exemption for qualifying 501(c)(3) organizations. Once approved, certificate should be updated periodically. Exemption applies to purchases for charitable purposes. Provide certificate to vendors."
+    },
+    {
+      "requirement_id": "GA-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Property Tax Exemption Application (PT-300)",
+      "filing_agency": "County Tax Assessor",
+      "frequency": "annual",
+      "due_date_calculation": "fixed_date",
+      "due_date_specifics": "February 1st of the year for which exemption is claimed (January 1st assessment date)",
+      "fee_amount": 0.00,
+      "form_number": "Form PT-300-C - Application for Property Tax Exemption (Charitable)",
+      "form_url": "https://dor.georgia.gov/forms/pt-300-c-application-exemption-charitable",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Deed or proof of ownership",
+        "Description of property use for charitable purposes",
+        "Financial statements showing charitable activities",
+        "Documentation of actual charitable use",
+        "Statement of no private benefit"
+      ],
+      "legal_citation": "O.C.G.A. § 48-5-41",
+      "contact_phone": "Varies by county",
+      "notes": "Georgia property tax exemption requires exclusive use for charitable purposes serving the public good. Application must be filed annually. Property cannot be used for private benefit. Contact county tax assessor for specific requirements."
+    },
+    {
+      "requirement_id": "GA-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Charitable Bingo License",
+      "filing_agency": "Local Sheriff or Police Chief (county/municipal)",
+      "frequency": "annual",
+      "due_date_calculation": "calendar_year",
+      "due_date_specifics": "License valid for calendar year; renew annually",
+      "fee_amount": 0.00,
+      "form_number": "Bingo License Application (varies by locality)",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) or 501(c)(4) determination letter",
+        "Proof of 5+ years continuous operation in Georgia",
+        "List of officers and bingo operators",
+        "Venue information and lease agreement",
+        "Background check for operators",
+        "Local ordinance compliance documentation"
+      ],
+      "legal_citation": "O.C.G.A. § 16-12-22.1",
+      "contact_phone": "Varies by locality",
+      "notes": "Georgia law permits charitable bingo for qualifying nonprofits existing 5+ years. Each county/city may have additional ordinances. Prize limits and frequency restrictions apply. Raffles are generally prohibited except for specific exemptions."
+    },
+    {
+      "requirement_id": "GA-007",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Limited Prize Promotion (Raffle-like)",
+      "filing_agency": "Internal - no state registration required",
+      "frequency": "per_event",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Conducted in compliance with O.C.G.A. § 16-12-22.1",
+      "fee_amount": 0.00,
+      "legal_citation": "O.C.G.A. § 16-12-22.1",
+      "notes": "Georgia prohibits traditional raffles but allows limited prize promotions where no purchase is required for entry. Prize value limits apply. Organizations must carefully structure promotions to comply with law. Consult legal counsel before conducting."
+    },
+    {
+      "requirement_id": "GA-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Fundraising Counsel Registration",
+      "filing_agency": "Georgia Secretary of State - Charities Division",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 225.00,
+      "form_number": "Form CHAR-300 - Professional Fundraising Counsel Registration",
+      "form_url": "https://sos.ga.gov/how-to-guide/how-register-professional-fundraiser-or-solicitor",
+      "online_filing_available": true,
+      "online_filing_url": "https://charities.sos.ga.gov/",
+      "required_information": [
+        "Business information and ownership structure",
+        "List of officers and management",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "Registration fee payment ($225)"
+      ],
+      "legal_citation": "O.C.G.A. § 43-17-5.1",
+      "contact_phone": "404-656-4910",
+      "contact_email": "securities@sos.ga.gov",
+      "notes": "Fundraising counsel provides consulting but does not solicit or handle contributions. No bond required. Each contract must be filed within 10 days of execution."
+    },
+    {
+      "requirement_id": "GA-009",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Solicitor Registration",
+      "filing_agency": "Georgia Secretary of State - Charities Division",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 225.00,
+      "form_number": "Form CHAR-301 - Professional Solicitor Registration",
+      "form_url": "https://sos.ga.gov/how-to-guide/how-register-professional-fundraiser-or-solicitor",
+      "online_filing_available": true,
+      "online_filing_url": "https://charities.sos.ga.gov/",
+      "required_information": [
+        "Business information and ownership structure",
+        "List of officers and persons involved in solicitation",
+        "$25,000 surety bond or cash deposit",
+        "Sample contracts with charity clients",
+        "Financial statement",
+        "Registration fee payment ($225)"
+      ],
+      "legal_citation": "O.C.G.A. § 43-17-5.1",
+      "contact_phone": "404-656-4910",
+      "contact_email": "securities@sos.ga.gov",
+      "notes": "Required for paid professional solicitors who solicit on behalf of charities. Each contract must be filed. Bond must remain in effect throughout registration period. Written disclosures required to donors."
+    },
+    {
+      "requirement_id": "GA-010",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and may be included in CHAR-004 filing",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 180 days after fiscal year end (before renewal filing if required)",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements",
+        "Notes to financial statements",
+        "Management letter (if applicable)"
+      ],
+      "legal_citation": "O.C.G.A. § 14-3-1620",
+      "notes": "Georgia law does not mandate audits based solely on revenue thresholds, but nonprofit best practices and many funding sources require audits. Organizations receiving federal funds over $750,000 must have Single Audit. Check bylaws and grant agreements for audit requirements."
+    }
+  ],
+  "special_notes": {
+    "publication_requirement": "Georgia uniquely requires publication of intent to incorporate in the county's legal organ for two consecutive weeks before incorporation, adding time and cost to the formation process.",
+    "anniversary_date_filing": "Georgia charitable renewal is based on anniversary of initial registration, not fiscal year end. This is different from most states. Track registration date carefully.",
+    "raffle_restrictions": "Georgia has very restrictive raffle laws. Traditional raffles are generally prohibited. Organizations must structure prize promotions carefully to comply with state law. Legal counsel recommended.",
+    "five_year_bingo_rule": "Organizations must be in continuous operation for 5 years before conducting charitable bingo, longer than most states. This is a significant barrier for newer organizations.",
+    "board_requirements": "Georgia nonprofit corporations must have at least three directors. Directors need not be Georgia residents. Board must meet requirements specified in bylaws.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions on political campaign intervention and lobbying. Georgia law reinforces these federal limits.",
+    "registration_threshold": "Georgia's $25,000 contribution threshold for charitable registration is standard. Organizations under this threshold are exempt but may voluntarily register.",
+    "professional_fundraiser_contracts": "All contracts with professional solicitors or fundraising counsel must be filed with the Secretary of State within 10 days of execution.",
+    "audit_requirements": "Georgia does not mandate audits based on revenue like many states. However, federal Single Audit rules, grantor requirements, and bylaws may require audits. Organizations should assess audit needs based on their circumstances.",
+    "dissolution_requirements": "Upon dissolution, assets must be distributed to organizations with similar charitable purposes or to government. Secretary of State must be notified of dissolution.",
+    "unrelated_business_income": "Organizations with unrelated business income over $1,000 must file IRS Form 990-T and Georgia Corporation Income Tax Return if conducting business in Georgia.",
+    "online_systems": "Georgia has online filing systems for both corporate filings (eCorp) and charitable registrations, making compliance more convenient.",
+    "property_tax_annual_filing": "Unlike some states where property tax exemption is perpetual once granted, Georgia requires annual application by February 1st."
+  },
+  "helpful_links": [
+    {
+      "title": "Georgia Secretary of State - Charities Division",
+      "url": "https://sos.ga.gov/how-to-guide/how-register-charity",
+      "description": "Charitable organization registration, annual reports, forms, and compliance guidance"
+    },
+    {
+      "title": "Georgia Charities Online Filing Portal",
+      "url": "https://charities.sos.ga.gov/",
+      "description": "Online registration and filing system for charitable organizations and professional fundraisers"
+    },
+    {
+      "title": "Georgia Secretary of State - Corporations Division",
+      "url": "https://sos.ga.gov/corporations",
+      "description": "Incorporation, annual registration, and corporate compliance information"
+    },
+    {
+      "title": "Georgia eCorp - Business Filings",
+      "url": "https://ecorp.sos.ga.gov/",
+      "description": "Online filing system for incorporation, annual registration, and business entity searches"
+    },
+    {
+      "title": "Georgia Department of Revenue",
+      "url": "https://dor.georgia.gov/",
+      "description": "Sales tax exemption, property tax, corporate income tax, and tax forms"
+    },
+    {
+      "title": "Georgia Tax Center",
+      "url": "https://gtc.dor.ga.gov/",
+      "description": "Online portal for tax registration, filing, and exemption certificate applications"
+    },
+    {
+      "title": "Georgia Code - Title 43, Chapter 17 - Charitable Organizations",
+      "url": "https://law.justia.com/codes/georgia/2020/title-43/chapter-17/",
+      "description": "Full text of Georgia's charitable solicitation and registration law"
+    }
+  ]
+}

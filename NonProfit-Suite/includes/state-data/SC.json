@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "SC",
+  "jurisdiction_name": "South Carolina",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "South Carolina Secretary of State", "source_url": "https://www.sos.sc.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "South Carolina Secretary of State",
+  "charitable_registration_agency": "South Carolina Secretary of State - Public Charities Division",
+  "exemption_threshold_note": "Organizations with gross receipts under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 1, "initial_filing_fee": 25.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "South Carolina Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "South Carolina allows single-director nonprofits."},
+  "requirements": [
+    {"requirement_id": "SC-001", "requirement_type": "Annual Report", "requirement_name": "No Annual Report Required", "filing_agency": "South Carolina Secretary of State", "frequency": "not_required", "due_date_calculation": "not_applicable", "fee_amount": 0.00, "legal_citation": "S.C. Code § 33-31-1622", "notes": "South Carolina does NOT require annual reports for nonprofit corporations."},
+    {"requirement_id": "SC-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "South Carolina Secretary of State", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "S.C. Code § 33-56-20", "notes": "Initial registration $50."},
+    {"requirement_id": "SC-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "South Carolina Secretary of State", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual report $50."},
+    {"requirement_id": "SC-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "South Carolina Sales Tax Exemption Certificate", "filing_agency": "South Carolina Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form ST-8 - Certificate of Exemption", "legal_citation": "S.C. Code § 12-36-2120", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "SC-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Auditor", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "S.C. Code § 12-37-220", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "SC-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle License", "filing_agency": "South Carolina Department of Revenue", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "S.C. Code § 33-57-110", "notes": "Raffles permitted for qualified nonprofits. Two raffles per year limit."},
+    {"requirement_id": "SC-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "South Carolina Secretary of State", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 50.00, "notes": "$50 fee. Bond required."},
+    {"requirement_id": "SC-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"no_corporate_report": "South Carolina does NOT require annual corporate reports.", "single_director": "Allows single-director nonprofits.", "two_raffle_limit": "Maximum two raffles per year."},
+  "helpful_links": [{"title": "South Carolina Secretary of State", "url": "https://www.sos.sc.gov/", "description": "Incorporation and charitable registration"}]
+}

@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "DE",
+  "jurisdiction_name": "Delaware",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Delaware Division of Corporations", "source_url": "https://corp.delaware.gov/", "last_accessed": "2025-11-12"}, {"source_name": "Delaware Attorney General", "source_url": "https://attorneygeneral.delaware.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Delaware Division of Corporations",
+  "charitable_registration_agency": "Delaware Attorney General - Consumer Protection Unit",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 1, "initial_filing_fee": 89.00, "certificate_of_formation": "Certificate of Incorporation - Nonprofit Corporation", "filing_agency": "Delaware Division of Corporations", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "Delaware allows single-director nonprofits. Delaware is a popular incorporation state."},
+  "requirements": [
+    {"requirement_id": "DE-001", "requirement_type": "Annual Report", "requirement_name": "Annual Franchise Tax Report", "filing_agency": "Delaware Division of Corporations", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "June 30th each year", "fee_amount": 75.00, "legal_citation": "8 Del. C. § 501", "notes": "Annual franchise tax $75. Due June 30th for all nonprofits."},
+    {"requirement_id": "DE-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Delaware Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "6 Del. C. § 2903", "notes": "Initial registration $50."},
+    {"requirement_id": "DE-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Delaware Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual report $50."},
+    {"requirement_id": "DE-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "No State Sales Tax", "filing_agency": "Not applicable", "frequency": "not_applicable", "due_date_calculation": "not_applicable", "fee_amount": 0.00, "notes": "Delaware has no state sales tax."},
+    {"requirement_id": "DE-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County or City Assessor", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "9 Del. C. § 8103", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "DE-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle License", "filing_agency": "Delaware Department of Finance - Revenue Division", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 100.00, "legal_citation": "28 Del. C. § 4805", "notes": "Raffles permitted for qualified nonprofits. $100 license fee."},
+    {"requirement_id": "DE-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Delaware Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 250.00, "notes": "$250 fee. Bond required."},
+    {"requirement_id": "DE-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"no_sales_tax": "Delaware has no state sales tax.", "single_director": "Delaware allows single-director nonprofits.", "incorporation_friendly": "Delaware is known for being incorporation-friendly.", "franchise_tax": "Delaware assesses annual franchise tax on nonprofits."},
+  "helpful_links": [{"title": "Delaware Division of Corporations", "url": "https://corp.delaware.gov/", "description": "Incorporation and compliance"}]
+}

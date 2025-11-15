@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "NJ",
+  "jurisdiction_name": "New Jersey",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "New Jersey Division of Consumer Affairs", "source_url": "https://www.njconsumeraffairs.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "New Jersey Division of Revenue and Enterprise Services",
+  "charitable_registration_agency": "New Jersey Division of Consumer Affairs - Charities Registration Section",
+  "exemption_threshold_note": "Organizations with gross contributions under $10,000 annually may file simplified registration. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 75.00, "certificate_of_formation": "Certificate of Incorporation - Nonprofit Corporation", "filing_agency": "New Jersey Division of Revenue", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "NJ-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "New Jersey Division of Revenue", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "Last day of anniversary month", "fee_amount": 75.00, "legal_citation": "N.J.S.A. 15A:6-1", "notes": "Annual report fee $75."},
+    {"requirement_id": "NJ-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "NJ Division of Consumer Affairs", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 250.00, "form_number": "Form CRI-200", "legal_citation": "N.J.S.A. 45:17A-25", "notes": "Initial registration $250."},
+    {"requirement_id": "NJ-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Registration Renewal", "filing_agency": "NJ Division of Consumer Affairs", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 250.00, "form_number": "Form CRI-300", "legal_citation": "N.J.S.A. 45:17A-27", "notes": "Annual renewal $250."},
+    {"requirement_id": "NJ-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "New Jersey Sales Tax Exemption Certificate", "filing_agency": "New Jersey Division of Taxation", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form ST-5 - Exempt Organization Certificate", "legal_citation": "N.J.S.A. 54:32B-9", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "NJ-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Tax Board", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "N.J.S.A. 54:4-3.6", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "NJ-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle License", "filing_agency": "Local Municipal Clerk", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "N.J.S.A. 5:8-50", "notes": "Raffles permitted for qualified nonprofits."},
+    {"requirement_id": "NJ-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Fundraiser Registration", "filing_agency": "NJ Division of Consumer Affairs", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 500.00, "legal_citation": "N.J.S.A. 45:17A-25", "notes": "$500 fee. $20,000 bond required."},
+    {"requirement_id": "NJ-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "legal_citation": "N.J.S.A. 45:17A-27", "notes": "Audit required for organizations over $500,000 in contributions."}
+  ],
+  "special_notes": {"high_fees": "New Jersey has some of the highest charitable registration fees nationally ($250).", "audit_required": "New Jersey mandates audits for organizations over $500,000 in contributions."},
+  "helpful_links": [{"title": "NJ Division of Consumer Affairs - Charities", "url": "https://www.njconsumeraffairs.gov/", "description": "Charitable registration"}]
+}

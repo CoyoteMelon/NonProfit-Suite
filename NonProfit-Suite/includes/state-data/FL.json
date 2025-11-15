@@ -1,0 +1,328 @@
+{
+  "jurisdiction_code": "FL",
+  "jurisdiction_name": "Florida",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [
+    {
+      "source_name": "Florida Department of State - Division of Corporations",
+      "source_url": "https://dos.fl.gov/corporations/",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Florida Department of Agriculture and Consumer Services - Solicitation of Contributions",
+      "source_url": "https://www.fdacs.gov/Consumer-Resources/Charities",
+      "last_accessed": "2025-11-12"
+    },
+    {
+      "source_name": "Florida Department of Revenue",
+      "source_url": "https://floridarevenue.com/",
+      "last_accessed": "2025-11-12"
+    }
+  ],
+  "incorporation_agency": "Florida Department of State - Division of Corporations",
+  "charitable_registration_agency": "Florida Department of Agriculture and Consumer Services",
+  "exemption_threshold_note": "Organizations with gross revenue under $50,000 and receiving contributions from fewer than 100 contributors may be exempt from charitable registration, but must still register and file simplified forms.",
+  "formation_requirements": {
+    "minimum_directors": 3,
+    "initial_filing_fee": 70.00,
+    "certificate_of_formation": "Articles of Incorporation - Florida Not For Profit Corporation",
+    "filing_agency": "Florida Department of State - Division of Corporations",
+    "publication_requirement": false,
+    "registered_agent_required": true,
+    "bylaws_filing_required": false,
+    "notes": "Florida requires a registered agent with a physical Florida address. The registered agent can be an individual or a business entity authorized to do business in Florida."
+  },
+  "requirements": [
+    {
+      "requirement_id": "FL-001",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Annual Report for Nonprofit Corporations",
+      "filing_agency": "Florida Department of State - Division of Corporations",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Due by May 1st each year regardless of incorporation date",
+      "fee_amount": 61.25,
+      "penalty_late_fee": 400.00,
+      "form_number": "Annual Report",
+      "form_url": "https://dos.fl.gov/corporations/annual-reports/",
+      "online_filing_available": true,
+      "online_filing_url": "https://dos.fl.gov/sunbiz/",
+      "required_information": [
+        "Principal office address",
+        "Mailing address",
+        "Names and addresses of directors and officers",
+        "Registered agent name and address",
+        "Federal Employer Identification Number (FEIN)"
+      ],
+      "legal_citation": "Florida Statutes § 617.1622",
+      "contact_phone": "850-245-6052",
+      "contact_email": "corporations@dos.myflorida.com",
+      "notes": "Filing fee is $61.25 online, higher for paper filing. Late filing penalty of $400 applies. Failure to file for two consecutive years results in administrative dissolution."
+    },
+    {
+      "requirement_id": "FL-002",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Initial Charitable Organization Registration",
+      "filing_agency": "Florida Department of Agriculture and Consumer Services - Division of Consumer Services",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Before soliciting contributions in Florida",
+      "fee_amount": 0.00,
+      "form_number": "Form CH-410 - Solicitation of Contributions Registration Application",
+      "form_url": "https://www.fdacs.gov/content/download/10210/file/ch410.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Copy of Articles of Incorporation",
+        "Copy of Bylaws",
+        "List of officers and directors with addresses",
+        "Current IRS Form 990",
+        "Financial statements for most recent fiscal year",
+        "Solicitation purpose statement"
+      ],
+      "legal_citation": "Florida Statutes Chapter 496",
+      "contact_phone": "800-435-7352",
+      "contact_email": "consumerassist@fdacs.gov",
+      "notes": "Initial registration is free but required before soliciting. Organizations must register even if exempt from annual filing. Registration number must be displayed in solicitations."
+    },
+    {
+      "requirement_id": "FL-003",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Annual Charitable Registration Renewal",
+      "filing_agency": "Florida Department of Agriculture and Consumer Services",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 6 months after fiscal year end, but no later than 9 months after prior filing",
+      "fee_amount": 0.00,
+      "penalty_late_fee": 0.00,
+      "form_number": "Form CH-1500 - Charitable Organization Annual Report",
+      "form_url": "https://www.fdacs.gov/content/download/10212/file/ch1500.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "IRS Form 990, 990-EZ, or 990-PF",
+        "Florida Schedule CH-1501 (Financial Information)",
+        "Updated list of officers and directors",
+        "Professional fundraiser contracts (if applicable)",
+        "Audit or financial statements (if required)"
+      ],
+      "legal_citation": "Florida Statutes § 496.406",
+      "contact_phone": "800-435-7352",
+      "contact_email": "consumerassist@fdacs.gov",
+      "notes": "Organizations with revenue under $50,000 from <100 contributors file simplified CH-1500-EZ. Religious organizations and certain others are exempt from filing but must maintain registration."
+    },
+    {
+      "requirement_id": "FL-004",
+      "requirement_type": "Sales Tax Exemption",
+      "requirement_name": "Consumer's Certificate of Exemption (Form DR-5)",
+      "filing_agency": "Florida Department of Revenue",
+      "frequency": "one-time",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "Obtain after receiving IRS 501(c)(3) determination letter",
+      "fee_amount": 0.00,
+      "form_number": "Form DR-5 - Consumer's Certificate of Exemption",
+      "form_url": "https://floridarevenue.com/Forms_library/current/dr5.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Florida Annual Resale Certificate for Sales Tax (DR-13) if applicable",
+        "Organization's Federal EIN"
+      ],
+      "legal_citation": "Florida Statutes § 212.08(7)",
+      "contact_phone": "850-488-6800",
+      "notes": "Form DR-5 is provided to vendors to claim exemption from sales tax on qualifying purchases. Not all purchases are exempt - exemption applies to items used in furtherance of charitable purpose. No formal application process; organization self-certifies eligibility."
+    },
+    {
+      "requirement_id": "FL-005",
+      "requirement_type": "Property Tax Exemption",
+      "requirement_name": "Application for Ad Valorem Tax Exemption (Form DR-501)",
+      "filing_agency": "County Property Appraiser",
+      "frequency": "annual",
+      "due_date_calculation": "fixed_date",
+      "due_date_specifics": "March 1st each year for exemption beginning January 1st",
+      "fee_amount": 0.00,
+      "form_number": "Form DR-501 - Application for Ad Valorem Tax Exemption",
+      "form_url": "https://floridarevenue.com/property/Documents/dr501.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c)(3) determination letter",
+        "Deed or proof of ownership",
+        "Description of property use",
+        "Financial statements showing charitable activities",
+        "Lease agreements (if property is leased to others)"
+      ],
+      "legal_citation": "Florida Statutes § 196.196, § 196.197, § 196.198",
+      "contact_phone": "Varies by county",
+      "notes": "Property must be owned by nonprofit and used exclusively for charitable, educational, or religious purposes. Literary and scientific properties also qualify. Exemption must be applied for annually. Rental of property may disqualify exemption."
+    },
+    {
+      "requirement_id": "FL-006",
+      "requirement_type": "Raffle/Gaming",
+      "requirement_name": "Drawing by Chance (Raffle) Permit",
+      "filing_agency": "Florida Department of Agriculture and Consumer Services - Division of Licensing",
+      "frequency": "per_event",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "File application at least 30 days before raffle event",
+      "fee_amount": 50.00,
+      "form_number": "Drawing by Chance Application",
+      "form_url": "https://www.fdacs.gov/Business-Services/Amusement-Rides/Drawing-by-Chance",
+      "online_filing_available": false,
+      "required_information": [
+        "Copy of IRS 501(c) determination letter",
+        "Proof of incorporation in Florida (or registration if foreign)",
+        "Description of raffle prizes",
+        "Proposed ticket price and sales numbers",
+        "Statement of proceeds use",
+        "List of officers"
+      ],
+      "legal_citation": "Florida Statutes § 849.0935",
+      "contact_phone": "850-487-1395",
+      "notes": "Florida allows up to 2 raffles per year for qualified nonprofits. Organization must exist for 3+ years. Total prizes cannot exceed $100,000 per year. Tickets must be sold in Florida. Professional operation prohibited."
+    },
+    {
+      "requirement_id": "FL-007",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Solicitor of Contributions Registration",
+      "filing_agency": "Florida Department of Agriculture and Consumer Services",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 400.00,
+      "form_number": "Form CH-420 - Solicitor of Contributions Registration",
+      "form_url": "https://www.fdacs.gov/content/download/10214/file/ch420.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information and ownership",
+        "List of officers and employees who will solicit",
+        "$50,000 surety bond",
+        "Sample contracts with charity clients",
+        "List of current charity clients in Florida",
+        "Financial statement"
+      ],
+      "legal_citation": "Florida Statutes § 496.411",
+      "contact_phone": "800-435-7352",
+      "contact_email": "consumerassist@fdacs.gov",
+      "notes": "Required for paid professional fundraisers who solicit on behalf of charities. Each contract with a charity must be filed within 10 days. Bond must be maintained throughout registration period. Paid employees of registered charities are exempt."
+    },
+    {
+      "requirement_id": "FL-008",
+      "requirement_type": "Professional Fundraiser",
+      "requirement_name": "Professional Fundraising Consultant Registration",
+      "filing_agency": "Florida Department of Agriculture and Consumer Services",
+      "frequency": "annual",
+      "due_date_calculation": "anniversary_month",
+      "due_date_specifics": "Renewed annually from initial registration date",
+      "fee_amount": 250.00,
+      "form_number": "Form CH-425 - Professional Fundraising Consultant Registration",
+      "form_url": "https://www.fdacs.gov/content/download/10215/file/ch425.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Business information",
+        "List of officers and management",
+        "Sample contracts with charity clients",
+        "List of current charity clients in Florida",
+        "Financial statement"
+      ],
+      "legal_citation": "Florida Statutes § 496.412",
+      "contact_phone": "800-435-7352",
+      "contact_email": "consumerassist@fdacs.gov",
+      "notes": "Professional fundraising consultants provide advice but do not solicit or handle contributions. Lower registration fee than solicitors. No bond required. Each contract must be filed within 10 days."
+    },
+    {
+      "requirement_id": "FL-009",
+      "requirement_type": "Annual Report",
+      "requirement_name": "Independent Financial Audit",
+      "filing_agency": "Internal requirement - filed with board and included in CH-1500 filing if required",
+      "frequency": "annual",
+      "due_date_calculation": "fiscal_year_end_plus_days",
+      "due_date_days_after_fiscal_year_end": 180,
+      "due_date_specifics": "Within 180 days after fiscal year end (completed before CH-1500 due date)",
+      "fee_amount": 0.00,
+      "required_information": [
+        "Independent auditor's report",
+        "Audited financial statements",
+        "Notes to financial statements",
+        "Management letter (if applicable)"
+      ],
+      "legal_citation": "Florida Statutes § 496.407",
+      "notes": "Florida requires audit for organizations with gross revenue over $500,000 OR that pay professional solicitors. Organizations between $200,000-$500,000 must have financial review. Organizations under $200,000 may file internally prepared statements. Audit must be performed by Florida-licensed CPA."
+    },
+    {
+      "requirement_id": "FL-010",
+      "requirement_type": "Charitable Solicitation",
+      "requirement_name": "Sponsor Registration for Special Events",
+      "filing_agency": "Florida Department of Agriculture and Consumer Services",
+      "frequency": "per_event",
+      "due_date_calculation": "event_triggered",
+      "due_date_specifics": "At least 10 days before event if using professional solicitor",
+      "fee_amount": 0.00,
+      "form_number": "Form CH-1530 - Sponsor Registration Statement",
+      "form_url": "https://www.fdacs.gov/content/download/10213/file/ch1530.pdf",
+      "online_filing_available": false,
+      "required_information": [
+        "Event description and location",
+        "Dates of event",
+        "Professional solicitor contract (if applicable)",
+        "Expected gross receipts and expenses",
+        "Description of charity benefit"
+      ],
+      "legal_citation": "Florida Statutes § 496.413",
+      "contact_phone": "800-435-7352",
+      "contact_email": "consumerassist@fdacs.gov",
+      "notes": "Required when a for-profit sponsor conducts special event benefiting a charity. Post-event report (CH-1531) must be filed within 90 days. Discloses what percentage actually benefits the charity."
+    }
+  ],
+  "special_notes": {
+    "solicitation_act": "Florida's Solicitation of Contributions Act (Chapter 496) is comprehensive and actively enforced. Registration is required before soliciting, with limited exemptions.",
+    "registration_number_disclosure": "Florida registration number (CH followed by numbers) must be included in all written solicitations and on the organization's website if soliciting online.",
+    "annual_report_deadline": "The state corporate annual report is due May 1st for all nonprofits regardless of incorporation date. This is different from fiscal year-based charitable registration renewal.",
+    "board_requirements": "Florida nonprofit corporations must have at least three directors. Directors need not be Florida residents. Board must meet regularly and maintain minutes.",
+    "audit_thresholds": "Florida has relatively low audit thresholds: $500,000 in gross revenue OR any amount if using professional solicitors. Many small nonprofits must obtain audits.",
+    "political_activity_limits": "501(c)(3) organizations must comply with federal restrictions on political campaign intervention and lobbying activities. Violations can jeopardize tax-exempt status.",
+    "professional_fundraiser_contracts": "All contracts with professional solicitors or consultants must be filed with FDACS within 10 days of execution. Failure to file can result in penalties for both parties.",
+    "raffle_restrictions": "Florida raffle law is restrictive: only 2 per year, 3-year organizational history required, $100,000 annual prize limit, no professional management, tickets sold only in Florida.",
+    "property_tax_exclusivity": "Property tax exemption requires exclusive use for exempt purposes. Any commercial rental or non-exempt use can disqualify the entire property from exemption.",
+    "dissolution_requirements": "Upon dissolution, assets must be distributed to other 501(c)(3) organizations or government entities. Florida courts must approve dissolution plans.",
+    "small_org_exemption": "Organizations with <$50,000 revenue from <100 contributors file simplified CH-1500-EZ but must still register initially with CH-410.",
+    "no_state_income_tax": "Florida has no state income tax, so no separate state tax exemption application is needed beyond federal 501(c)(3) status."
+  },
+  "helpful_links": [
+    {
+      "title": "Florida Department of State - Division of Corporations",
+      "url": "https://dos.fl.gov/corporations/",
+      "description": "Incorporation, annual reports, corporate searches, and Sunbiz filing system"
+    },
+    {
+      "title": "Florida Sunbiz - Business Entity Search",
+      "url": "https://dos.fl.gov/sunbiz/",
+      "description": "Online filing system for annual reports and business entity searches"
+    },
+    {
+      "title": "Florida FDACS - Solicitation of Contributions",
+      "url": "https://www.fdacs.gov/Consumer-Resources/Charities",
+      "description": "Charitable registration, annual renewals, forms, and compliance information"
+    },
+    {
+      "title": "Florida FDACS - Search Registered Charities",
+      "url": "https://csapp.800helpfla.com/CSPublicApp/CheckACharity/CheckACharity.aspx",
+      "description": "Search database of registered charitable organizations and their compliance status"
+    },
+    {
+      "title": "Florida Department of Revenue",
+      "url": "https://floridarevenue.com/",
+      "description": "Sales tax exemption information, property tax guidance, and tax forms"
+    },
+    {
+      "title": "Florida Property Appraisers",
+      "url": "https://floridarevenue.com/property/Pages/Appraisers.aspx",
+      "description": "Directory of county property appraisers for property tax exemption applications"
+    },
+    {
+      "title": "Florida Statutes Chapter 496 - Solicitation of Contributions",
+      "url": "http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&Ch0496",
+      "description": "Full text of Florida's charitable solicitation law"
+    }
+  ]
+}

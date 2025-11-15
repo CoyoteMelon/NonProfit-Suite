@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "NE",
+  "jurisdiction_name": "Nebraska",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Nebraska Secretary of State", "source_url": "https://sos.nebraska.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Nebraska Secretary of State - Business Services Division",
+  "charitable_registration_agency": "Nebraska Attorney General - Consumer Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 60.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Nebraska Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "NE-001", "requirement_type": "Annual Report", "requirement_name": "Biennial Report", "filing_agency": "Nebraska Secretary of State", "frequency": "biennial", "due_date_calculation": "anniversary_month", "due_date_specifics": "April 1st of even or odd year based on incorporation", "fee_amount": 13.00, "legal_citation": "Neb. Rev. Stat. § 21-1969", "notes": "Biennial report fee only $13, very affordable."},
+    {"requirement_id": "NE-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Nebraska Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Neb. Rev. Stat. § 28-1472", "notes": "Registration is free."},
+    {"requirement_id": "NE-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Nebraska Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "Annual report is free."},
+    {"requirement_id": "NE-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Nebraska Sales Tax Exemption Certificate", "filing_agency": "Nebraska Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form 13 - Sales Tax Exemption Certificate", "legal_citation": "Neb. Rev. Stat. § 77-2704.15", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "NE-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Assessor", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Neb. Const. Art. VIII, § 2", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "NE-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Lottery License", "filing_agency": "Nebraska Department of Revenue", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 50.00, "legal_citation": "Neb. Rev. Stat. § 9-701", "notes": "Lotteries/raffles permitted for qualified nonprofits. $50 license fee."},
+    {"requirement_id": "NE-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Nebraska Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 0.00, "notes": "Registration is free. Bond required."},
+    {"requirement_id": "NE-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"biennial_reporting": "Nebraska requires biennial corporate reports, not annual.", "very_low_fees": "Nebraska has some of the lowest fees nationally - $13 biennial report fee.", "free_charity_filings": "All charitable registration and renewals are free."},
+  "helpful_links": [{"title": "Nebraska Secretary of State", "url": "https://sos.nebraska.gov/", "description": "Incorporation and compliance"}]
+}

@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "ME",
+  "jurisdiction_name": "Maine",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Maine Secretary of State", "source_url": "https://www.maine.gov/sos/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Maine Secretary of State - Division of Corporations",
+  "charitable_registration_agency": "Maine Attorney General - Public Protection Division",
+  "exemption_threshold_note": "Organizations with gross revenue under $50,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 145.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Maine Secretary of State", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "ME-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "Maine Secretary of State", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "June 1st each year", "fee_amount": 85.00, "legal_citation": "13-B MRSA § 1301", "notes": "Annual report fee $85. Due June 1st for all nonprofits."},
+    {"requirement_id": "ME-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Maine Attorney General", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 50.00, "legal_citation": "9 MRSA § 5004", "notes": "Initial registration $50."},
+    {"requirement_id": "ME-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Maine Attorney General", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 50.00, "notes": "Annual report $50."},
+    {"requirement_id": "ME-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Maine Sales Tax Exemption Certificate", "filing_agency": "Maine Revenue Services", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Sales Tax Exemption Certificate", "legal_citation": "36 MRSA § 1760", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "ME-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "Municipal Assessor", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "April 1st annually", "fee_amount": 0.00, "legal_citation": "36 MRSA § 652", "notes": "Annual application by April 1st."},
+    {"requirement_id": "ME-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Games of Chance License", "filing_agency": "Maine Department of Public Safety - Gambling Control Unit", "frequency": "annual", "due_date_calculation": "calendar_year", "fee_amount": 25.00, "legal_citation": "17 MRSA § 1831", "notes": "Games of chance permitted for qualified nonprofits. $25 license fee."},
+    {"requirement_id": "ME-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Solicitor Registration", "filing_agency": "Maine Attorney General", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 250.00, "notes": "$250 fee. Bond required."},
+    {"requirement_id": "ME-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"high_incorporation_fee": "Maine's $145 incorporation fee is among the highest.", "june_first_deadline": "All nonprofits must file annual reports by June 1st.", "higher_threshold": "Maine's $50,000 exemption threshold is higher than most states."},
+  "helpful_links": [{"title": "Maine Secretary of State", "url": "https://www.maine.gov/sos/", "description": "Incorporation and compliance"}]
+}

@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "UT",
+  "jurisdiction_name": "Utah",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Utah Division of Corporations", "source_url": "https://corporations.utah.gov/", "last_accessed": "2025-11-12"}, {"source_name": "Utah Department of Commerce", "source_url": "https://commerce.utah.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Utah Division of Corporations and Commercial Code",
+  "charitable_registration_agency": "Utah Division of Consumer Protection",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may be exempt. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 70.00, "certificate_of_formation": "Articles of Incorporation - Nonprofit Corporation", "filing_agency": "Utah Division of Corporations", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false},
+  "requirements": [
+    {"requirement_id": "UT-001", "requirement_type": "Annual Report", "requirement_name": "Annual Renewal", "filing_agency": "Utah Division of Corporations", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "Anniversary month of incorporation", "fee_amount": 22.00, "legal_citation": "Utah Code § 16-6a-1607", "notes": "Annual renewal fee $22."},
+    {"requirement_id": "UT-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Utah Division of Consumer Protection", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 100.00, "legal_citation": "Utah Code § 13-22-5", "notes": "Initial registration $100."},
+    {"requirement_id": "UT-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Registration Renewal", "filing_agency": "Utah Division of Consumer Protection", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 100.00, "notes": "Annual renewal $100."},
+    {"requirement_id": "UT-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Utah Sales Tax Exemption Certificate", "filing_agency": "Utah State Tax Commission", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "TC-160 - Exemption Certificate", "legal_citation": "Utah Code § 59-12-104", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "UT-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "County Assessor", "frequency": "annual", "due_date_calculation": "fixed_date", "due_date_specifics": "September 1st annually", "fee_amount": 0.00, "legal_citation": "Utah Code § 59-2-1101", "notes": "Annual application by September 1st."},
+    {"requirement_id": "UT-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle Permit", "filing_agency": "Utah Department of Alcoholic Beverage Services", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Utah Code § 76-10-1101", "notes": "Raffles permitted for qualified nonprofits."},
+    {"requirement_id": "UT-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Fundraiser Registration", "filing_agency": "Utah Division of Consumer Protection", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 300.00, "notes": "$300 fee. Bond required."},
+    {"requirement_id": "UT-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"moderate_fees": "Utah charitable registration fees of $100 are moderate compared to other states.", "low_corporate_fee": "Annual renewal fee of $22 is very affordable."},
+  "helpful_links": [{"title": "Utah Division of Corporations", "url": "https://corporations.utah.gov/", "description": "Incorporation and compliance"}]
+}

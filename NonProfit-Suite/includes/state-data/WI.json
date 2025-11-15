@@ -1,0 +1,24 @@
+{
+  "jurisdiction_code": "WI",
+  "jurisdiction_name": "Wisconsin",
+  "jurisdiction_type": "state",
+  "last_updated": "2025-11-12",
+  "data_version": "1.0",
+  "sources": [{"source_name": "Wisconsin Department of Financial Institutions", "source_url": "https://www.wdfi.org/", "last_accessed": "2025-11-12"}, {"source_name": "Wisconsin Department of Revenue", "source_url": "https://www.revenue.wi.gov/", "last_accessed": "2025-11-12"}],
+  "incorporation_agency": "Wisconsin Department of Financial Institutions",
+  "charitable_registration_agency": "Wisconsin Department of Financial Institutions - Charitable Organizations Section",
+  "exemption_threshold_note": "Organizations with gross revenue under $25,000 annually may file simplified registration. Religious organizations exempt.",
+  "formation_requirements": {"minimum_directors": 3, "initial_filing_fee": 35.00, "certificate_of_formation": "Articles of Incorporation - Nonstock Corporation", "filing_agency": "Wisconsin Department of Financial Institutions", "publication_requirement": false, "registered_agent_required": true, "bylaws_filing_required": false, "notes": "Wisconsin requires registered agent with Wisconsin address."},
+  "requirements": [
+    {"requirement_id": "WI-001", "requirement_type": "Annual Report", "requirement_name": "Annual Report", "filing_agency": "Wisconsin Department of Financial Institutions", "frequency": "annual", "due_date_calculation": "anniversary_month", "due_date_specifics": "End of anniversary quarter", "fee_amount": 25.00, "legal_citation": "Wis. Stat. § 181.0120", "contact_phone": "608-261-7577", "notes": "Annual report fee $25. Due at end of anniversary quarter."},
+    {"requirement_id": "WI-002", "requirement_type": "Charitable Solicitation", "requirement_name": "Initial Charitable Organization Registration", "filing_agency": "Wisconsin Department of Financial Institutions", "frequency": "one-time", "due_date_calculation": "event_triggered", "due_date_specifics": "Before soliciting in Wisconsin", "fee_amount": 15.00, "form_number": "Form CHO-1", "legal_citation": "Wis. Stat. § 202.12", "contact_phone": "608-266-8818", "notes": "Initial registration $15."},
+    {"requirement_id": "WI-003", "requirement_type": "Charitable Solicitation", "requirement_name": "Annual Charitable Financial Report", "filing_agency": "Wisconsin Department of Financial Institutions", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 15.00, "form_number": "Form CHO-2", "legal_citation": "Wis. Stat. § 202.12", "contact_phone": "608-266-8818", "notes": "Annual report $15."},
+    {"requirement_id": "WI-004", "requirement_type": "Sales Tax Exemption", "requirement_name": "Wisconsin Sales Tax Exemption Certificate", "filing_agency": "Wisconsin Department of Revenue", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "form_number": "Form S-211 - Sales and Use Tax Exemption Certificate", "legal_citation": "Wis. Stat. § 77.54", "notes": "Qualifying 501(c)(3) organizations exempt."},
+    {"requirement_id": "WI-005", "requirement_type": "Property Tax Exemption", "requirement_name": "Property Tax Exemption Application", "filing_agency": "Local Assessor", "frequency": "one-time", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Wis. Stat. § 70.11", "notes": "Property used exclusively for charitable purposes may be exempt."},
+    {"requirement_id": "WI-006", "requirement_type": "Raffle/Gaming", "requirement_name": "Raffle License", "filing_agency": "Local Municipality", "frequency": "per_event", "due_date_calculation": "event_triggered", "fee_amount": 0.00, "legal_citation": "Wis. Stat. § 563.90", "notes": "Raffles permitted for qualified nonprofits. Local licensing."},
+    {"requirement_id": "WI-007", "requirement_type": "Professional Fundraiser", "requirement_name": "Professional Fundraiser Registration", "filing_agency": "Wisconsin Department of Financial Institutions", "frequency": "annual", "due_date_calculation": "anniversary_month", "fee_amount": 400.00, "legal_citation": "Wis. Stat. § 202.12", "notes": "$400 fee. $10,000 bond required."},
+    {"requirement_id": "WI-008", "requirement_type": "Annual Report", "requirement_name": "Independent Financial Audit", "filing_agency": "Internal requirement", "frequency": "annual", "due_date_calculation": "fiscal_year_end_plus_days", "due_date_days_after_fiscal_year_end": 180, "fee_amount": 0.00, "notes": "No statutory audit requirement."}
+  ],
+  "special_notes": {"low_fees": "Wisconsin has affordable charitable registration fees ($15).", "quarterly_anniversary": "Corporate annual report due at end of anniversary quarter, not specific date."},
+  "helpful_links": [{"title": "Wisconsin DFI", "url": "https://www.wdfi.org/", "description": "Incorporation and charitable registration"}]
+}
