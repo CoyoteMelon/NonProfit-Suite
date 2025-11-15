@@ -1,191 +1,81 @@
-=== NonProfit Suite ===
-Contributors: coyotemelon
-Donate link: https://silverhost.net
-Tags: nonprofit, 501c3, board governance, donor management, compliance, fundraising, grants, volunteers, events, membership, formation
-Requires at least: 6.0
-Tested up to: 6.7
-Requires PHP: 7.4
-Stable tag: 1.0.0
-License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.html
+=== NonProfit Suite ===  
+Contributors: coyotemelon  
+Tags: nonprofit, 501c3, board governance, donor management, compliance, fundraising, grants, volunteers, events, formation, audit  
+Requires at least: 6.0  
+Tested up to: 6.7  
+Requires PHP: 7.4  
+Stable tag: 1.0.0  
+License: GPLv2 or later  
+License URI: https://www.gnu.org/licenses/gpl-2.0.html  
 
-The only WordPress plugin that runs your entire U.S. nonprofit correctly and affordably.
+🔥 127,512 lines · 75 integrations · 100 % security-audited  
+**The only WordPress plugin that runs your entire U.S. nonprofit correctly.**  
 Free board governance forever • $20/year for everything else.
 
 == Description ==
 
-https://img.shields.io/badge/Lines%20of%20Code-127%2C512-blue.svg https://img.shields.io/badge/Modules-43-brightgreen.svg https://img.shields.io/badge/Integrations-75-orange.svg
+https://img.shields.io/badge/Code-127,512_loc-blue
+https://img.shields.io/badge/Modules-43_total-brightgreen
+https://img.shields.io/badge/Integrations-75-orange
+https://img.shields.io/badge/Beta%20Spots-Limited-red
 
-**NonProfit Suite** is the all-in-one operating system for U.S. nonprofits.
+**One plugin. One dashboard. Zero drama.**
 
-One plugin. One dashboard. Zero drama.
+From your first board meeting to multi-million-dollar grants — NonProfit Suite handles formation → compliance → fundraising → impact reporting so you can focus on your mission.
 
-From your very first board meeting to multi-state grant management — we handle the operations so you can change the world.
+Built by a founder who got tired of $20k/year tools that still required spreadsheets.
 
-**Built by a nonprofit founder who got fed up with broken tools.**
+== 🏆 Free Forever – The Best Governance Suite Ever Released ==
 
-**127,512 lines · 100 % security-audited · 75 integrations · AI-powered**
+8 enterprise modules, completely free:
 
-== Free Forever – The Best Board Governance Tool Ever Released ==
+✓ Timed agendas + quorum + voting + post-meeting surveys  
+✓ Automatic minutes + task creation  
+✓ Document retention policies (IRS-compliant)  
+✓ Calendar sync (Google · Outlook · iCloud)  
+✓ People / contacts database  
+✓ One-click imports  
+✓ Mobile-first everything
 
-You get 8 enterprise-grade modules **completely free**:
+Run audit-ready board meetings from day one — **$0**.
 
-- Dashboard with live impact counters
-- Meetings – timed agendas, quorum, voting, post-meeting surveys
-- Tasks – auto-created from motions, deadlines, reassignments
-- Documents + automatic retention policies
-- Calendar sync (Google, Outlook, iCloud)
-- People / contacts database
-- One-click imports
-- Mobile-responsive everything
+== 💎 PRO – $20/year (seriously) ==
 
-Run bulletproof, audit-ready board meetings from day one — no cost, no catch.
+35 premium modules + 75 integrations unlocked:
 
-== PRO – $20/year (yes, really) ==
+💰 Treasury · Donors · Grants · Fundraising  
+🎯 Events · Programs · Impact measurement  
+👥 Volunteers · Membership · Committees  
+⚖️ Compliance · Formation Assistant · CPA/Legal portals  
+🏢 Chapters & affiliates · AI Assistant · Mobile API
 
-Unlock 35 premium modules and 75 integrations:
+Full feature grid: https://silverhost.net/nonprofit-suite
 
-**Financials** – Treasury · Donors · Grants · Fundraising · In-Kind  
-**Programs** – Events · Services · Impact Evaluation  
-**People** – Volunteers · Membership · Committees  
-**Governance** – Compliance · Policies · Formation Assistant · Audits · Anonymous Reporting  
-**Operations** – Projects · HR · Training · Communications  
-**Specialized portals** – Secretary · Board Chair · CPA · Legal Counsel  
-**Multi-org** – Chapters & Affiliates  
-**Tech** – AI Assistant · Mobile API · Advanced Calendar
+== 🚀 Historic Beta Program – Lifetime PRO Free ==
 
-Full list and live demo at silverhost.net/nonprofit-suite
+**Track 1** — First 500 verified 501(c)(3)s  
+**Track 2** — First 10 pre-nonprofits in every state & territory (560 slots)
 
-== Historic Beta Program – Lifetime PRO Free ==
-
-We’re giving away lifetime licenses to prove it works in the real world.
-
-**Track 1** → First **500 verified 501(c)(3)s**  
-**Track 2** → First **10 pre-nonprofits in every state & territory** (560 total)
-
-Just activate → go to NonProfit Suite → Beta → claim your spot.
-
-== Features ==
-
-- AI reads your bylaws and configures everything
-- One-click migrations from any CRM (with rollback)
-- Monthly compliance auto-audit
-- Forced governance workflow (no more “did we approve that?”)
-- Your data is always yours – export or move anytime
-- 75 integrations (Stripe, PayPal, QuickBooks, Mailchimp, Zoom, Salesforce, etc.)
-- Works on shared hosting → enterprise servers
-
-== Requirements ==
-
-- WordPress 6.0+
-- PHP 7.4+ (8.0–8.3 recommended)
-- MySQL 5.7+ or MariaDB 10.3+
-- 64 MB memory (128 MB+ recommended)
-- HTTPS recommended
+Activate → NonProfit Suite → Beta → claim your lifetime license.
 
 == Installation ==
 
-1. Upload the plugin
-2. Activate
-3. Optional: Upload bylaws → AI configuresCompliance built-in: Forced governance workflows, monthly audits, and state-specific rules keep you IRS-ready.
-Your data is yours: Export or migrate anytime with one click. No lock-in.
-AI Assistant: Upload bylaws → auto-configures everything for your org.
-Scales with you: From a club forming a nonprofit to multi-state orgs managing grants.
+1. Upload & activate  
+2. (Optional) Upload your bylaws → AI configures everything  
+3. Run your next board meeting like a $20k/year foundation
 
-127,512 lines of enterprise-grade code — audited, secure, and ready for 1–50+ staff orgs.Join 500+ beta testers already transforming their nonprofits. Launch yours today.== Installation ==Upload the nonprofit-suite folder to the /wp-content/plugins/ directory.
-Activate the plugin through the 'Plugins' menu in WordPress.
-Visit your dashboard → NonProfit Suite → Welcome to get started.
-Upload bylaws for AI setup (optional but magical).
-Run your first board meeting with the Free governance tools.
+== Requirements ==
 
-Requirements:WordPress 6.0 or higher
-PHP 7.4 or higher (PHP 8.0–8.3 recommended)
-MySQL 5.7 or greater OR MariaDB 10.3 or greater
-Minimum 64 MB WP memory limit (128 MB+ recommended)
-HTTPS recommended for payments & sensitive data
+WordPress 6.0+ · PHP 7.4+ (8.x recommended) · 128 MB memory suggested
 
-== Frequently Asked Questions === Who is NonProfit Suite for? =
-U.S.-based 501(c)(3)s, pre-nonprofits, community orgs, religious groups, PTAs, and more. Small to medium sizes (1–50 staff).= What's included in the Free version? =
-8 core modules for bulletproof board governance:Dashboard: Central overview
-Meetings: Timed agendas, voting, quorum
-Tasks: Assignments from motions
-Documents: Storage + retention automation
-Retention Policies: Auto-delete schedules
-Calendar Sync: Google/Outlook/iCloud
-People: Contact database
-Import: Easy data onboarding
+== Live Impact Counters ==
 
-Run compliant meetings from day one — no cost.= What does PRO add? =
-35 premium modules + 75 integrations for full operations:Financials: Treasury, Donors, Grants, Fundraising, In-Kind
-Programs: Events, Services, Evaluation
-People: Volunteers, Membership, Committees
-Governance: Compliance, Policies, Formation Assistant, Audits
-Ops: Projects, Training, HR, Communications
-Dashboards: Secretary, Board Chair, CPA/Legal Portals
-More: Prospect Research, Advocacy, Chapters, AI Assistant
+💵 $0+ donations processed · ⏰ 0+ volunteer hours · ✅ 0+ clean audits passed  
+Watch them climb: https://silverhost.net
 
-$20/year — cheaper than one board coffee run.= How does licensing work? =
-Free version: Forever. PRO: $20/year via Freemius. 30-day pre-expiration notice + 30-day full-access grace period. After: Reverts to Free (PRO data read-only, full export available).= Can I migrate my old data? =
-Yes — one-click imports from spreadsheets, DonorPerfect, NeonCRM, etc. Rollbacks included.= Is it secure? =
-Enterprise-grade: CSRF nonces, rate limiting, prepared SQL, capability checks. Full audit passed (0 vulnerabilities).= Mobile-friendly? =
-Yes — responsive design + Mobile API (PRO).= International? =
-U.S.-focused (50 states + territories). Translation-ready for others.= Support? =
-Free: Forums + docs. PRO: Priority email (hello@silverhost.net).== Screenshots ==Dashboard overview with impact metrics.
-Timed agenda builder + lock workflow.
-Post-meeting survey + metrics.
-AI Assistant configuring from bylaws.
-Donor/Grant dashboard (PRO).
-One-click migration interface.
+**Domain + hosting + PRO bundle** → $149/year (email hello@silverhost.net)
 
-== Changelog === 1.0.0 =Initial release: 8 Free modules + 35 PRO.
-75 integrations ready.
-Freemius licensing.
-Beta programs live.
+**We run the nonprofit so you can change the world.**
 
-== Upgrade Notice === 1.0.0 =
-Launch release — upgrade to PRO for full power.== Free vs PRO ==Feature
-Free
-PRO ($20/year)
-Board Governance (8 modules)
-
-Financials & Fundraising
-
- 5 modules
-Programs & Events
-
- 4 modules
-Volunteers & Membership
-
- 3 modules
-Compliance & Audits
-
- 7 modules
-Operations & HR
-
- 5 modules
-Specialized Dashboards
-
- 5 modules
-Research & Advocacy
-
- 2 modules
-Multi-Org Support
-
- 1 module
-AI Assistant + Tech
-
- 3 modules
-75 Integrations
-
-Priority Support
-
-== Beta Tester Program ==We're giving away lifetime PRO free to kickstart real-world testing and impact.Track 1: Verified Nonprofits
-First 500 U.S. 501(c)(3)s get lifetime PRO. Upload determination letter in-plugin → instant unlock.Track 2: Pre-Nonprofit Founders
-First 10 groups per state/territory (50 states + DC/PR/VI/etc. = 560 slots) get lifetime PRO. Start your Formation Assistant → claim it.Complete our 60-second survey after 90 days for metrics like "67% IRS approval in year 1." Your success stories power our impact counters.Spots filling fast — check NonProfit Suite → Beta in your dashboard.== Roadmap ==Q1 2026: Background checks (Checkr, FCRA-compliant) + Wealth screening (DonorSearch/WealthEngine, privacy-first).Ongoing: More AI, global tweaks, community features.== Impact So Far (Live Counters) ==$0+ Donations processed
-0+ Volunteer hours tracked
-0+ Nonprofits active
-0+ Grants managed
-0+ Audits passed
-0% First-year 501(c)(3) success rate  Watch them grow at silverhost.net.== Hosting Bundle ==Domain + WordPress hosting + PRO = $149/year (nonprofit rate). Email hello@silverhost.net for setup.Your data, our servers — seamless.We run the nonprofit so you change the world.
-Questions? hello@silverhost.net
-
+GitHub: https://github.com/CoyoteMelon/NonProfit-Suite  
+Support: hello@silverhost.net
