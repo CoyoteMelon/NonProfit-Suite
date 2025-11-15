@@ -1,16 +1,93 @@
-# NonProfit-Suite
-A NonProfit-Suite Plugin for WordPress
-
 === NonProfit Suite ===
 Contributors: coyotemelon
-Tags: nonprofit, 501c3, board governance, donor management, volunteer, grants, compliance, fundraising, events, membership
+Donate link: https://silverhost.net
+Tags: nonprofit, 501c3, board governance, donor management, compliance, fundraising, grants, volunteers, events, membership, formation
 Requires at least: 6.0
 Tested up to: 6.7
 Requires PHP: 7.4
 Stable tag: 1.0.0
 License: GPLv2 or later
-License URI: https://www.gnu.org/licenses/gpl-2.0.htmlThe only WordPress plugin that runs your entire U.S. nonprofit correctly and affordably. Free board governance forever • $20/year for 35+ PRO modules & 75 integrations.== Description ==NonProfit Suite is the all-in-one WordPress plugin that finally makes running a U.S. nonprofit simple, compliant, and drama-free. We run the operations so you can focus on your mission and impact.Built for 501(c)(3)s, community groups, and pre-nonprofit founders, it handles everything from board meetings to donor management to IRS formation — with AI-powered setup, one-click migrations, and full data ownership.Why NonProfit Suite?No more duct-taping tools: 75+ integrations (Stripe, QuickBooks, Mailchimp, Zoom, Salesforce, and more) work seamlessly together.
-Compliance built-in: Forced governance workflows, monthly audits, and state-specific rules keep you IRS-ready.
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+
+The only WordPress plugin that runs your entire U.S. nonprofit correctly and affordably.
+Free board governance forever • $20/year for everything else.
+
+== Description ==
+
+https://img.shields.io/badge/Lines%20of%20Code-127%2C512-blue.svg https://img.shields.io/badge/Modules-43-brightgreen.svg https://img.shields.io/badge/Integrations-75-orange.svg
+
+**NonProfit Suite** is the all-in-one operating system for U.S. nonprofits.
+
+One plugin. One dashboard. Zero drama.
+
+From your very first board meeting to multi-state grant management — we handle the operations so you can change the world.
+
+**Built by a nonprofit founder who got fed up with broken tools.**
+
+**127,512 lines · 100 % security-audited · 75 integrations · AI-powered**
+
+== Free Forever – The Best Board Governance Tool Ever Released ==
+
+You get 8 enterprise-grade modules **completely free**:
+
+- Dashboard with live impact counters
+- Meetings – timed agendas, quorum, voting, post-meeting surveys
+- Tasks – auto-created from motions, deadlines, reassignments
+- Documents + automatic retention policies
+- Calendar sync (Google, Outlook, iCloud)
+- People / contacts database
+- One-click imports
+- Mobile-responsive everything
+
+Run bulletproof, audit-ready board meetings from day one — no cost, no catch.
+
+== PRO – $20/year (yes, really) ==
+
+Unlock 35 premium modules and 75 integrations:
+
+**Financials** – Treasury · Donors · Grants · Fundraising · In-Kind  
+**Programs** – Events · Services · Impact Evaluation  
+**People** – Volunteers · Membership · Committees  
+**Governance** – Compliance · Policies · Formation Assistant · Audits · Anonymous Reporting  
+**Operations** – Projects · HR · Training · Communications  
+**Specialized portals** – Secretary · Board Chair · CPA · Legal Counsel  
+**Multi-org** – Chapters & Affiliates  
+**Tech** – AI Assistant · Mobile API · Advanced Calendar
+
+Full list and live demo at silverhost.net/nonprofit-suite
+
+== Historic Beta Program – Lifetime PRO Free ==
+
+We’re giving away lifetime licenses to prove it works in the real world.
+
+**Track 1** → First **500 verified 501(c)(3)s**  
+**Track 2** → First **10 pre-nonprofits in every state & territory** (560 total)
+
+Just activate → go to NonProfit Suite → Beta → claim your spot.
+
+== Features ==
+
+- AI reads your bylaws and configures everything
+- One-click migrations from any CRM (with rollback)
+- Monthly compliance auto-audit
+- Forced governance workflow (no more “did we approve that?”)
+- Your data is always yours – export or move anytime
+- 75 integrations (Stripe, PayPal, QuickBooks, Mailchimp, Zoom, Salesforce, etc.)
+- Works on shared hosting → enterprise servers
+
+== Requirements ==
+
+- WordPress 6.0+
+- PHP 7.4+ (8.0–8.3 recommended)
+- MySQL 5.7+ or MariaDB 10.3+
+- 64 MB memory (128 MB+ recommended)
+- HTTPS recommended
+
+== Installation ==
+
+1. Upload the plugin
+2. Activate
+3. Optional: Upload bylaws → AI configuresCompliance built-in: Forced governance workflows, monthly audits, and state-specific rules keep you IRS-ready.
 Your data is yours: Export or migrate anytime with one click. No lock-in.
 AI Assistant: Upload bylaws → auto-configures everything for your org.
 Scales with you: From a club forming a nonprofit to multi-state orgs managing grants.
